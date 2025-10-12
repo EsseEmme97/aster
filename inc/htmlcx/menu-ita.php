@@ -33,6 +33,14 @@ function setActiveLink($pages)
 
 <!-- start: Header Area -->
 <header class="header-area header-1 header-absolute  section-gap-x">
+  <div class="bg-blu-secondario text-white p-2">
+    <ul class="d-flex">
+      <li class="border-end border-white pe-2"><i class="fa-solid fa-phone me-2"></i>+39 0445 123 123</li>
+      <li class="px-2 border-end border-white"><i class="fa-solid fa-envelope me-2"></i>info@asterelettronica.com</li>
+      <li class="ps-2"><i class="fa-solid fa-location-dot me-2"></i>Via Lungo Gogna, 45 · 36015 Schio (VI)</li>
+      <li class="ms-auto">social</li>
+    </ul>
+  </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">

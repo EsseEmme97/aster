@@ -115,6 +115,14 @@ START: Theme Default CSS
   --grigio-scuro:#303030;
 }
 
+.bg-blu-secondario{
+  background-color: var(--blu-secondario) !important;
+}
+
+li{
+  list-style: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -4171,7 +4179,7 @@ START: Preloader CSS
   inset-inline-start: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--tj-color-theme-dark);
+  background-color: var(--notte-fonda);
   z-index: 100000000;
   color: #fdfdf9;
   -webkit-user-select: none;
@@ -4196,11 +4204,11 @@ START: Preloader CSS
   inset-inline-start: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--tj-color-theme-dark);
+  background-color: var(--blu-primario);
   z-index: 99999999;
   opacity: 1;
-  -webkit-animation: tj-fade-out 2s forwards;
-          animation: tj-fade-out 2s forwards;
+  -webkit-animation: tj-fade-out 1s forwards;
+          animation: tj-fade-out 1s forwards;
 }
 
 @-webkit-keyframes tj-fade-out {
