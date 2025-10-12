@@ -107,6 +107,12 @@ START: Theme Default CSS
   --tj-color-border-3: rgba(255, 255, 255, 0.1490196078);
   --tj-color-border-4: rgba(255, 255, 255, 0.2);
   --tj-color-border-5: rgba(30, 138, 138, 0.1490196078);
+  --blu-primario:#2A47EA;
+  --blu-secondario:#001798;
+  --notte-fonda:#000C4E;
+  --carta-da-zucchero:#000C4E;
+  --grigio-chiaro:#EDEEF0;
+  --grigio-scuro:#303030;
 }
 
 * {
@@ -124,8 +130,8 @@ body {
   font-family: var(--tj-ff-body);
   font-size: var(--tj-fs-body);
   font-weight: normal;
-  color: var(--tj-color-text-body);
-  background-color: var(--tj-color-grey-1);
+  color: var(--grigio-scuro);
+  background-color: var(--grigio-chiaro);
   line-height: 1.5;
 }
 
@@ -1291,7 +1297,7 @@ START: Theme Header CSS
 .mainmenu ul > li > a {
   position: relative;
   font-size: 16px;
-  color: var(--tj-color-heading-primary);
+  color: var(--grigio-scuro);
   display: block;
   padding: 37px 0;
   font-weight: var(--tj-fw-medium);
@@ -1318,7 +1324,7 @@ START: Theme Header CSS
           transform: rotate(-180deg);
 }
 .mainmenu ul > li.current-menu-ancestor > a, .mainmenu ul > li.current-menu-item > a, .mainmenu ul > li:hover > a {
-  color: var(--tj-color-theme-primary);
+  color: var(--blu-primario);
 }
 .mainmenu ul > li.current-menu-ancestor > a::after, .mainmenu ul > li.current-menu-item > a::after, .mainmenu ul > li:hover > a::after {
   color: var(--tj-color-theme-primary);

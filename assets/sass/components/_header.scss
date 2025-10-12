@@ -351,7 +351,7 @@ START: Theme Header CSS
 			&.current-menu-item,
 			&:hover {
 				> a {
-					color: var(--tj-color-theme-primary);
+					color: var(--blu-primario);
 					&::after {
 						color: var(--tj-color-theme-primary);
 					}
