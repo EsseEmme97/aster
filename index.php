@@ -38,20 +38,80 @@ $heightseo = "115";
 
 <body>
 
-    <div class="body-overlay"></div>
+
     <? require_once("inc/tagmanager_no.php") ?>
 
     <!-- ==================== Start Navbar ==================== -->
 
     <? require_once("inc/htmlcx/menu-ita.php") ?>
-    <h1>Hello world</h1>
 
     <!-- ==================== End Navbar ==================== -->
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <main id="primary" class="site-main">
+                <div class="space-for-header"></div>
+                <!-- start: Banner Section -->
+                <section class="tj-banner-section section-gap-x">
+                    <div class="banner-area">
+                        <div class="banner-left-box">
+                            <div class="banner-content">
+                                <span class="sub-title wow fadeInDown" data-wow-delay=".2s">
+                                     Recognized for Excellence
+                                </span>
+                                <h1 class="banner-title title-anim">Driving Excellence Through Evolution and
+                                    <span>Trust.</span>
+                                </h1>
+                                <div class="banner-desc-area wow fadeInUp" data-wow-delay=".7s">
+                                    <a class="banner-link" href="about.html">
+                                        <span><i class="tji-arrow-right-big"></i></span>
+                                    </a>
+                                    <div class="banner-desc">Formazione costante, investimenti tecnologici, continuo impegno per migliorare processi e produzione.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="banner-shape">
+                                <img src="assets/images/shape/pattern-bg.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="banner-right-box">
+                            <div class="banner-img">
+                                <img data-speed="0.8" src="assets/images/hero/hero-img.webp" alt="">
+                            </div>
+                            <div class="box-area">
+                                <div class="customers-box">
+                                    <div class="customers">
+                                        <ul>
+                                            <li class="wow fadeInLeft" data-wow-delay=".5s"><img src="assets/images/testimonial/client-1.webp"
+                                                    alt=""></li>
+                                            <li class="wow fadeInLeft" data-wow-delay=".6s"><img src="assets/images/testimonial/client-2.webp"
+                                                    alt=""></li>
+                                            <li class="wow fadeInLeft" data-wow-delay=".7s"><img src="assets/images/testimonial/client-3.webp"
+                                                    alt=""></li>
+                                            <li class="wow fadeInLeft" data-wow-delay=".8s"><span><i class="tji-plus"></i></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="customers-number wow fadeInUp" data-wow-delay=".5s">30K</div>
+                                    <h6 class="customers-text wow fadeInUp" data-wow-delay=".5s">Happy customer we have world-wide.</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-scroll wow fadeInDown" data-wow-delay="2s">
+                        <a href="#choose" class="scroll-down">
+                            <span><i class="tji-arrow-down-long"></i></span>
+                            Scroll Down
+                        </a>
+                    </div>
+                </section>
+                <!-- end: Banner Section -->
+            </main>
+            <!-- ==================== Start Footer ==================== -->
+            <? require_once("inc/htmlcx/footer-ita.php") ?>
+            <!-- ==================== End Footer ==================== -->
+        </div>
+    </div>
 
-    <!-- ==================== Start Footer ==================== -->
-    <? require_once("inc/htmlcx/footer-ita.php") ?>
-    <!-- ==================== End Footer ==================== -->
- 
+
     <!-- JS here -->
     <script src="<?= $pathindex ?>assets/js/jquery.min.js"></script>
     <script src="<?= $pathindex ?>assets/js/bootstrap.bundle.min.js"></script>

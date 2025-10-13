@@ -154,7 +154,7 @@ h4,
 h5,
 h6 {
   font-family: var(--tj-ff-heading);
-  color: var(--tj-color-heading-primary);
+  color: var(--grigio-scuro);
   margin-top: 0px;
   font-weight: var(--tj-fw-medium);
   line-height: 1.2;
@@ -162,7 +162,7 @@ h6 {
 }
 
 h1 {
-  font-size: var(--tj-fs-h1);
+  font-size:58px ;
   line-height: 1.108;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -182,7 +182,7 @@ h1 {
 }
 
 h2 {
-  font-size: var(--tj-fs-h2);
+  font-size:38px;
   line-height: 1.125;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
@@ -202,7 +202,7 @@ h2 {
 }
 
 h3 {
-  font-size: var(--tj-fs-h3);
+  font-size: 21px;
   line-height: 1.25;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -217,7 +217,7 @@ h3 {
 }
 
 h4 {
-  font-size: var(--tj-fs-h4);
+  font-size: 16px;
   line-height: 1.333;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -232,12 +232,12 @@ h4 {
 }
 
 h5 {
-  font-size: var(--tj-fs-h5);
+  font-size: 15px;
   line-height: 1.4;
 }
 
 h6 {
-  font-size: var(--tj-fs-h6);
+  font-size: 15px;
   line-height: 1.444;
 }
 
@@ -604,11 +604,11 @@ img {
 }
 
 .space-for-header {
-  padding-top: 105px;
+  padding-top: 150px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .space-for-header {
-    padding-top: 95px;
+    padding-top: 140px;
   }
 }
 
@@ -7746,7 +7746,7 @@ START: Hero CSS
 }
 
 .banner-left-box {
-  background-color: var(--tj-color-theme-dark);
+  background-color: var(--notte-fonda);
   border-radius: 12px;
   padding: 70px;
   width: calc(50% - 15px);
@@ -7815,14 +7815,14 @@ START: Hero CSS
       -ms-flex-align: center;
           align-items: center;
   gap: 8px;
-  color: var(--tj-color-common-white);
+  color: var(--blu-primario);
   font-size: 14px;
   line-height: 1;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   font-weight: var(--tj-fw-bold);
-  border: 1px dashed var(--tj-color-border-2);
   padding: 6px 10px;
+  background-color: #ffffff;
   margin-bottom: 20px;
   border-radius: 4px;
 }
@@ -7837,7 +7837,7 @@ START: Hero CSS
 }
 .banner-content .banner-title span {
   display: inline-block;
-  color: var(--tj-color-theme-primary);
+  color: var(--blu-primario);
   font-weight: var(--tj-fw-medium);
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -17092,7 +17092,7 @@ START: Hero CSS
 }
 .h4-banner-content .banner-title span {
   display: inline-block;
-  color: var(--tj-color-theme-primary);
+  color: var(--blu-primario);
   font-weight: var(--tj-fw-medium);
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
