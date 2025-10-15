@@ -56,7 +56,7 @@ $heightseo = "115";
                         <div class="banner-left-box">
                             <div class="banner-content">
                                 <span class="sub-title wow fadeInDown" data-wow-delay=".2s">
-                                     Recognized for Excellence
+                                    Recognized for Excellence
                                 </span>
                                 <h1 class="banner-title title-anim">Driving Excellence Through Evolution and
                                     <span>Trust.</span>
@@ -85,12 +85,11 @@ $heightseo = "115";
                                                     alt=""></li>
                                             <li class="wow fadeInLeft" data-wow-delay=".6s"><img src="assets/images/testimonial/client-2.webp"
                                                     alt=""></li>
-                                            <li class="wow fadeInLeft" data-wow-delay=".7s"><img src="assets/images/testimonial/client-3.webp"
-                                                    alt=""></li>
+                                            <li class="wow fadeInLeft" data-wow-delay=".7s"><img src="assets/images/testimonial/client-3.webp"=""></li>
                                             <li class="wow fadeInLeft" data-wow-delay=".8s"><span><i class="tji-plus"></i></span></li>
                                         </ul>
                                     </div>
-                                    <div class="customers-number wow fadeInUp" data-wow-delay=".5s">30K</div>
+                                    <div class="customers-number wow fadeInUp" data-wow-delay=".5s">35+</div>
                                     <h6 class="customers-text wow fadeInUp" data-wow-delay=".5s">Happy customer we have world-wide.</h6>
                                 </div>
                             </div>
@@ -104,6 +103,97 @@ $heightseo = "115";
                     </div>
                 </section>
                 <!-- end: Banner Section -->
+                <!-- start: About Section -->
+                <section class="tj-about-section section-gap">
+                    <div class="container">
+                        <div class="row row-gap-4">
+                            <div class="col-lg-4 col-md-6 order-lg-1 order-3">
+                                <div class="countup-item style-2 wow fadeInUp" data-wow-delay=".1s">
+                                    <span class="count-icon"><i class="tji-complete"></i></span>
+                                    <span class="steps">01.</span>
+                                    <div class="count-inner">
+                                        <span class="count-text">Projects Completed.</span>
+                                        <div class="inline-content">
+                                            <span class="odometer countup-number" data-count="93"></span>
+                                            <span class="count-plus">%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-sm-12 order-lg-2 order-1">
+                                <div class="about-content-area-2 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="about-content">
+                                        <div class="sec-heading style-2">
+                                            <span class="sub-title">Servizi</span>
+                                            <h2 class="sec-title title-highlight">Driving into Excellence & Innovation: Your Trusted Partner
+                                                for
+                                                Sustainable Business Success.
+                                            </h2>
+                                        </div>
+                                        <div class="wow fadeInUp" data-wow-delay=".3s">
+                                            <a class="text-btn" href="about.html">
+                                                <span class="btn-text"><span>Scopri di più</span></span>
+                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="video-img wow fadeInRight" data-wow-delay=".7s">
+                                        <img src="assets/images/about/about-3.webp" alt="Image">
+                                        <a class="video-btn video-popup" data-autoplay="true" data-vbtype="video" data-maxwidth="1200px"
+                                            href="https://www.youtube.com/watch?v=MLpWrANjFbI&amp;ab_channel=eidelchteinadvogados">
+                                            <span><i class="tji-play"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 order-lg-3 order-2">
+                                <div class="customers-box style-2 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="customers-bg" data-bg-image="assets/images/about/about-4.webp"></div>
+                                    <div class="customers">
+                                        <ul>
+                                            <li class="wow fadeInLeft" data-wow-delay=".3s"><img src="assets/images/testimonial/client-1.webp"
+                                                    alt=""></li>
+                                            <li class="wow fadeInLeft" data-wow-delay=".4s"><img src="assets/images/testimonial/client-2.webp"
+                                                    alt=""></li>
+                                            <li class="wow fadeInLeft" data-wow-delay=".5s"><img src="assets/images/testimonial/client-3.webp"
+                                                    alt=""></li>
+                                            <li class="wow fadeInLeft" data-wow-delay=".6s"><span><i class="tji-plus"></i></span></li>
+                                        </ul>
+                                    </div>
+                                    <h6 class="customers-text wow fadeInLeft" data-wow-delay=".6s">We have 100+ happy customer.</h6>
+                                    <div class="star-icon zoomInOut"><img src="assets/images/shape/star.svg" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 order-lg-4 order-4">
+                                <div class="countup-item style-2 wow fadeInUp" data-wow-delay=".5s">
+                                    <span class="count-icon"><i class="tji-worldwide"></i></span>
+                                    <span class="steps">02.</span>
+                                    <div class="count-inner">
+                                        <span class="count-text">Reach Worldwide</span>
+                                        <div class="inline-content">
+                                            <span class="odometer countup-number" data-count="20"></span>
+                                            <span class="count-plus">M</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 order-lg-5 order-5">
+                                <div class="countup-item style-2 wow fadeInUp" data-wow-delay=".7s">
+                                    <span class="count-icon"><i class="tji-growth"></i></span>
+                                    <span class="steps">03.</span>
+                                    <div class="count-inner">
+                                        <span class="count-text">Faster Growth</span>
+                                        <div class="inline-content">
+                                            <span class="odometer countup-number" data-count="8.5"></span>
+                                            <span class="count-plus">X</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end: About Section -->
             </main>
             <!-- ==================== Start Footer ==================== -->
             <? require_once("inc/htmlcx/footer-ita.php") ?>
