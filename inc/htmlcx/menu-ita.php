@@ -32,7 +32,7 @@ function setActiveLink($pages)
 <!-- back to top end -->
 
 <!-- start: Header Area -->
-<header class="header-area header-1 header-absolute  section-gap-x">
+<header class="header-area header-1 header-sticky  section-gap-x">
   <div class="bg-blu-secondario text-white p-2">
     <ul class="d-flex">
       <li class="border-end border-white pe-2"><i class="fa-solid fa-phone me-2"></i>+39 0445 123 123</li>

@@ -89,11 +89,11 @@ START: Theme Default CSS
   --tj-color-text-body-3: #67787a;
   --tj-color-text-body-4: #18292c;
   --tj-color-text-body-5: rgba(255, 255, 255, 0.8);
-  --tj-color-theme-primary: #1e8a8a;
-  --tj-color-theme-bg: #d8e5e5;
+  --tj-color-theme-primary: #2A47EA;
+  --tj-color-theme-bg: #CEDFFF;
   --tj-color-theme-bg-2: #cee0e0;
   --tj-color-theme-bg-3: #202e30;
-  --tj-color-theme-dark: #0c1e21;
+  --tj-color-theme-dark: #001798;
   --tj-color-theme-dark-2: #18292c;
   --tj-color-theme-dark-3: #364e52;
   --tj-color-theme-dark-4: #67787a;
@@ -117,6 +117,10 @@ START: Theme Default CSS
 
 .bg-blu-secondario{
   background-color: var(--blu-secondario) !important;
+}
+
+.text-blu-primario{
+  color: var(--blu-primario) !important;
 }
 
 li{
@@ -7513,7 +7517,7 @@ START: Heading CSS
   margin-bottom: 0;
 }
 .sec-heading .sec-title span {
-  color: var(--tj-color-theme-primary);
+  color: var(--blu-primario);
 }
 .sec-heading .sub-title {
   display: -webkit-inline-box;
@@ -7523,13 +7527,13 @@ START: Heading CSS
       -ms-flex-align: center;
           align-items: center;
   gap: 4px;
-  color: var(--tj-color-heading-primary);
+  color: var(--tj-color-theme-primary);
+  background-color:#fff;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   font-weight: var(--tj-fw-bold);
-  border: 1px dashed var(--tj-color-border-1);
   padding: 2px 10px;
   margin-bottom: 20px;
   border-radius: 4px;
@@ -9505,7 +9509,7 @@ START: About CSS
 }
 
 .customers-box.style-2 {
-  background-color: var(--tj-color-theme-primary);
+  background-color: var(--blu-primario);
   height: 100%;
   position: relative;
   overflow: hidden;
@@ -9689,7 +9693,7 @@ START: About CSS
 START: Services CSS
 ----------------------------------------*/
 .tj-service-section {
-  background-color: var(--tj-color-theme-dark);
+  background-color: var(--notte-fonda);
   border-radius: 12px;
   position: relative;
   z-index: 1;
@@ -9698,8 +9702,8 @@ START: Services CSS
   max-width: 550px;
 }
 .tj-service-section .sec-heading .sub-title {
-  color: var(--tj-color-common-white);
-  border-color: rgba(255, 255, 255, 0.15);
+  color: var(--blu-primario);
+  background-color:#fff;
 }
 .tj-service-section .sec-heading.style-2 {
   -webkit-margin-start: 0;
@@ -9817,14 +9821,14 @@ START: Services CSS
 .service-item.style-1 {
   border: 0;
   padding: 0;
-  background-color: var(--tj-color-theme-dark);
+  background-color: var(--blu-primario);
   position: relative;
   overflow: hidden;
   height: 450px;
 }
 .service-item.style-1::before {
   content: "";
-  background: var(--tj-color-theme-dark-2);
+  background: var(--blu-secondario);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -9835,7 +9839,7 @@ START: Services CSS
 }
 .service-item.style-1::after {
   content: "";
-  background: var(--tj-color-theme-primary);
+  background: var(--blu-primario);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -9933,7 +9937,7 @@ START: Services CSS
   color: var(--tj-color-common-white);
 }
 .service-item.style-1 .text-btn .btn-icon {
-  background-color: var(--tj-color-theme-primary);
+  background-color: var(--blu-secondario);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .service-item.style-1 .text-btn {
@@ -9945,10 +9949,10 @@ START: Services CSS
     inset-inline-start: 15px;
   }
 }
-.service-item.style-1:hover::before {
+/* .service-item.style-1:hover::before {
   background: var(--tj-color-theme-dark);
   opacity: 0.7;
-}
+} */
 .service-item.style-1:hover::after {
   opacity: 0.3;
 }
@@ -10344,7 +10348,7 @@ START: Services CSS
 START: Theme Marquee CSS
 ----------------------------------------*/
 .tj-marquee-section {
-  background-color: var(--tj-color-theme-primary);
+  background-color: var(--blu-secondario);
   position: relative;
   padding-top: 33px;
   padding-bottom: 37px;
