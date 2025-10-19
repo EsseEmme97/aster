@@ -4,7 +4,7 @@ function setActiveLink($pages)
 {
   $current_page = basename($_SERVER["SCRIPT_NAME"]);
   if (in_array($current_page, $pages)) {
-    echo "attivo";
+    echo "current-menu-ancestor";
   }
 }
 
@@ -33,13 +33,43 @@ function setActiveLink($pages)
 
 <!-- start: Header Area -->
 <header class="header-area header-1 header-sticky  section-gap-x">
-  <div class="bg-blu-secondario text-white p-2">
-    <ul class="d-flex">
-      <li class="border-end border-white pe-2"><i class="fa-solid fa-phone me-2"></i>+39 0445 123 123</li>
-      <li class="px-2 border-end border-white"><i class="fa-solid fa-envelope me-2"></i>info@asterelettronica.com</li>
-      <li class="ps-2"><i class="fa-solid fa-location-dot me-2"></i>Via Lungo Gogna, 45 · 36015 Schio (VI)</li>
-      <li class="ms-auto">social</li>
-    </ul>
+  <div class="header-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="header-top-content">
+            <p class="topbar-text"><i class="fa fa-phone"></i><a href="tel:+0445123123">+39 0445 123 123</a>
+            </p>
+            <div class="header-info">
+              <div class="info-item">
+                <span><i class="tji-location"></i></span>
+                <a href="#">Find a Location!</a>
+              </div>
+              <div class="info-item">
+                <span><i class="tji-phone-3"></i></span>
+                <a href="tel:8089091313">808-909-1313</a>
+              </div>
+              <div class="info-item">
+                <div class="social-links style-2">
+                  <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i
+                          class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i
+                          class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><i
+                          class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="container-fluid">
     <div class="row">
@@ -47,16 +77,16 @@ function setActiveLink($pages)
         <div class="header-wrapper">
           <!-- site logo -->
           <div class="site_logo">
-            <a class="logo" href="index.html"><img src="assets/images/logos/logo.webp" alt=""></a>
+            <a class="logo" href="index.html"><img src="<?= $pathindex ?>assets\images\logo\Aster_Elettronica-Logo.svg" alt="logo-principale"></a>
           </div>
 
           <!-- navigation -->
           <div class="menu-area d-none d-lg-inline-flex align-items-center">
             <nav id="mobile-menu" class="mainmenu">
               <ul>
-                <li class="current-menu-ancestor"><a href="index.html">Home</a>
+                <li class="<?= setActiveLink(["index.php"])?>"><a href="<?= $pathindex ?>">Home</a>
                 </li>
-                <li><a href="about.html">Aster Elettronica</a>
+                <li class="<?= setActiveLink(["azienda.php"]) ?>"><a href="<?= $pathindex ?>azienda">Aster Elettronica</a>
                 </li>
                 <li><a href="service.html">Produzione & Assemblaggio</a>
                 </li>

@@ -6,7 +6,7 @@ require_once("inc/mysqli.php");
 // $database = new DB();
 $titleseo = "aster";
 $descriptionseo = "descrizione";
-$image = "/assets/img/global/logo.jpg";
+$image = $pathindex . "assets\images\favicon\Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
 ?>
@@ -21,9 +21,9 @@ $heightseo = "115";
     <? require_once("inc/htmlcx/meta-ita.php"); ?>
     <link rel="canonical" href="<?= $pageurlseolan ?>">
     <!-- Favicon -->
-    <link rel="stylesheet" href="<?= $pathindex ?>./assets/css/style.css">
-
+    <link rel="shortcut icon" href="<?= $image ?>" type="image/x-icon">
     <!-- CSS here -->
+    <link rel="stylesheet" href="<?= $pathindex ?>./assets/css/style.css">
     <link rel="stylesheet" href="<?= $pathindex ?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= $pathindex ?>assets/css/font-awesome-pro.min.css">
     <link rel="stylesheet" href="<?= $pathindex ?>assets/css/animate.min.css">
@@ -37,7 +37,6 @@ $heightseo = "115";
 </head>
 
 <body>
-
 
     <? require_once("inc/tagmanager_no.php") ?>
 
@@ -496,30 +495,6 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/marquee/marquee-2.webp" alt="">
                                     </div>
                                 </div>
-                                <div class="swiper-slide marquee-item">
-                                    <h4 class="marquee-text">Enterprise</h4>
-                                    <div class="marquee-img">
-                                        <img src="<?= $pathindex ?>assets/images/marquee/marquee-1.webp" alt="">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide marquee-item">
-                                    <h4 class="marquee-text">Leadership</h4>
-                                    <div class="marquee-img">
-                                        <img src="<?= $pathindex ?>assets/images/marquee/marquee-2.webp" alt="">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide marquee-item">
-                                    <h4 class="marquee-text">Enterprise</h4>
-                                    <div class="marquee-img">
-                                        <img src="<?= $pathindex ?>assets/images/marquee/marquee-1.webp" alt="">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide marquee-item">
-                                    <h4 class="marquee-text">Leadership</h4>
-                                    <div class="marquee-img">
-                                        <img src="<?= $pathindex ?>assets/images/marquee/marquee-2.webp" alt="">
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -557,7 +532,8 @@ $heightseo = "115";
                                         </div>
                                         <div class="about-btn-area-2 wow fadeInUp" data-wow-delay="1s">
                                             <a class="tj-primary-btn" href="<?= $pathindex ?>about.html">
-                                                <span class="btn-text"><span>Scopri di più</span></span>
+                                                <span class="btn-text">Scopri di più</span>
+                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
                                     </div>
@@ -573,6 +549,93 @@ $heightseo = "115";
                     </div>
                 </section>
                 <!-- end: About Section -->
+
+                <!-- start: About Section -->
+                <section class="tj-about-section section-gap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 order-lg-1 order-2">
+                                <div class="about-img-area wow fadeInLeft" data-wow-delay=".2s">
+                                    <div class="about-img overflow-hidden">
+                                        <img data-speed="0.8" src="assets/images/about/about-1.webp" alt="">
+                                    </div>
+                                    <div class="box-area">
+                                        <div class="experience-box wow fadeInUp" data-wow-delay=".3s">
+                                            <span class="sub-title">Experiences</span>
+                                            <div class="customers-number">13+</div>
+                                            <h6 class="customers-text">Decades of Experience, Endless Innovation</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 order-lg-2 order-1">
+                                <div class="about-content-area style-1 wow fadeInLeft" data-wow-delay=".2s">
+                                    <div class="sec-heading">
+                                        <span class="sub-title wow fadeInUp bg-carta-da-zucchero" data-wow-delay=".3s"><i class="tji-box"></i>Get to Know
+                                            Us</span>
+                                        <h2 class="sec-title title-anim">Empowering Businesses with Innovation,
+                                            Expertise, and for <span>Success.</span>
+                                        </h2>
+                                    </div>
+                                    <div class="wow fadeInUp" data-wow-delay=".5s">
+                                        <a class="text-btn" href="about.html">
+                                            <span class="btn-text"><span>Learn More</span></span>
+                                            <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="about-bottom-area">
+                                    <div class="client-review-cont wow fadeInUp" data-wow-delay=".7s">
+                                        <p class="desc">We believe in building lasting relationships with our clients through trust,
+                                            innovation,
+                                            and
+                                            exceptional service.</p>
+                                        <div class="client-info-area">
+                                            <div class="client-info">
+                                                <h6 class="title">Esther Howard</h6>
+                                                <span class="designation">Co.Founder</span>
+                                            </div>
+                                            <span class="quote-icon"><i class="tji-quote"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="video-img  wow fadeInUp" data-wow-delay=".9s">
+                                        <img src="assets/images/about/about-2.webp" alt="">
+                                        <a class="video-btn video-popup" data-autoplay="true" data-vbtype="video" data-maxwidth="1200px"
+                                            href="https://www.youtube.com/watch?v=MLpWrANjFbI&amp;ab_channel=eidelchteinadvogados">
+                                            <span><i class="tji-play"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end: About Section -->
+
+                <!-- start: Cta Section -->
+                <section class="tj-cta-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cta-area">
+                                    <div class="cta-content">
+                                        <h2 class="title title-anim">Let’s Build Future Together.</h2>
+                                        <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
+                                            <a class="tj-primary-btn " href="contact.html">
+                                                <span class="btn-text"><span>Contattaci</span></span>
+                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cta-img">
+                                        <img src="assets/images/cta/cta-bg.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end: Cta Section -->
             </main>
             <!-- ==================== Start Footer ==================== -->
             <? require_once("inc/htmlcx/footer-ita.php") ?>
