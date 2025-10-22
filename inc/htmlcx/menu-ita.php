@@ -88,7 +88,7 @@ function setActiveLink($pages)
                 </li>
                 <li class="<?= setActiveLink(["azienda.php"]) ?>"><a href="<?= $pathindex ?>azienda">Aster Elettronica</a>
                 </li>
-                <li><a href="service.html">Produzione & Assemblaggio</a>
+                <li class="<?= setActiveLink(["produzione.php"]) ?>"><a href="<?= $pathindex ?>produzione-e-assemblaggio">Produzione & Assemblaggio</a>
                 </li>
                 <li><a href="service.html">News</a>
                 </li>

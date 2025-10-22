@@ -6,6 +6,8 @@ RewriteEngine On
 
 RewriteRule  ^it$ index.php [L]
 RewriteRule ^azienda$ it/azienda.php [L]
+RewriteRule ^azienda$ it/azienda.php [L]
+RewriteRule ^produzione-e-assemblaggio$ it/produzione.php [L]
 
 
 RewriteCond %{REQUEST_FILENAME} !-f

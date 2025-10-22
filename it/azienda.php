@@ -274,25 +274,6 @@ $heightseo = "115";
                 <!-- end: Client Section -->
                 <!-- start: Project Section -->
                 <section class="h6-project section-gap section-gap-x">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="heading-wrap-content">
-                                    <div class="sec-heading style-2 style-6">
-                                        <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Proud
-                                            Projects</span>
-                                        <h2 class="sec-title title-anim">Breaking Boundaries, Building Dreams.</h2>
-                                    </div>
-                                    <div class="btn-area wow fadeInUp" data-wow-delay=".8s">
-                                        <a class="tj-primary-btn" href="portfolio.html">
-                                            <span class="btn-text"><span>More Projects</span></span>
-                                            <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-12">
@@ -300,15 +281,7 @@ $heightseo = "115";
                                     <div class=" project-item h6-project-item ">
                                         <div class="project-item-inner h6-project-item-inner"
                                             data-bg-image="./assets/images/project/h6-project-1.webp">
-                                            <div class="project-content">
-                                                <span class="categories"><a href="portfolio-details.html">Connect</a></span>
-                                                <div class="project-text">
-                                                    <h3 class="title"><a href="portfolio-details.html">Event Management Platform</a></h3>
-                                                    <a class="project-btn" href="portfolio-details.html">
-                                                        <i class="tji-arrow-right-long"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                     <div class=" project-item h6-project-item ">
@@ -386,16 +359,37 @@ $heightseo = "115";
                         </div>
                     </div>
                     <div class="bg-shape-1">
-                        <img src="<?= $pathindex?>assets/images/shape/pattern-2.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="">
                     </div>
                     <div class="bg-shape-2">
                         <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="">
                     </div>
-                    <div class="bg-shape-3">
-                        <img src="<?= $pathindex ?>assets/images/shape/shape-blur.svg" alt="">
-                    </div>
                 </section>
                 <!-- end: Project Section -->
+                <!-- start: Cta Section -->
+                <section class="tj-cta-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cta-area">
+                                    <div class="cta-content">
+                                        <h2 class="title title-anim">Let’s Build Future Together.</h2>
+                                        <div class="cta-btn wow fadeInUp mt-60" data-wow-delay=".6s">
+                                            <a class="tj-primary-btn " href="contact.html">
+                                                <span class="btn-text"><span>Contattaci</span></span>
+                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cta-img">
+                                        <img src="assets/images/cta/cta-bg.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end: Cta Section -->
             </main>
             <!-- ==================== Start Footer ==================== -->
             <? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>

@@ -14527,7 +14527,6 @@ START: Countup CSS
 .tj-countup-section {
   position: relative;
   z-index: 2;
-  margin-bottom: -122px;
 }
 
 .countup-wrap {
@@ -17589,9 +17588,6 @@ START: Blog Details CSS
 .post-details-wrapper .blog-text ul {
   margin-bottom: 50px;
   list-style: none;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  columns: 2;
 }
 
 .post-details-wrapper .blog-text ul li {
@@ -25144,7 +25140,6 @@ only screen and (min-width: 992px) and (max-width: 1199px),
 /* !END: Service CSS */
 /* START: Case Study CSS */
 .h6-project {
-  background-color: var(--tj-color-theme-dark);
   border-radius: 12px;
   position: relative;
   overflow: hidden;
@@ -25244,7 +25239,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   overflow: hidden;
 }
 
-.h6-project-item-inner::after {
+/* .h6-project-item-inner::after {
   content: " ";
   width: 100%;
   height: 100%;
@@ -25256,7 +25251,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   z-index: 1;
-}
+} */
 
 @media only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 575px) {
