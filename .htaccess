@@ -8,6 +8,8 @@ RewriteRule  ^it$ index.php [L]
 RewriteRule ^azienda$ it/azienda.php [L]
 RewriteRule ^azienda$ it/azienda.php [L]
 RewriteRule ^produzione-e-assemblaggio$ it/produzione.php [L]
+RewriteRule ^news$ it/news.php [L]
+RewriteRule ^news/([0-9]+)$ it/news-dettaglio.php?id=$1 [L]
 
 
 RewriteCond %{REQUEST_FILENAME} !-f

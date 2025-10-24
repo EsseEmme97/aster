@@ -90,7 +90,7 @@ function setActiveLink($pages)
                 </li>
                 <li class="<?= setActiveLink(["produzione.php"]) ?>"><a href="<?= $pathindex ?>produzione-e-assemblaggio">Produzione & Assemblaggio</a>
                 </li>
-                <li><a href="service.html">News</a>
+                <li class="<?= setActiveLink(["news.php"]) ?>"><a href="<?= $pathindex ?>news">News</a>
                 </li>
                 <li><a href="service.html">Lavora con noi</a>
                 </li>

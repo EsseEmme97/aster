@@ -50,7 +50,7 @@ $heightseo = "115";
             <main id="primary" class="site-main">
                 <div class="space-for-header"></div>
                 <!-- start: Breadcrumb Section -->
-                <section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/bg/pheader-bg.webp">
+                <section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/stock/stock-3.jpg">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -59,7 +59,7 @@ $heightseo = "115";
                                     <div class="tj-page-link">
                                         <span><i class="tji-home"></i></span>
                                         <span>
-                                            <a href="index.html">Home</a>
+                                            <a href="<?= $pathindex ?>">Home</a>
                                         </span>
                                         <span><i class="tji-arrow-right"></i></span>
                                         <span>
@@ -280,13 +280,13 @@ $heightseo = "115";
                                 <div class="h6-project-inner wow fadeInUp" data-wow-delay="0.6s">
                                     <div class=" project-item h6-project-item ">
                                         <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="./assets/images/project/h6-project-1.webp">
+                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
                                             
                                         </div>
                                     </div>
                                     <div class=" project-item h6-project-item ">
                                         <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="./assets/images/project/h6-project-2.webp">
+                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
                                             <div class="project-content">
                                                 <span class="categories"><a href="portfolio-details.html">Empower</a></span>
                                                 <div class="project-text">
@@ -300,7 +300,7 @@ $heightseo = "115";
                                     </div>
                                     <div class=" project-item h6-project-item active">
                                         <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="./assets/images/project/h6-project-3.webp">
+                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
                                             <div class="project-content">
                                                 <span class="categories"><a href="portfolio-details.html">Support</a></span>
                                                 <div class="project-text">
@@ -314,7 +314,7 @@ $heightseo = "115";
                                     </div>
                                     <div class=" project-item h6-project-item ">
                                         <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="./assets/images/project/h6-project-4.webp">
+                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg"">
                                             <div class="project-content">
                                                 <span class="categories"><a href="portfolio-details.html">Business</a></span>
                                                 <div class="project-text">
@@ -328,7 +328,7 @@ $heightseo = "115";
                                     </div>
                                     <div class=" project-item h6-project-item ">
                                         <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="./assets/images/project/h6-project-5.webp">
+                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
                                             <div class="project-content">
                                                 <span class="categories"><a href="portfolio-details.html">Connect</a></span>
                                                 <div class="project-text">
@@ -342,7 +342,7 @@ $heightseo = "115";
                                     </div>
                                     <div class=" project-item h6-project-item ">
                                         <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="./assets/images/project/h6-project-6.webp">
+                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
                                             <div class="project-content">
                                                 <span class="categories"><a href="portfolio-details.html">Empower</a></span>
                                                 <div class="project-text">
@@ -382,7 +382,7 @@ $heightseo = "115";
                                         </div>
                                     </div>
                                     <div class="cta-img">
-                                        <img src="assets/images/cta/cta-bg.webp" alt="">
+                                        <img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
                                     </div>
                                 </div>
                             </div>

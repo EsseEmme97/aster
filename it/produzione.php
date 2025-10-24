@@ -244,7 +244,7 @@ $heightseo = "115";
 										</div>
 									</div>
 									<div class="cta-img">
-										<img src="assets/images/cta/cta-bg.webp" alt="">
+										<img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
 									</div>
 								</div>
 							</div>

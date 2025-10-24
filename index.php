@@ -69,12 +69,12 @@ $heightseo = "115";
                                 </div>
                             </div>
                             <div class="banner-shape">
-                                <img src="<?= $pathindex ?>assets/images/shape/pattern-bg.webp" alt="">
+                                <img src="<?= $pathindex ?>assets/images/shape/pattern-bg.webp" alt="pattern di sfondo">
                             </div>
                         </div>
                         <div class="banner-right-box">
                             <div class="banner-img">
-                                <img data-speed="0.8" src="<?= $pathindex ?>assets/images/hero/hero-img.webp" alt="">
+                                <img data-speed="0.8" src="<?= $pathindex ?>assets/images/stock/stock-1.jpg" alt="immagine banner">
                             </div>
                             <div class="box-area">
                                 <div class="customers-box">
@@ -147,7 +147,7 @@ $heightseo = "115";
                             </div>
                             <div class="col-lg-4 col-md-6 order-lg-3 order-2">
                                 <div class="customers-box style-2 wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="customers-bg" data-bg-image="assets/images/about/about-4.webp"></div>
+                                    <div class="customers-bg" data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg"></div>
                                     <div class="customers">
                                         <ul>
                                             <li class="wow fadeInLeft" data-wow-delay=".3s"><img src="<?= $pathindex ?>assets/images/testimonial/client-1.webp"
@@ -313,7 +313,7 @@ $heightseo = "115";
                             <div class="col-xl-6 col-lg-6 order-lg-1 order-2">
                                 <div class="about-img-area style-2 wow fadeInLeft" data-wow-delay=".3s">
                                     <div class="about-img overflow-hidden">
-                                        <img data-speed=".8" src="<?= $pathindex ?>assets/images/about/about-5.webp" alt="">
+                                        <img data-speed=".8" src="<?= $pathindex ?>assets/images/stock/stock-2.jpg" alt="immagine stock">
                                     </div>
                                     <div class="box-area style-2">
                                         <div class="progress-box wow fadeInUp" data-wow-delay=".3s">
@@ -557,7 +557,7 @@ $heightseo = "115";
                             <div class="col-xl-6 col-lg-6 order-lg-1 order-2">
                                 <div class="about-img-area wow fadeInLeft" data-wow-delay=".2s">
                                     <div class="about-img overflow-hidden">
-                                        <img data-speed="0.8" src="assets/images/about/about-1.webp" alt="">
+                                        <img data-speed="0.8" src="<?= $pathindex ?>assets/images/stock/stock-2.jpg" alt="immagine stock">
                                     </div>
                                     <div class="box-area">
                                         <div class="experience-box wow fadeInUp" data-wow-delay=".3s">
@@ -628,7 +628,7 @@ $heightseo = "115";
                                         </div>
                                     </div>
                                     <div class="cta-img">
-                                        <img src="assets/images/cta/cta-bg.webp" alt="">
+                                        <img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
                                     </div>
                                 </div>
                             </div>
