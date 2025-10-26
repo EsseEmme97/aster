@@ -92,9 +92,9 @@ function setActiveLink($pages)
                 </li>
                 <li class="<?= setActiveLink(["news.php"]) ?>"><a href="<?= $pathindex ?>news">News</a>
                 </li>
-                <li><a href="service.html">Lavora con noi</a>
+                <li class="<?= setActiveLink(["lavora-con-noi.php"]) ?>"><a href="<?= $pathindex ?>lavora-con-noi">Lavora con noi</a>
                 </li>
-                <li><a href="contact.html">Contatti</a></li>
+                <li class="<?= setActiveLink(["contatti.php"]) ?>"><a href="<?= $pathindex ?>contatti">Contatti</a></li>
               </ul>
             </nav>
           </div>

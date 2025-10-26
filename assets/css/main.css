@@ -203,6 +203,10 @@ START: Theme Default CSS
   background-color: var(--carta-da-zucchero) !important;
 }
 
+.no-color{
+  color:inherit !important;
+}
+
 li {
   list-style: none;
 }
@@ -11467,8 +11471,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .service-item.style-2 {
-  background-color: transparent;
-  border: 1px dashed var(--tj-color-border-2);
+  border: 1px solid var(--tj-color-border-2);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding: 65px 50px;
@@ -11506,7 +11509,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .service-item.style-2 .title {
-  color: var(--tj-color-common-white);
+  font-weight:bold;
   margin-bottom: 0;
 }
 
@@ -11533,10 +11536,10 @@ only screen and (min-width: 768px) and (max-width: 991px),
   color: var(--tj-color-text-body-2);
 }
 
-.service-item.style-2:hover {
+/* .service-item.style-2:hover {
   background-color: var(--tj-color-theme-dark-2);
   border-color: var(--tj-color-theme-dark-2);
-}
+} */
 
 .service-item.style-2:hover .service-icon i {
   -webkit-transform: rotateY(360deg);
@@ -15017,7 +15020,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
 START: Contact CSS
 ----------------------------------------*/
 .tj-contact-section {
-  background-color: var(--tj-color-theme-dark);
   border-radius: 12px;
   position: relative;
   z-index: 1;
@@ -15032,9 +15034,9 @@ START: Contact CSS
   margin-bottom: 35px;
 }
 
-.tj-contact-section .sec-heading .sec-title {
+/* .tj-contact-section .sec-heading .sec-title {
   color: var(--tj-color-common-white);
-}
+} */
 
 .map-area {
   width: 100%;
@@ -15120,7 +15122,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   color: var(--tj-color-text-body-3);
   padding: 11px 0;
   border: 0;
-  border-bottom: 1px dashed var(--tj-color-border-1);
+  border-bottom: 1px solid var(--grigio-scuro);
 }
 
 .contact-form .form-input textarea::-webkit-input-placeholder,
@@ -15345,7 +15347,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .contact-form.style-2 {
   max-width: 610px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #fff;
   backdrop-filter: blur(6px);
   position: relative;
   z-index: 2;
@@ -15384,7 +15386,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-form.style-2 .form-input input[type=email] {
   color: var(--tj-color-text-body-2);
   padding: 11px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid var(--grigio-scuro);
 }
 
 .contact-form.style-2 .form-input textarea::-webkit-input-placeholder,
@@ -17550,6 +17552,12 @@ START: Blog Details CSS
   margin-bottom: 30px;
   border-radius: 12px;
   overflow: hidden;
+}
+
+.blog-images img{
+  max-height: 450px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .post-details-wrapper .title {

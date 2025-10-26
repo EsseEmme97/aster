@@ -9,7 +9,9 @@ RewriteRule ^azienda$ it/azienda.php [L]
 RewriteRule ^azienda$ it/azienda.php [L]
 RewriteRule ^produzione-e-assemblaggio$ it/produzione.php [L]
 RewriteRule ^news$ it/news.php [L]
-RewriteRule ^news/([0-9]+)$ it/news-dettaglio.php?id=$1 [L]
+RewriteRule ^news/([0-9]+)$ it/news-dettaglio.php [L]
+RewriteRule ^lavora-con-noi$ it/lavora-con-noi.php [L]
+RewriteRule ^contatti$ it/contatti.php [L]
 
 
 RewriteCond %{REQUEST_FILENAME} !-f

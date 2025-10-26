@@ -22,9 +22,9 @@
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="footer-widget widget-nav-menu wow fadeInUp" data-wow-delay=".5s">
-                        <a class="d-block" href="tel:+390445508900">0445 508 900</a>
-                        <span class="d-block mt-2">0445 508 900</span>
-                        <a class="d-block mt-2" href="mailto:info@asterelettronica.com">info@asterelettronica.com</a>
+                        <a class="d-block no-color" href="tel:+390445508900">0445 508 900</a>
+                        <span class="d-block mt-2 no-color">0445 508 900</span>
+                        <a class="d-block mt-2 no-color" href="mailto:info@asterelettronica.com">info@asterelettronica.com</a>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
