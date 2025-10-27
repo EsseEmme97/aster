@@ -6,7 +6,7 @@ require_once("inc/mysqli.php");
 // $database = new DB();
 $titleseo = "aster";
 $descriptionseo = "descrizione";
-$image = $pathindex . "assets\images\favicon\Aster_Elettronica-Favicon.png";
+$image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
 ?>
@@ -55,7 +55,7 @@ $heightseo = "115";
                         <div class="banner-left-box">
                             <div class="banner-content">
                                 <span class="sub-title wow fadeInDown" data-wow-delay=".2s">
-                                    Recognized for Excellence
+                                    BENVENUTI IN ASTER ELETTRONICA
                                 </span>
                                 <h1 class="banner-title title-anim">Driving Excellence Through Evolution and
                                     <span>Trust.</span>
@@ -89,7 +89,7 @@ $heightseo = "115";
                                         </ul>
                                     </div>
                                     <div class="customers-number wow fadeInUp" data-wow-delay=".5s">35+</div>
-                                    <h6 class="customers-text wow fadeInUp" data-wow-delay=".5s">Happy customer we have world-wide.</h6>
+                                    <span class="customers-text wow fadeInUp" data-wow-delay=".5s">Anni di esperienza al vostro servizio.</span>
                                 </div>
                             </div>
                         </div>
@@ -108,14 +108,13 @@ $heightseo = "115";
                         <div class="row row-gap-4">
                             <div class="col-lg-4 col-md-6 order-lg-1 order-3">
                                 <div class="countup-item style-2 wow fadeInUp" data-wow-delay=".1s">
-                                    <span class="count-icon"><i class="tji-complete"></i></span>
+                                    <span class="count-icon"><img src="<?= $pathindex ?>assets/images/favicon/Aster_Elettronica-Favicon.png" alt="icona aster"></span>
                                     <span class="steps">01.</span>
                                     <div class="count-inner">
-                                        <span class="count-text">Projects Completed.</span>
-                                        <div class="inline-content">
-                                            <span class="odometer countup-number" data-count="93"></span>
-                                            <span class="count-plus">%</span>
+                                        <div>
+                                            <span class="h3 fw-bold">Consulenza all’industrializzazione del prodotto</span>
                                         </div>
+                                        <span class="count-text mt-2">Lorem ipsum dolor sit amet, consectutir lorem ipsum</span>
                                     </div>
                                 </div>
                             </div>
@@ -159,33 +158,31 @@ $heightseo = "115";
                                             <li class="wow fadeInLeft" data-wow-delay=".6s"><span><i class="tji-plus"></i></span></li>
                                         </ul>
                                     </div>
-                                    <h6 class="customers-text wow fadeInLeft" data-wow-delay=".6s">We have 100+ happy customer.</h6>
+                                    <span class="customers-text wow fadeInLeft" data-wow-delay=".6s">Dal 1196 prodotti chiavi in mano</span>
                                     <div class="star-icon zoomInOut"><img src="<?= $pathindex ?>assets/images/shape/star.svg" alt=""></div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 order-lg-4 order-4">
                                 <div class="countup-item style-2 wow fadeInUp" data-wow-delay=".5s">
-                                    <span class="count-icon"><i class="tji-worldwide"></i></span>
+                                    <span class="count-icon"><img src="<?= $pathindex ?>assets/images/favicon/Aster_Elettronica-Favicon.png" alt="icona aster"></span>
                                     <span class="steps">02.</span>
                                     <div class="count-inner">
-                                        <span class="count-text">Reach Worldwide</span>
-                                        <div class="inline-content">
-                                            <span class="odometer countup-number" data-count="20"></span>
-                                            <span class="count-plus">M</span>
+                                        <div>
+                                            <span class="h3 fw-bold">Protipizzazione e progettazione su misura</span>
                                         </div>
+                                        <span class="count-text mt-2">Lorem ipsum dolor sit amet, consectutir lorem ipsum</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 order-lg-5 order-5">
                                 <div class="countup-item style-2 wow fadeInUp" data-wow-delay=".7s">
-                                    <span class="count-icon"><i class="tji-growth"></i></span>
+                                    <span class="count-icon"><img src="<?= $pathindex ?>assets/images/favicon/Aster_Elettronica-Favicon.png" alt="icona aster"></span>
                                     <span class="steps">03.</span>
                                     <div class="count-inner">
-                                        <span class="count-text">Faster Growth</span>
-                                        <div class="inline-content">
-                                            <span class="odometer countup-number" data-count="8.5"></span>
-                                            <span class="count-plus">X</span>
+                                        <div>
+                                            <span class="h3 fw-bold">Assemblaggio di serie e di piccoli lotti</span>
                                         </div>
+                                        <span class="count-text mt-2">Lorem ipsum dolor sit amet, consectutir lorem ipsum</span>
                                     </div>
                                 </div>
                             </div>
@@ -212,85 +209,28 @@ $heightseo = "115";
                                 <div class="service-wrapper wow fadeInUp" data-wow-delay=".4s">
                                     <div class="swiper service-slider">
                                         <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="service-item style-1">
-                                                    <div class="service-img">
-                                                        <img src="<?= $pathindex ?>assets/images/service/service-1.webp" alt="">
-                                                    </div>
-                                                    <div class="service-icon">
-                                                        <i class="tji-service-1"></i>
-                                                    </div>
-                                                    <div class="service-content">
-                                                        <h4 class="title"><a href="<?= $pathindex ?>service-details.html">Business Strategy Development</a></h4>
-                                                        <p class="desc">Through a combination of data-driven insights and innovative approaches, we
-                                                            work
-                                                            closely with you to develop customized.</p>
-                                                        <a class="text-btn" href="<?= $pathindex ?>service-details.html">
-                                                            <span class="btn-text"><span>Learn More</span></span>
-                                                            <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="service-item style-1">
-                                                    <div class="service-img">
-                                                        <img src="<?= $pathindex ?>assets/images/service/service-5.webp" alt="">
-                                                    </div>
-                                                    <div class="service-icon">
-                                                        <i class="tji-service-2"></i>
-                                                    </div>
-                                                    <div class="service-content">
-                                                        <h4 class="title"><a href="<?= $pathindex ?>service-details.html">Customer Experience Solutions</a></h4>
-                                                        <p class="desc">Developing personalized customer journeys to increase satisfaction and
-                                                            loyalty
-                                                            of our expansion to keep competitive.</p>
-                                                        <a class="text-btn" href="<?= $pathindex ?>service-details.html">
-                                                            <span class="btn-text"><span>Learn More</span></span>
-                                                            <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                                        </a>
+                                            <? for ($i = 0; $i < 8; $i++): ?>
+                                                <div class="swiper-slide">
+                                                    <div class="service-item style-1">
+                                                        <div class="service-img">
+                                                            <img src="<?= $pathindex ?>assets/images/stock/stock-1.jpg" alt="immagine servizio">
+                                                        </div>
+                                                        <div class="service-icon">
+                                                            <img src="<?= $pathindex ?>assets/images/icon set/settori/broadcast.svg" alt="icona servizio">
+                                                        </div>
+                                                        <div class="service-content">
+                                                            <span class="title"><a href="<?= $pathindex ?>service-details.html">Business Strategy Development</a></span>
+                                                            <p class="desc">Through a combination of data-driven insights and innovative approaches, we
+                                                                work
+                                                                closely with you to develop customized.</p>
+                                                            <a class="text-btn" href="<?= $pathindex ?>service-details.html">
+                                                                <span class="btn-text"><span>Learn More</span></span>
+                                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                                            </a>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="service-item style-1">
-                                                    <div class="service-img">
-                                                        <img src="<?= $pathindex ?>assets/images/service/service-6.webp" alt="">
-                                                    </div>
-                                                    <div class="service-icon">
-                                                        <i class="tji-service-3"></i>
-                                                    </div>
-                                                    <div class="service-content">
-                                                        <h4 class="title"><a href="<?= $pathindex ?>service-details.html">Sustainability and ESG Consulting</a></h4>
-                                                        <p class="desc">Provide tailored strategies that not only drive long-term value but also
-                                                            build
-                                                            trust with stakeholders, investors.</p>
-                                                        <a class="text-btn" href="<?= $pathindex ?>service-details.html">
-                                                            <span class="btn-text"><span>Learn More</span></span>
-                                                            <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="service-item style-1">
-                                                    <div class="service-img">
-                                                        <img src="<?= $pathindex ?>assets/images/service/service-7.webp" alt="">
-                                                    </div>
-                                                    <div class="service-icon">
-                                                        <i class="tji-service-4"></i>
-                                                    </div>
-                                                    <div class="service-content">
-                                                        <h4 class="title"><a href="<?= $pathindex ?>service-details.html">Training and Development Programs</a></h4>
-                                                        <p class="desc">Training and Development Programs are designed to empower employees with the
-                                                            skills, knowledge, and tools they need.</p>
-                                                        <a class="text-btn" href="<?= $pathindex ?>service-details.html">
-                                                            <span class="btn-text"><span>Learn More</span></span>
-                                                            <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <? endfor; ?>
                                         </div>
                                         <div class="swiper-pagination-area white-pagination"></div>
                                     </div>
@@ -317,10 +257,10 @@ $heightseo = "115";
                                     </div>
                                     <div class="box-area style-2">
                                         <div class="progress-box wow fadeInUp" data-wow-delay=".3s">
-                                            <h4 class="title">Business Progress</h4>
+                                            <span class="title">I nostri risultati</span>
                                             <ul class="tj-progress-list">
                                                 <li>
-                                                    <h6 class="tj-progress-title">Revenue</h6>
+                                                    <span class="tj-progress-title">Revenue</span>
                                                     <div class="tj-progress">
                                                         <span class="tj-progress-percent">82%</span>
                                                         <div class="tj-progress-bar" data-percent="82">
@@ -328,7 +268,7 @@ $heightseo = "115";
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <h6 class="tj-progress-title">Satisfaction</h6>
+                                                    <span class="tj-progress-title">Satisfaction</span>
                                                     <div class="tj-progress">
                                                         <span class="tj-progress-percent">90%</span>
                                                         <div class="tj-progress-bar" data-percent="90">
@@ -351,26 +291,16 @@ $heightseo = "115";
                                 </div>
                                 <div class="about-bottom-area">
                                     <div class="mission-vision-box wow fadeInLeft" data-wow-delay=".5s">
-                                        <h4 class="title">Our Mission</h4>
-                                        <p class="desc">our mission is empower businesses through innovate best solution, exceptional
+                                        <span class="title">Ricerca dettagliata</span>
+                                        <p class="desc mt-3">our mission is empower businesses through innovate best solution, exceptional
                                             service.
                                         </p>
-                                        <ul class="list-items">
-                                            <li><i class="tji-list"></i>Innovation & Excellence</li>
-                                            <li><i class="tji-list"></i>Exceptional Customer</li>
-                                            <li><i class="tji-list"></i>Business Growth</li>
-                                        </ul>
                                     </div>
                                     <div class="mission-vision-box wow fadeInRight" data-wow-delay=".5s">
-                                        <h4 class="title">Our Vision</h4>
-                                        <p class="desc">Our vision is to become a global leader in providing transformative business
+                                        <span class="title">Sviluppo certosino</span>
+                                        <p class="desc mt-3">Our vision is to become a global leader in providing transformative business
                                             solutions.
                                         </p>
-                                        <ul class="list-items">
-                                            <li><i class="tji-list"></i>Global Leadership</li>
-                                            <li><i class="tji-list"></i>Transformative Impact</li>
-                                            <li><i class="tji-list"></i>Sustainable Success</li>
-                                        </ul>
                                     </div>
                                 </div>
                                 <div class="wow fadeInUp mt-5" data-wow-delay=".3s">
@@ -408,9 +338,9 @@ $heightseo = "115";
                                         <div class="service-content-wrap">
                                             <div class="service-title">
                                                 <div class="service-icon">
-                                                    <i class="tji-service-1"></i>
+                                                    <img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="immagine aster">
                                                 </div>
-                                                <h4 class="title"><a href="<?= $pathindex ?>service-details.html">Business Strategy Development</a></h4>
+                                                <span class="title"><a href="<?= $pathindex ?>service-details.html">Business Strategy Development</a></span>
                                             </div>
                                             <div class="service-content">
                                                 <p class="desc">Through a combination of data-driven insights and innovative approaches, we work
@@ -423,9 +353,9 @@ $heightseo = "115";
                                         <div class="service-content-wrap">
                                             <div class="service-title">
                                                 <div class="service-icon">
-                                                    <i class="tji-service-2"></i>
+                                                    <img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="immagine aster">
                                                 </div>
-                                                <h4 class="title"><a href="<?= $pathindex ?>service-details.html">Customer Experience Solutions</a></h4>
+                                                <span class="title"><a href="<?= $pathindex ?>service-details.html">Customer Experience Solutions</a></span>
                                             </div>
                                             <div class="service-content">
                                                 <p class="desc">Customer Experience Solutions are designed to enhance every touchpoint of your
@@ -438,9 +368,9 @@ $heightseo = "115";
                                         <div class="service-content-wrap">
                                             <div class="service-title">
                                                 <div class="service-icon">
-                                                    <i class="tji-service-3"></i>
+                                                    <img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="immagine aster">
                                                 </div>
-                                                <h4 class="title"><a href="<?= $pathindex ?>service-details.html">Sustainability and ESG Consulting</a></h4>
+                                                <span class="title"><a href="<?= $pathindex ?>service-details.html">Sustainability and ESG Consulting</a></span>
                                             </div>
                                             <div class="service-content">
                                                 <p class="desc">Provide tailored strategies that not only drive long-term value but also build
@@ -454,9 +384,9 @@ $heightseo = "115";
                                         <div class="service-content-wrap">
                                             <div class="service-title">
                                                 <div class="service-icon">
-                                                    <i class="tji-service-4"></i>
+                                                    <img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="immagine aster">
                                                 </div>
-                                                <h4 class="title"><a href="<?= $pathindex ?>service-details.html">Training and Development Programs</a></h4>
+                                                <span class="title"><a href="<?= $pathindex ?>service-details.html">Training and Development Programs</a></span>
                                             </div>
                                             <div class="service-content">
                                                 <p class="desc">Training and Development Programs are designed to empower employees with the
@@ -484,13 +414,13 @@ $heightseo = "115";
                         <div class="swiper marquee-slider">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide marquee-item">
-                                    <h4 class="marquee-text">Aster</h4>
+                                    <span class="marquee-text">Aster</span>
                                     <div class="marquee-img">
                                         <img src="<?= $pathindex ?>assets/images/marquee/marquee-1.webp" alt="">
                                     </div>
                                 </div>
                                 <div class="swiper-slide marquee-item">
-                                    <h4 class="marquee-text">Elettronica</h4>
+                                    <span class="marquee-text">Elettronica</span>
                                     <div class="marquee-img">
                                         <img src="<?= $pathindex ?>assets/images/marquee/marquee-2.webp" alt="">
                                     </div>
@@ -513,7 +443,7 @@ $heightseo = "115";
                                         <h2 class="sec-title title-highlight">Scopri le <span class="text-blu-primario">posizioni aperte</span>, oppure invia la tua candidatura spontanea
                                         </h2>
                                     </div>
-                                    <div class="about-bottom-area">
+                                    <div class="about-bottom-area mt-5">
                                         <div class="customers-box style-3">
                                             <div class="customers">
                                                 <ul>
@@ -526,12 +456,12 @@ $heightseo = "115";
                                                     <li class="wow fadeInLeft" data-wow-delay=".5s"><span><i class="tji-plus"></i></span></li>
                                                 </ul>
                                             </div>
-                                            <h6 class="customers-text wow fadeInLeft" data-wow-delay=".6s">We have <span>100+</span> happy
+                                            <span class="customers-text wow fadeInLeft" data-wow-delay=".6s">We have <span>100+</span> happy
                                                 customer.
-                                            </h6>
+                                            </span>
                                         </div>
                                         <div class="about-btn-area-2 wow fadeInUp" data-wow-delay="1s">
-                                            <a class="tj-primary-btn" href="<?= $pathindex ?>about.html">
+                                            <a class="tj-primary-btn" href="<?= $pathindex ?>lavora-con-noi">
                                                 <span class="btn-text">Scopri di più</span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
@@ -542,10 +472,10 @@ $heightseo = "115";
                         </div>
                     </div>
                     <div class="bg-shape-1">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="pattern di sfondo">
                     </div>
                     <div class="bg-shape-2">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="pattern di sfondo">
                     </div>
                 </section>
                 <!-- end: About Section -->
@@ -560,10 +490,14 @@ $heightseo = "115";
                                         <img data-speed="0.8" src="<?= $pathindex ?>assets/images/stock/stock-2.jpg" alt="immagine stock">
                                     </div>
                                     <div class="box-area">
-                                        <div class="experience-box wow fadeInUp" data-wow-delay=".3s">
-                                            <span class="sub-title">Experiences</span>
-                                            <div class="customers-number">13+</div>
-                                            <h6 class="customers-text">Decades of Experience, Endless Innovation</h6>
+                                        <div class="border-primary-color p-4 rounded">
+                                            <span class="h3">Vai alla sezione news</span>
+                                            <div class="wow fadeInUp mt-5" data-wow-delay=".5s">
+                                                <a class="text-btn" href="about.html">
+                                                    <span class="btn-text"><span>Scopri di più</span></span>
+                                                    <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -573,28 +507,20 @@ $heightseo = "115";
                                     <div class="sec-heading">
                                         <span class="sub-title wow fadeInUp bg-carta-da-zucchero" data-wow-delay=".3s"><i class="tji-box"></i>Get to Know
                                             Us</span>
-                                        <h2 class="sec-title title-anim">Empowering Businesses with Innovation,
-                                            Expertise, and for <span>Success.</span>
+                                        <h2 class="sec-title title-anim">Da oggi siamo partner di Luminovo: la filosofia <span>Kaizen</span>, applicata.
                                         </h2>
                                     </div>
                                     <div class="wow fadeInUp" data-wow-delay=".5s">
                                         <a class="text-btn" href="about.html">
-                                            <span class="btn-text"><span>Learn More</span></span>
+                                            <span class="btn-text"><span>Scopri di più</span></span>
                                             <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="about-bottom-area">
                                     <div class="client-review-cont wow fadeInUp" data-wow-delay=".7s">
-                                        <p class="desc">We believe in building lasting relationships with our clients through trust,
-                                            innovation,
-                                            and
-                                            exceptional service.</p>
+                                        <p class="desc">Siamo orgogliosi di annunciare la nuova partnership, per migliorare l’efficienza operativa e offrire un valore maggiore ai nostri clienti.</p>
                                         <div class="client-info-area">
-                                            <div class="client-info">
-                                                <h6 class="title">Esther Howard</h6>
-                                                <span class="designation">Co.Founder</span>
-                                            </div>
                                             <span class="quote-icon"><i class="tji-quote"></i></span>
                                         </div>
                                     </div>

@@ -6,7 +6,7 @@ require_once("../inc/mysqli.php");
 // $database = new DB();
 $titleseo = "aster";
 $descriptionseo = "descrizione";
-$image = $pathindex . "assets\images\favicon\Aster_Elettronica-Favicon.png";
+$image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
 ?>

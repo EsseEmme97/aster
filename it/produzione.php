@@ -6,7 +6,7 @@ require_once("../inc/mysqli.php");
 // $database = new DB();
 $titleseo = "aster";
 $descriptionseo = "descrizione";
-$image = $pathindex . "assets\images\favicon\Aster_Elettronica-Favicon.png";
+$image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
 ?>
@@ -50,7 +50,7 @@ $heightseo = "115";
 			<main id="primary" class="site-main">
 				<div class="space-for-header"></div>
 				<!-- start: Breadcrumb Section -->
-				<section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/bg/pheader-bg.webp">
+				<section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/stock/stock-1.jpg">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-12">
@@ -80,7 +80,7 @@ $heightseo = "115";
 						<div class="row">
 							<div class="col-lg-12">
 								<div class="sec-heading style-3 text-center">
-									<span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Our Solutions</span>
+									<span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Produzione e assemblaggio</span>
 									<h2 class="sec-title title-anim">Tailor Business Solutions for Corporates.</h2>
 								</div>
 							</div>
@@ -93,9 +93,9 @@ $heightseo = "115";
 										<div class="service-content-wrap">
 											<div class="service-title">
 												<div class="service-icon">
-													<i class="tji-service-1"></i>
+													<img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona aster">
 												</div>
-												<h4 class="title"><a href="service-details.html">Business Strategy Development</a></h4>
+												<span class="title">Fase di produzione & assemblaggio</span>
 											</div>
 											<div class="service-content">
 												<p class="desc">Through a combination of data-driven insights and innovative approaches, we work
@@ -108,9 +108,9 @@ $heightseo = "115";
 										<div class="service-content-wrap">
 											<div class="service-title">
 												<div class="service-icon">
-													<i class="tji-service-2"></i>
+													<img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona aster">
 												</div>
-												<h4 class="title"><a href="service-details.html">Customer Experience Solutions</a></h4>
+												<span class="title">Fase di produzione & assemblaggio</span>
 											</div>
 											<div class="service-content">
 												<p class="desc">Customer Experience Solutions are designed to enhance every touchpoint of your
@@ -123,9 +123,9 @@ $heightseo = "115";
 										<div class="service-content-wrap">
 											<div class="service-title">
 												<div class="service-icon">
-													<i class="tji-service-3"></i>
+													<img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona aster">
 												</div>
-												<h4 class="title"><a href="service-details.html">Sustainability and ESG Consulting</a></h4>
+												<span class="title">Fase di produzione & assemblaggio</span>
 											</div>
 											<div class="service-content">
 												<p class="desc">Provide tailored strategies that not only drive long-term value but also build
@@ -139,9 +139,9 @@ $heightseo = "115";
 										<div class="service-content-wrap">
 											<div class="service-title">
 												<div class="service-icon">
-													<i class="tji-service-4"></i>
+													<img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona aster">
 												</div>
-												<h4 class="title"><a href="service-details.html">Training and Development Programs</a></h4>
+												<span class="title">Fase di produzione & assemblaggio</span>
 											</div>
 											<div class="service-content">
 												<p class="desc">Training and Development Programs are designed to empower employees with the
@@ -169,31 +169,31 @@ $heightseo = "115";
 											<span class="odometer countup-number" data-count="93"></span>
 											<span class="count-plus">%</span>
 										</div>
-										<span class="count-text">Projects Completed.</span>
-										<span class="count-separator" data-bg-image="assets/images/shape/separator.svg"></span>
+										<span class="count-text">Progetti completati</span>
+										<span class="count-separator" data-bg-image="<?= $pathindex ?>assets/images/shape/separator.svg"></span>
 									</div>
 									<div class="countup-item">
 										<div class="inline-content">
 											<span class="odometer countup-number" data-count="20"></span>
-											<span class="count-plus">M</span>
+											<span class="count-plus">K</span>
 										</div>
-										<span class="count-text">Reach Worldwide</span>
-										<span class="count-separator" data-bg-image="assets/images/shape/separator.svg"></span>
+										<span class="count-text">Componenti realizzate</span>
+										<span class="count-separator" data-bg-image="<?= $pathindex ?>assets/images/shape/separator.svg"></span>
 									</div>
 									<div class="countup-item">
 										<div class="inline-content">
 											<span class="odometer countup-number" data-count="8.5"></span>
 											<span class="count-plus">X</span>
 										</div>
-										<span class="count-text">Faster Growth</span>
-										<span class="count-separator" data-bg-image="assets/images/shape/separator.svg"></span>
+										<span class="count-text">Velocità di crescita</span>
+										<span class="count-separator" data-bg-image="<?= $pathindex ?>assets/images/shape/separator.svg"></span>
 									</div>
 									<div class="countup-item">
 										<div class="inline-content">
 											<span class="odometer countup-number" data-count="100"></span>
 											<span class="count-plus">+</span>
 										</div>
-										<span class="count-text">Awards Archived</span>
+										<span class="count-text">Riconoscimenti ottenuti</span>
 									</div>
 								</div>
 							</div>
@@ -216,13 +216,13 @@ $heightseo = "115";
 								businesses
 								with the tools and strategies needed to stay ahead.</p>
 							<ul class="wow fadeInUp" data-wow-delay=".3s">
-								<li><span><i class="tji-check"></i></span>Embrace Innovation</li>
-								<li><span><i class="tji-check"></i></span>Customer-Centric Approach</li>
-								<li><span><i class="tji-check"></i></span>Effective Leadership</li>
-								<li><span><i class="tji-check"></i></span>Operational Efficiency</li>
-								<li><span><i class="tji-check"></i></span>Scalable Systems</li>
-								<li><span><i class="tji-check"></i></span>Resilience</li>
-								<li><span><i class="tji-check"></i></span>Continuous Learning</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Embrace Innovation</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Customer-Centric Approach</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Effective Leadership</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Operational Efficiency</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Scalable Systems</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Resilience</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Continuous Learning</li>
 							</ul>
 						</div>
 					</div>

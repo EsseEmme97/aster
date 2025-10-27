@@ -38,32 +38,20 @@ function setActiveLink($pages)
       <div class="row">
         <div class="col-12">
           <div class="header-top-content">
-            <p class="topbar-text"><i class="fa fa-phone"></i><a href="tel:+0445123123">+39 0445 123 123</a>
-            </p>
+            <div class="d-flex gap-4">
+              <p class="topbar-text"><i class="fa fa-phone me-2"></i><a href="tel:+0445123123">+39 0445 123 123</a>
+              </p>
+              <p class="topbar-text"><i class="fa fa-envelope me-2"></i><a href="mailto:info@aster.it">info@aster.it</a></p>
+              <p class="topbar-text"><i class="fa-solid fa-location-dot me-2"></i>Via Lungo Gogna, 45 · 36015 Schio (VI)</p>
+            </div>
             <div class="header-info">
               <div class="info-item">
-                <span><i class="tji-location"></i></span>
-                <a href="#">Find a Location!</a>
-              </div>
-              <div class="info-item">
-                <span><i class="tji-phone-3"></i></span>
-                <a href="tel:8089091313">808-909-1313</a>
-              </div>
-              <div class="info-item">
-                <div class="social-links style-2">
-                  <ul>
-                    <li><a href="https://www.facebook.com/" target="_blank"><i
-                          class="fa-brands fa-facebook-f"></i></a>
-                    </li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><i
-                          class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/" target="_blank"><i
-                          class="fa-brands fa-linkedin-in"></i></a>
-                    </li>
-                  </ul>
-                </div>
+                <ul class="d-flex">
+                  <li><a href="https://www.linkedin.com/company/aster-elettronica-s.r.l./" target="_blank"><img src="<?= $pathindex ?>assets/images/icon set/contatti/linkedin.svg" alt="icona linkedin "></a>
+                  </li>
+                  <li><a href="<?= $pathindex ?>" target="_blank"><img src="<?= $pathindex ?>assets/images/icon set/contatti/lingua.svg" alt="icona lingua"></a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -84,13 +72,15 @@ function setActiveLink($pages)
           <div class="menu-area d-none d-lg-inline-flex align-items-center">
             <nav id="mobile-menu" class="mainmenu">
               <ul>
-                <li class="<?= setActiveLink(["index.php"])?>"><a href="<?= $pathindex ?>">Home</a>
+                <li class="<?= setActiveLink(["index.php"]) ?>"><a href="<?= $pathindex ?>">Home</a>
                 </li>
                 <li class="<?= setActiveLink(["azienda.php"]) ?>"><a href="<?= $pathindex ?>azienda">Aster Elettronica</a>
                 </li>
                 <li class="<?= setActiveLink(["produzione.php"]) ?>"><a href="<?= $pathindex ?>produzione-e-assemblaggio">Produzione & Assemblaggio</a>
                 </li>
-                <li class="<?= setActiveLink(["news.php"]) ?>"><a href="<?= $pathindex ?>news">News</a>
+                <li class="<?= setActiveLink(["sviluppo.php"]) ?>"><a href="<?= $pathindex ?>ricerca-e-sviluppo">Ricerca & Sviluppo</a>
+                </li>
+                <li class="<?= setActiveLink(["news.php","news-dettaglio.php"]) ?>"><a href="<?= $pathindex ?>news">News</a>
                 </li>
                 <li class="<?= setActiveLink(["lavora-con-noi.php"]) ?>"><a href="<?= $pathindex ?>lavora-con-noi">Lavora con noi</a>
                 </li>

@@ -22,8 +22,8 @@
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="footer-widget widget-nav-menu wow fadeInUp" data-wow-delay=".5s">
-                        <a class="d-block no-color" href="tel:+390445508900">0445 508 900</a>
-                        <span class="d-block mt-2 no-color">0445 508 900</span>
+                        <a class="d-block no-color blu-on-hover" href="tel:+390445508900">T. +39 0445 508 900</a>
+                        <span class="d-block mt-2 no-color">F. +39 0445 533 343</span>
                         <a class="d-block mt-2 no-color" href="mailto:info@asterelettronica.com">info@asterelettronica.com</a>
                     </div>
                 </div>
@@ -42,11 +42,11 @@
             </div>
             <hr class="mt-5 text-white">
             <div class="d-flex justify-content-between">
-                <span>Privacy Policy | Cookie policy</span>
-                <span>By Carbonx</span>
+                <span><a class="no-color blu-on-hover" href="">Privacy Policy</a> | <a href="" class="no-color blu-on-hover">Cookie policy</a></span>
+                <span><a href="https://carbonx.it" class="no-color blu-on-hover">By Carbonx</a></span>
             </div>
             <hr>
-            <p><?= date("Y") ?> aster elettronica | capitale sociale xxx | Rea YYY</p>
+            <p>© <?= date("Y") ?> Aster Elettronica Srl • C.F. / P. IVA 00900430240 • REA VI211146 • Cap. Sociale: 66.000€ • Registro imprese: 19/02/1996</p>
         </div>
     </div>
 </footer>

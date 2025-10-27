@@ -6,7 +6,7 @@ require_once("../inc/mysqli.php");
 // $database = new DB();
 $titleseo = "aster";
 $descriptionseo = "descrizione";
-$image = $pathindex . "assets\images\favicon\Aster_Elettronica-Favicon.png";
+$image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
 ?>
@@ -70,7 +70,6 @@ $heightseo = "115";
                             </div>
                         </div>
                     </div>
-                    <div class="page-header-overlay" data-bg-image="assets/images/shape/pheader-overlay.webp"></div>
                 </section>
                 <!-- end: Breadcrumb Section -->
                 <!-- start: About Section -->
@@ -129,10 +128,10 @@ $heightseo = "115";
                                     </div>
                                     <div class="box-area style-2">
                                         <div class="progress-box wow fadeInUp" data-wow-delay=".3s">
-                                            <h4 class="title">Business Progress</h4>
+                                            <span class="title">Business Progress</span>
                                             <ul class="tj-progress-list">
                                                 <li>
-                                                    <h6 class="tj-progress-title">Revenue</h6>
+                                                    <span class="tj-progress-title">Revenue</span>
                                                     <div class="tj-progress">
                                                         <span class="tj-progress-percent">82%</span>
                                                         <div class="tj-progress-bar" data-percent="82">
@@ -140,7 +139,7 @@ $heightseo = "115";
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <h6 class="tj-progress-title">Satisfaction</h6>
+                                                    <span class="tj-progress-title">Satisfaction</span>
                                                     <div class="tj-progress">
                                                         <span class="tj-progress-percent">90%</span>
                                                         <div class="tj-progress-bar" data-percent="90">
@@ -164,7 +163,7 @@ $heightseo = "115";
                                 </div>
                                 <div class="about-bottom-area">
                                     <div class="mission-vision-box wow fadeInLeft" data-wow-delay=".5s">
-                                        <h4 class="title">Our Mission</h4>
+                                        <span class="title">Our Mission</span>
                                         <p class="desc">our mission is empower businesses through innovate best solution, exceptional
                                             service.
                                         </p>
@@ -175,7 +174,7 @@ $heightseo = "115";
                                         </ul>
                                     </div>
                                     <div class="mission-vision-box wow fadeInRight" data-wow-delay=".5s">
-                                        <h4 class="title">Our Vision</h4>
+                                        <span class="title">Our Vision</span>
                                         <p class="desc">Our vision is to become a global leader in providing transformative business
                                             solutions.
                                         </p>
@@ -239,7 +238,7 @@ $heightseo = "115";
                                             </div>
                                         </div>
                                         <div class="team-content">
-                                            <h4 class="title"><a href="team-details.html">Eade Marren</a></h4>
+                                            <span class="title"><a href="team-details.html">Eade Marren</a></span>
                                             <span class="designation">Chief Executive</span>
                                             <a class="mail-at" href="mailto:info@bexon.com"><i class="tji-at"></i></a>
                                         </div>
@@ -256,8 +255,8 @@ $heightseo = "115";
                         <div class="row">
                             <div class="col-12">
                                 <div class="h6-client-title-wrapper">
-                                    <h6 class="h6-client-title
-              ">we’re proud to partner with best-in-class clients</h6>
+                                    <span class="h6-client-title
+              ">we’re proud to partner with best-in-class clients</span>
 
                                 </div>
                             </div>
@@ -278,91 +277,31 @@ $heightseo = "115";
                         <div class="row">
                             <div class="col-12">
                                 <div class="h6-project-inner wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class=" project-item h6-project-item ">
-                                        <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
-                                            
-                                        </div>
-                                    </div>
-                                    <div class=" project-item h6-project-item ">
-                                        <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
-                                            <div class="project-content">
-                                                <span class="categories"><a href="portfolio-details.html">Empower</a></span>
-                                                <div class="project-text">
-                                                    <h3 class="title"><a href="portfolio-details.html">Digital Marketing Campaign</a></h3>
-                                                    <a class="project-btn" href="portfolio-details.html">
-                                                        <i class="tji-arrow-right-long"></i>
-                                                    </a>
+                                    <? for ($i = 0; $i <8; $i++): ?>
+                                        <div class=" project-item h6-project-item ">
+                                            <div class="project-item-inner h6-project-item-inner"
+                                                data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
+                                                <div class="project-content">
+                                                    <span class="categories"><a href="portfolio-details.html">Empower</a></span>
+                                                    <div class="project-text">
+                                                        <span class="title"><a href="portfolio-details.html">Digital Marketing Campaign</a></span>
+                                                        <a class="project-btn" href="portfolio-details.html">
+                                                            <i class="tji-arrow-right-long"></i>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class=" project-item h6-project-item active">
-                                        <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
-                                            <div class="project-content">
-                                                <span class="categories"><a href="portfolio-details.html">Support</a></span>
-                                                <div class="project-text">
-                                                    <h3 class="title"><a href="portfolio-details.html">Interactive Learning Platform</a></h3>
-                                                    <a class="project-btn" href="portfolio-details.html">
-                                                        <i class="tji-arrow-right-long"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class=" project-item h6-project-item ">
-                                        <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg"">
-                                            <div class="project-content">
-                                                <span class="categories"><a href="portfolio-details.html">Business</a></span>
-                                                <div class="project-text">
-                                                    <h3 class="title"><a href="portfolio-details.html">Environmental Impact Dashboard</a></h3>
-                                                    <a class="project-btn" href="portfolio-details.html">
-                                                        <i class="tji-arrow-right-long"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class=" project-item h6-project-item ">
-                                        <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
-                                            <div class="project-content">
-                                                <span class="categories"><a href="portfolio-details.html">Connect</a></span>
-                                                <div class="project-text">
-                                                    <h3 class="title"><a href="portfolio-details.html">Event Management Platform</a></h3>
-                                                    <a class="project-btn" href="portfolio-details.html">
-                                                        <i class="tji-arrow-right-long"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class=" project-item h6-project-item ">
-                                        <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
-                                            <div class="project-content">
-                                                <span class="categories"><a href="portfolio-details.html">Empower</a></span>
-                                                <div class="project-text">
-                                                    <h3 class="title"><a href="portfolio-details.html">Digital Marketing Campaign</a></h3>
-                                                    <a class="project-btn" href="portfolio-details.html">
-                                                        <i class="tji-arrow-right-long"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <? endfor; ?>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="bg-shape-1">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="pattern di sfondo">
                     </div>
                     <div class="bg-shape-2">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="pattern di sfondo">
                     </div>
                 </section>
                 <!-- end: Project Section -->

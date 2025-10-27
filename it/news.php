@@ -6,7 +6,7 @@ require_once("../inc/mysqli.php");
 // $database = new DB();
 $titleseo = "aster";
 $descriptionseo = "descrizione";
-$image = $pathindex . "assets\images\favicon\Aster_Elettronica-Favicon.png";
+$image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
 ?>
@@ -82,22 +82,22 @@ $heightseo = "115";
 									<? for ($i = 0; $i < 4; $i++): ?>
 										<article class="blog-item wow fadeInUp" data-wow-delay=".1s">
 											<div class="blog-thumb">
-												<a href="blog-details.html"><img src="<?= $pathindex ?>/assets/images/stock/stock-3.jpg" alt="immagine news"></a>
+												<a href="<?= "$pathindex"."news/".($i+1) ?>"><img src="<?= $pathindex ?>/assets/images/stock/stock-3.jpg" alt="immagine news"></a>
 												<div class="blog-date">
 													<span class="date">28</span>
 													<span class="month">Feb</span>
 												</div>
 											</div>
 											<div class="blog-content">
-												<h3 class="title"><a href="blog-details.html">Unlocking Business Potential: Innovative Solutions
+												<span class="title"><a href="blog-details.html">Unlocking Business Potential: Innovative Solutions
 														for
 														Unmatched Success</a>
-												</h3>
+												</span>
 												<p class="desc">In today’s fast-paced business environment, the key to staying ahead of the
 													competition lies in embracing innovation. At [Company Name], we specialize in unlocking your
 													business’s full potential by providing tailored, forward-thinking solutions that drive growth,
 													efficiency, and lasting success.</p>
-												<a class="text-btn" href="blog-details.html">
+												<a class="text-btn" href="<?= "$pathindex"."news/".($i+1) ?>">
 													<span class="btn-text"><span>Scopri di più</span></span>
 													<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
 												</a>

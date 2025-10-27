@@ -6,7 +6,7 @@ require_once("../inc/mysqli.php");
 // $database = new DB();
 $titleseo = "aster";
 $descriptionseo = "descrizione";
-$image = $pathindex . "assets\images\favicon\Aster_Elettronica-Favicon.png";
+$image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
 $uri = $_SERVER['REQUEST_URI'];
@@ -102,7 +102,7 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 											new market opportunities, our tailored solutions are designed to empower your business to achieve
 											unparalleled success. With a focus on sustainability, scalability, and adaptability, we help your
 											business.</p>
-										<h3 class="wow fadeInUp" data-wow-delay=".3s">Kye lessons of Business Potential</h3>
+										<span class="wow fadeInUp h3 d-inline-block" data-wow-delay=".3s">Kye lessons of Business Potential</span>
 										<p class="wow fadeInUp" data-wow-delay=".3s">Unlocking your business potential requires more than
 											just
 											vision and ambition—it involves strategic
@@ -131,7 +131,7 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 											employees, customers, and stakeholders is
 											essential in steering the business toward achieving its full potential. By applying these lessons,
 											businesses can unlock new opportunities, overcome obstacles, and reach new levels of success.</p>
-										<h3 class="wow fadeInUp" data-wow-delay=".3s">Conclusions</h3>
+										<span class="wow fadeInUp h3 d-inline-block" data-wow-delay=".3s">Conclusions</span>
 										<p class="wow fadeInUp" data-wow-delay=".3s">Unlocking your business’s full potential is a journey
 											that
 											requires vision, innovation, and strategic
@@ -165,16 +165,16 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 							<div class="col-lg-4">
 								<div class="tj-main-sidebar slidebar-stickiy">
 									<div class="tj-sidebar-widget tj-recent-posts wow fadeInUp" data-wow-delay=".3s">
-										<h4 class="widget-title">Related post</h4>
+										<span class="widget-title">Related post</span>
 										<ul>
 											<li>
 												<div class="post-thumb">
 													<a href="blog-details.html"> <img src="<?= $pathindex ?>assets/images/blog/post-1.webp" alt="Blog"></a>
 												</div>
 												<div class="post-content">
-													<h6 class="post-title">
+													<span class="post-title">
 														<a href="blog-details.html">How to Stay Ahead of the Business Curve</a>
-													</h6>
+													</span>
 													<div class="blog-meta">
 														<ul>
 															<li>04 SEP 2025</li>
@@ -187,9 +187,9 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 													<a href="blog-details.html"> <img src="<?= $pathindex ?>assets/images/blog/post-2.webp" alt="Blog"></a>
 												</div>
 												<div class="post-content">
-													<h6 class="post-title">
+													<span class="post-title">
 														<a href="blog-details.html">How Digital Tools Shaping the Workforce</a>
-													</h6>
+													</span>
 													<div class="blog-meta">
 														<ul>
 															<li>02 JAN 2025</li>
@@ -202,9 +202,9 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 													<a href="blog-details.html"> <img src="<?= $pathindex ?>assets/images/blog/post-3.webp" alt="Blog"></a>
 												</div>
 												<div class="post-content">
-													<h6 class="post-title">
+													<span class="post-title">
 														<a href="blog-details.html">How to Sustainability into your Strategy</a>
-													</h6>
+													</span>
 													<div class="blog-meta">
 														<ul>
 															<li>24 FEB 2025</li>

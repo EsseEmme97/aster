@@ -203,6 +203,26 @@ START: Theme Default CSS
   background-color: var(--carta-da-zucchero) !important;
 }
 
+.color-text-body{
+  color: var(--tj-color-text-body-2) !important;
+}
+
+.border-primary-color{
+  border: 1px solid var(--blu-primario);
+}
+
+.border-radius-12px{
+  border-radius:12px!important;
+}
+
+.file-upload{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  opacity:0;
+}
+
 .no-color{
   color:inherit !important;
 }
@@ -302,25 +322,25 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   }
 }
 
-h3 {
+h3, .h3 {
   font-size: 21px;
   line-height: 1.25;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  h3 {
+  h3, .h3 {
     font-size: 28px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 575px) {
-  h3 {
+  h3, .h3 {
     font-size: 25px;
   }
 }
 
-h4 {
+h4,.h4 {
   font-size: 16px;
   line-height: 1.333;
 }
@@ -338,12 +358,12 @@ h4 {
   }
 }
 
-h5 {
+h5, .h5 {
   font-size: 15px;
   line-height: 1.4;
 }
 
-h6 {
+h6, .h6 {
   font-size: 15px;
   line-height: 1.444;
 }
@@ -412,6 +432,11 @@ a:hover {
   text-decoration: none;
 }
 
+.blu-on-hover:hover{
+  color: var(--blu-primario)!important;
+  transition: color 0.3s linear;
+}
+
 a,
 button {
   color: var(--tj-color-theme-primary);
@@ -442,7 +467,7 @@ textarea {
   height: auto;
   width: 100%;
   font-size: var(--tj-fs-body);
-  border: 1px solid var(--tj-color-border-1);
+  border-bottom: 1px solid black!important;
   color: var(--tj-color-text-body);
   padding: 10px 15px;
   -webkit-box-shadow: 0 0 0;
@@ -1363,7 +1388,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: inline-flex;
 }
 
-.header-top-content .topbar-text a::after {
+/* .header-top-content .topbar-text a::after {
   content: "\e913";
   font-size: 21px;
   line-height: 1.2;
@@ -1373,7 +1398,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: -ms-inline-flexbox;
   display: inline-flex;
   color: var(--tj-color-common-white);
-}
+} */
 
 .header-top-content .topbar-text a:hover {
   opacity: 0.7;
@@ -1429,8 +1454,17 @@ only screen and (min-width: 576px) and (max-width: 767px),
   gap: 8px;
   position: relative;
   padding: 0 15px;
-  -webkit-border-start: 1px dashed rgba(255, 255, 255, 0.15);
-  border-inline-start: 1px dashed rgba(255, 255, 255, 0.15);
+  border-inline-start: 1px solid white;
+}
+
+.info-item img{
+  width:16px;
+  height:16px;
+  display:inline-block;
+}
+
+.info-item img:last-child{
+  margin-left: 16px;
 }
 
 .header-top-content .header-info .info-item:last-child {
@@ -1466,11 +1500,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
   }
 }
 
-.header-top-content .header-info .social-links ul li a {
+/* .header-top-content .header-info .social-links ul li a {
   width: 22px;
   height: 22px;
   font-size: 14px;
-}
+} */
 
 @media only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 575px) {
@@ -8546,7 +8580,7 @@ START: Heading CSS
 }
 
 .sec-heading .sec-title span {
-  color: var(--blu-primario);
+  color: var(--blu-primario)!important;
 }
 
 .sec-heading .sub-title {
@@ -10960,7 +10994,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .countup-item.style-2 .count-inner {
-  padding-top: 90px;
+  padding-top: 50px;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px),
@@ -10993,7 +11027,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: var(--tj-color-grey-1);
+  /* background: var(--tj-color-grey-1); */
   font-size: 48px;
   color: var(--tj-color-theme-primary);
   display: -webkit-inline-box;
@@ -11183,9 +11217,9 @@ START: Services CSS
   font-size: 70px;
   width: 80px;
   height: 80px;
-  background: linear-gradient(-45deg, rgba(30, 138, 138, 0.3) 0%, rgba(30, 138, 138, 0) 50%, rgba(30, 138, 138, 0.3) 100%);
+  /* background: linear-gradient(-45deg, rgba(30, 138, 138, 0.3) 0%, rgba(30, 138, 138, 0) 50%, rgba(30, 138, 138, 0.3) 100%); */
   border-radius: 50%;
-  border: 1px solid rgba(30, 138, 138, 0.15);
+  /* border: 1px solid rgba(30, 138, 138, 0.15); */
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -11258,7 +11292,7 @@ START: Services CSS
 
 .service-item.style-1::before {
   content: "";
-  background: var(--blu-secondario);
+  background:none;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -11307,6 +11341,11 @@ START: Services CSS
   top: 35px;
   inset-inline-start: 30px;
   z-index: 2;
+}
+
+.service-icon img{
+  width:64px;
+  height:64px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
@@ -15117,6 +15156,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-form .form-input .nice-select,
 .contact-form .form-input input[type=tel],
 .contact-form .form-input input[type=text],
+.contact-form .form-input input[type=file],
 .contact-form .form-input input[type=email] {
   background-color: transparent;
   color: var(--tj-color-text-body-3);
@@ -15383,6 +15423,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-form.style-2 .form-input textarea,
 .contact-form.style-2 .form-input input[type=tel],
 .contact-form.style-2 .form-input input[type=text],
+.contact-form.style-2 .form-input input[type=file],
 .contact-form.style-2 .form-input input[type=email] {
   color: var(--tj-color-text-body-2);
   padding: 11px 0;
@@ -15392,6 +15433,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-form.style-2 .form-input textarea::-webkit-input-placeholder,
 .contact-form.style-2 .form-input input[type=tel]::-webkit-input-placeholder,
 .contact-form.style-2 .form-input input[type=text]::-webkit-input-placeholder,
+.contact-form.style-2 .form-input input[type=file]::-webkit-input-placeholder,
 .contact-form.style-2 .form-input input[type=email]::-webkit-input-placeholder {
   color: var(--tj-color-text-body-2);
   -webkit-transition: all 0.3s;
@@ -15401,6 +15443,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-form.style-2 .form-input textarea::-moz-placeholder,
 .contact-form.style-2 .form-input input[type=tel]::-moz-placeholder,
 .contact-form.style-2 .form-input input[type=text]::-moz-placeholder,
+.contact-form.style-2 .form-input input[type=file]::-moz-placeholder,
 .contact-form.style-2 .form-input input[type=email]::-moz-placeholder {
   color: var(--tj-color-text-body-2);
   -moz-transition: all 0.3s;
@@ -15455,6 +15498,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-form.style-2 .form-input textarea::placeholder,
 .contact-form.style-2 .form-input input[type=tel]::placeholder,
 .contact-form.style-2 .form-input input[type=text]::placeholder,
+.contact-form.style-2 .form-input input[type=file]::placeholder,
 .contact-form.style-2 .form-input input[type=email]::placeholder {
   color: var(--tj-color-text-body-2);
   -webkit-transition: all 0.3s;
@@ -15464,6 +15508,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-form.style-2 .form-input textarea:focus,
 .contact-form.style-2 .form-input input[type=tel]:focus,
 .contact-form.style-2 .form-input input[type=text]:focus,
+.contact-form.style-2 .form-input input[type=file]:focus,
 .contact-form.style-2 .form-input input[type=email]:focus {
   border-color: rgb(255, 255, 255);
 }
@@ -17316,7 +17361,7 @@ START: Breadcrumb CSS
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: var(--tj-color-theme-dark);
+  /* background-color: var(--tj-color-theme-dark); */
   background-blend-mode: luminosity;
   border-radius: 12px;
   position: relative;
@@ -17587,7 +17632,7 @@ START: Blog Details CSS
   width: 100%;
 }
 
-.post-details-wrapper .blog-text h3 {
+.post-details-wrapper .blog-text h3, .post-details-wrapper .blog-text span.h3 {
   margin-bottom: 25px;
 }
 
@@ -17634,7 +17679,7 @@ START: Blog Details CSS
   line-height: 1;
   margin-top: 3px;
   color: var(--tj-color-common-white);
-  background: var(--tj-color-theme-primary);
+  /* background: var(--tj-color-theme-primary); */
   border-radius: 50%;
 }
 

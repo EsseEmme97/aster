@@ -6,7 +6,7 @@ require_once("../inc/mysqli.php");
 // $database = new DB();
 $titleseo = "aster";
 $descriptionseo = "descrizione";
-$image = $pathindex . "assets\images\favicon\Aster_Elettronica-Favicon.png";
+$image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
 ?>
@@ -208,17 +208,17 @@ $heightseo = "115";
                                         <div class="row wow fadeInUp" data-wow-delay=".5s">
                                             <div class="col-sm-6">
                                                 <div class="form-input">
-                                                    <input type="text" name="cfName2" placeholder="Full Name *">
+                                                    <input type="text" name="nome" placeholder="nome e cognome">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
                                                 <div class="form-input">
-                                                    <input type="email" name="cfEmail2" placeholder="Email Address *">
+                                                    <input type="email" name="cfEmail2" placeholder="indirizzo mail">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
                                                 <div class="form-input">
-                                                    <input type="tel" name="cfPhone2" placeholder="Phone number *">
+                                                    <input type="tel" name="telefono" placeholder="numero di telefono">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
@@ -231,7 +231,7 @@ $heightseo = "115";
                                                                 <option value="2">Customer Experience</option>
                                                                 <option value="3">Sustainability and ESG</option>
                                                                 <option value="4">Training and Development</option>
-                                                                <option value="5">IT Support & Maintenance</option>
+                                                                <option value="5">IT Support & Maintenance</option>gggggg
                                                                 <option value="6">Marketing Strategy</option>
                                                             </select>
                                                         </div>
@@ -240,12 +240,21 @@ $heightseo = "115";
                                             </div>
                                             <div class="col-sm-12">
                                                 <div class="form-input message-input">
-                                                    <textarea name="cfMessage2" id="message" placeholder="Type message *"></textarea>
+                                                    <textarea name="messaggio" id="message" placeholder="Invia messaggio"></textarea>
                                                 </div>
                                             </div>
-                                            <div class="submit-btn">
+                                            <div class="col-sm-12">
+                                                <div class="form-input position-relative border-bottom border-dark py-4">
+                                                    <input class="file-upload" type="file" name="cv" placeholder="Allega il tuo CV">
+                                                    <div class="d-flex align-items-center gap-2">
+                                                       <i class="fa-solid fa-file fa-xl color-text-body"></i>
+                                                        <span id="inputLabel" class="color-text-body">Allega il tuo cv</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="submit-btn mt-5">
                                                 <button class="tj-primary-btn" type="submit">
-                                                    <span class="btn-text"><span>Send Message</span></span>
+                                                    <span class="btn-text"><span>Invia candidatura</span></span>
                                                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                                 </button>
                                             </div>
@@ -311,6 +320,18 @@ $heightseo = "115";
     <script src="<?= $pathindex ?>assets/js/wow.min.js"></script>
     <script src="<?= $pathindex ?>assets/js/meanmenu.js"></script>
     <script src="<?= $pathindex ?>assets/js/main.js"></script>
+    <script>
+        const inputFile = document.querySelector('input[type="file"]');
+        const inputLabel = document.getElementById('inputLabel');
+
+        inputFile.addEventListener('change', function() {
+            if (this.files && this.files.length > 0) {
+                inputLabel.textContent = this.files[0].name;
+            } else {
+                inputLabel.textContent = 'Allega il tuo cv';
+            }
+        });
+    </script>
 </body>
 
 </html>
