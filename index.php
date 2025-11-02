@@ -303,7 +303,7 @@ $heightseo = "115";
                                         </p>
                                     </div>
                                 </div>
-                                <div class="wow fadeInUp mt-5" data-wow-delay=".3s">
+                                <div class="wow fadeInUp my-5 mb-lg-0" data-wow-delay=".3s">
                                     <a class="text-btn" href="<?= $pathindex ?>about.html">
                                         <span class="btn-text"><span>Scopri di più</span></span>
                                         <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>

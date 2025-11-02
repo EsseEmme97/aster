@@ -2594,6 +2594,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   -webkit-margin-start: -25px;
   margin-inline-start: -25px;
   padding: 15px 0;
+  transform: translateX(-25%)!important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -5061,7 +5062,7 @@ START: Preloader CSS
   inset-inline-start: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--blu-primario);
+  background-color: var(--notte-fonda);
   z-index: 99999999;
   opacity: 1;
   -webkit-animation: tj-fade-out 1s forwards;
@@ -5162,7 +5163,7 @@ START: Preloader CSS
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #00ffc2;
+  background-color: #fff;
   bottom: 0;
   border-radius: 50%;
   -webkit-filter: blur(12px);
@@ -5213,8 +5214,8 @@ START: Preloader CSS
   transform: translate(-50%, 50%);
   border-radius: 50%;
   background-color: rgba(0, 255, 194, 0.1);
-  -webkit-box-shadow: 0 0 20px 0 #20e7b7;
-  box-shadow: 0 0 20px 0 #20e7b7;
+  -webkit-box-shadow: 0 0 20px 0 #fff;
+  box-shadow: 0 0 20px 0 #fff;
   -webkit-filter: blur(10px);
   filter: blur(10px);
 }
@@ -10437,7 +10438,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 @media only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 575px) {
   .client-logo {
-    width: 190px;
+    width: 80px;
     height: 70px;
     padding: 20px;
   }
@@ -17461,7 +17462,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.8;
+  background-color: #000C4E;
+  opacity: 0.5;
   position: absolute;
   top: 0;
   inset-inline-start: 0;

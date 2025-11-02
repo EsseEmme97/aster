@@ -72,7 +72,7 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 							</div>
 						</div>
 					</div>
-					<div class="page-header-overlay" data-bg-image="assets/images/shape/pheader-overlay.webp"></div>
+					<div class="page-header-overlay"></div>
 				</section>
 				<!-- end: Breadcrumb Section -->
 

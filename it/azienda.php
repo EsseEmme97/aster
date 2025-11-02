@@ -70,6 +70,7 @@ $heightseo = "115";
                             </div>
                         </div>
                     </div>
+                    <div class="page-header-overlay"></div>
                 </section>
                 <!-- end: Breadcrumb Section -->
                 <!-- start: About Section -->
@@ -185,7 +186,7 @@ $heightseo = "115";
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="wow fadeInUp mt-5" data-wow-delay=".3s">
+                                <div class="wow fadeInUp my-5 mb-lg-0" data-wow-delay=".3s">
                                     <a class="text-btn" href="about.html">
                                         <span class="btn-text"><span>Scopri di più</span></span>
                                         <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
@@ -277,7 +278,7 @@ $heightseo = "115";
                         <div class="row">
                             <div class="col-12">
                                 <div class="h6-project-inner wow fadeInUp" data-wow-delay="0.6s">
-                                    <? for ($i = 0; $i <8; $i++): ?>
+                                    <? for ($i = 0; $i < 8; $i++): ?>
                                         <div class=" project-item h6-project-item ">
                                             <div class="project-item-inner h6-project-item-inner"
                                                 data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">

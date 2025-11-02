@@ -121,18 +121,18 @@ function setActiveLink($pages)
                         <span class="mega-menu-service-title">Su di noi</span>
                       </a>
                     </li>
-                    <li>
-                      <a class="mega-menu-service-single text-center" href="service-details.html">
-                        <span class="mega-menu-service-title">settori</span>
+                    <li class="<?= setActiveLink(["settori.php"]) ?>">
+                      <a class="mega-menu-service-single text-center" href="<?= $pathindex ?>settori">
+                        <span class="mega-menu-service-title">Settori</span>
                       </a>
                     </li>
-                    <li>
-                      <a class="mega-menu-service-single text-center" href="service-details.html">
+                    <li class="<?= setActiveLink(["servizi.php"]) ?>">
+                      <a class="mega-menu-service-single text-center" href="<?= $pathindex ?>servizi">
                         <span class="mega-menu-service-title">Servizi</span>
                       </a>
                     </li>
-                    <li>
-                      <a class="mega-menu-service-single text-center" href="service-details.html">
+                    <li class="<?= setActiveLink(["sviluppo.php"]) ?>">
+                      <a class="mega-menu-service-single text-center" href="<?= $pathindex ?>ricerca-e-sviluppo">
                         <span class="mega-menu-service-title">Ricerca & sviluppo</span>
                       </a>
                     </li>

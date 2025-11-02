@@ -29,10 +29,10 @@
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="row">
-                        <div class="col-xl-4 d-flex align-items-center justify-content-end">
+                        <div class="col-xl-4 col-6 d-flex align-items-center justify-content-end order-2 mt-5 mt-lg-0">
                             <img src="<?= $pathindex ?>assets\images\award\award-1.png" alt="immagine premio">
                         </div>
-                        <div class="col-xl-8 footer-widget widget-nav-menu wow fadeInUp px-2" data-wow-delay=".3s">
+                        <div class="col-xl-8 col-6 footer-widget widget-nav-menu wow fadeInUp px-2 order-1" data-wow-delay=".3s">
                             <span class="d-block">Siamo certificati</span>
                             <span class="d-block mt-2">ISO 9001:2015</span>
                             <span class="d-block mt-2">da Ottobre 2021</span>

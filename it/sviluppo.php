@@ -70,7 +70,7 @@ $heightseo = "115";
 							</div>
 						</div>
 					</div>
-					<div class="page-header-overlay" data-bg-image="assets/images/shape/pheader-overlay.webp"></div>
+					<div class="page-header-overlay"></div>
 				</section>
 				<!-- end: Breadcrumb Section -->
 				<!-- start: About Section -->

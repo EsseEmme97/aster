@@ -13,6 +13,8 @@ RewriteRule ^news/([0-9]+)$ it/news-dettaglio.php [L]
 RewriteRule ^lavora-con-noi$ it/lavora-con-noi.php [L]
 RewriteRule ^contatti$ it/contatti.php [L]
 RewriteRule ^ricerca-e-sviluppo$ it/sviluppo.php [L]
+RewriteRule ^settori$ it/settori.php [L]
+RewriteRule ^servizi$ it/servizi.php [L]
 
 
 RewriteCond %{REQUEST_FILENAME} !-f

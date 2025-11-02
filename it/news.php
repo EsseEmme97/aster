@@ -70,7 +70,7 @@ $heightseo = "115";
 							</div>
 						</div>
 					</div>
-					<div class="page-header-overlay" data-bg-image="assets/images/shape/pheader-overlay.webp"></div>
+					<div class="page-header-overlay"></div>
 				</section>
 				<!-- end: Breadcrumb Section -->
 				<!-- start: Blog Section -->
@@ -89,7 +89,7 @@ $heightseo = "115";
 												</div>
 											</div>
 											<div class="blog-content">
-												<span class="title"><a href="blog-details.html">Unlocking Business Potential: Innovative Solutions
+												<span class="title"><a href="<?= $pathindex . "news/" . ($i+1) ?>">Unlocking Business Potential: Innovative Solutions
 														for
 														Unmatched Success</a>
 												</span>
