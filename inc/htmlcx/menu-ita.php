@@ -79,10 +79,10 @@ function setActiveLink($pages)
         <div class="col-12">
           <div class="header-top-content">
             <div class="d-flex justify-content-between flex-grow-1 flex-lg-grow-0 justify-content-lg-start gap-4">
-              <p class="topbar-text"><i class="fa fa-phone me-2"></i><a href="tel:+0445123123">+39 0445 123 123</a>
+              <p class="topbar-text border-end pe-3 my-3"><i class="fa fa-phone me-2"></i><a href="tel:+390445508900">0445 508 900</a>
               </p>
-              <p class="topbar-text"><i class="fa fa-envelope me-2"></i><a href="mailto:info@aster.it">info@aster.it</a></p>
-              <p class="topbar-text d-none d-lg-block"><i class="fa-solid fa-location-dot me-2"></i>Via Lungo Gogna, 45 · 36015 Schio (VI)</p>
+              <p class="topbar-text border-end pe-3 my-3"><i class="fa fa-envelope me-2"></i><a href="mailto:info@aster.it">info@aster.it</a></p>
+              <p class="topbar-text d-none d-lg-block pe-3 my-3"><i class="fa-solid fa-location-dot me-2"></i><a href="https://maps.app.goo.gl/vkxJbdYgJ8vTQbkB8">Via Lungo Gogna, 45 · 36015 Schio (VI)</a></p>
             </div>
             <div class="header-info">
               <div class="info-item">
@@ -109,7 +109,7 @@ function setActiveLink($pages)
           </div>
 
           <!-- navigation -->
-          <div class="menu-area d-none d-lg-inline-flex align-items-center">
+          <div class="menu-area d-none d-lg-inline-flex align-items-center mx-auto">
             <nav id="mobile-menu" class="mainmenu">
               <ul>
                 <li class="<?= setActiveLink(["index.php"]) ?>"><a href="<?= $pathindex ?>">Home</a>
