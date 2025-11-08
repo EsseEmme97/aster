@@ -15,9 +15,9 @@
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="footer-widget widget-nav-menu wow fadeInUp" data-wow-delay=".3s">
-                        <span class="d-block fw-bold">Aster Elettronica</span>
-                        <span class="d-block mt-2">Via Lungo Gogna 45</span>
-                        <span class="d-block mt-2">Schio (VI)</span>
+                        <span class="d-block fw-bold">Aster Elettronica srl</span>
+                        <span class="d-block mt-2">Via Lungo Gogna, 45</span>
+                        <span class="d-block mt-2">36015 Schio (VI)</span>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
@@ -30,9 +30,9 @@
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="row">
                         <div class="col-xl-4 col-6 d-flex align-items-center justify-content-end order-2 mt-5 mt-lg-0">
-                            <img src="<?= $pathindex ?>assets\images\award\award-1.png" alt="immagine premio">
+                            <img src="<?= $pathindex ?>assets\images\aster-elettronica-iso-9001.webp" alt="immagine premio">
                         </div>
-                        <div class="col-xl-8 col-6 footer-widget widget-nav-menu wow fadeInUp px-2 order-1" data-wow-delay=".3s">
+                        <div class="col-xl-8 col-6 footer-widget widget-nav-menu wow fadeInUp px-2 order-1 order-lg-2" data-wow-delay=".3s">
                             <span class="d-block">Siamo certificati</span>
                             <span class="d-block mt-2">ISO 9001:2015</span>
                             <span class="d-block mt-2">da Ottobre 2021</span>
@@ -42,7 +42,7 @@
             </div>
             <hr class="mt-5 text-white">
             <div class="d-flex justify-content-between">
-                <span><a class="no-color blu-on-hover" href="">Privacy Policy</a> | <a href="" class="no-color blu-on-hover">Cookie policy</a></span>
+                <span><a class="no-color blu-on-hover" href="">Privacy Policy</a> | <a href="<?= $pathindex ?>" class="no-color blu-on-hover">Cookie Policy</a> e <a class="no-color blu-on-hover" href="<?= $pathindex ?>">Preferenze</a></span>
                 <span><a href="https://carbonx.it" class="no-color blu-on-hover">By Carbonx</a></span>
             </div>
             <hr>

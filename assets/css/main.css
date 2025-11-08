@@ -211,6 +211,12 @@ START: Theme Default CSS
   border: 1px solid var(--blu-primario);
 }
 
+.border-header{
+  border-bottom: 1px solid var(--blu-primario);
+  border-left: 1px solid var(--blu-primario);
+  border-right: 1px solid var(--blu-primario);
+}
+
 .border-radius-12px{
   border-radius:12px!important;
 }
@@ -763,14 +769,14 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .space-for-header {
-  padding-top: 170px;
+  padding-top: 180px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 575px) {
   .space-for-header {
-    padding-top: 160px;
+    padding-top: 170px;
   }
 }
 
@@ -1375,7 +1381,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   gap: 5px;
 }
 
-.header-top-content .topbar-text i {
+.header-top-content i {
   color: var(--tj-color-common-white);
   font-size: 20px;
 }
@@ -1458,8 +1464,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .info-item img{
-  width:16px;
-  height:16px;
+  width:20px;
+  height:20px;
   display:inline-block;
 }
 
@@ -1488,9 +1494,16 @@ only screen and (min-width: 576px) and (max-width: 767px),
   color: var(--tj-color-common-white);
 }
 
-.header-top-content .header-info .info-item a {
+.header-top-content .header-info .info-item a i {
   color: var(--tj-color-common-white);
+  transition:color 0.3s linear;
 }
+
+.header-top-content .header-info .info-item a:hover i {
+  color: var(--blu-primario);
+}
+
+
 
 @media only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 575px) {
@@ -5163,7 +5176,7 @@ START: Preloader CSS
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #fff;
+  background-color: #ffff;
   bottom: 0;
   border-radius: 50%;
   -webkit-filter: blur(12px);
@@ -8937,7 +8950,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   gap: 8px;
   color: var(--blu-primario);
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.3;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   font-weight: var(--tj-fw-bold);
@@ -8954,7 +8967,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .banner-content .banner-title {
   color: var(--tj-color-common-white);
-  line-height: 1.135;
+  line-height: 1.29;
   margin-bottom: 15px;
 }
 
@@ -9003,8 +9016,8 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   display: inline-flex;
   line-height: 1;
   padding: 10px 30px 15px 0;
-  -webkit-border-end: 1px dashed var(--tj-color-border-2);
-  border-inline-end: 1px dashed var(--tj-color-border-2);
+  -webkit-border-end: 1px dashed var(--tj-color-common-white);
+  border-inline-end: 1px dashed var(--tj-color-common-white);
 }
 
 .banner-content .banner-link span {
@@ -9053,8 +9066,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .banner-content .banner-desc-area {
   max-width: 475px;
   width: 100%;
-  border-top: 1px dashed var(--tj-color-border-2);
-  border-bottom: 1px dashed var(--tj-color-border-2);
+  border-top: 1px dashed var(--tj-color-common-white);
+  border-bottom: 1px dashed var(--tj-color-common-white);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9105,7 +9118,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .banner-content .banner-desc {
-  color: var(--tj-color-text-body-2);
+  color: var(--tj-color-common-white);
   font-size: 18px;
   line-height: 1.444;
   max-width: 517px;
@@ -14471,8 +14484,12 @@ START: CTA CSS
 }
 
 .cta-area {
-  background-color: var(--blu-secondario);
+ /*  background-color: var(--blu-secondario); */
   position: relative;
+  background-image: url("../images/home/home-cta.webp");
+  background-position: center;
+  background-size: cover;;
+  background-repeat: no-repeat;
   z-index: 3;
   overflow: hidden;
   border-radius: 12px;

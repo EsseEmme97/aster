@@ -547,14 +547,14 @@ $heightseo = "115";
                                     <div class="cta-content">
                                         <h2 class="title title-anim">Let’s Build Future Together.</h2>
                                         <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-                                            <a class="tj-primary-btn " href="contact.html">
+                                            <a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
                                                 <span class="btn-text"><span>Contattaci</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
                                     </div>
                                     <div class="cta-img">
-                                        <img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
+                                        
                                     </div>
                                 </div>
                             </div>

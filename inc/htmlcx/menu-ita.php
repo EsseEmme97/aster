@@ -72,7 +72,7 @@ function setActiveLink($pages)
 <!-- end: Hamburger Menu -->
 
 <!-- start: Header Area -->
-<header class="header-area header-1 header-sticky  section-gap-x">
+<header class="header-area header-1 header-sticky section-gap-x border-header">
   <div class="header-top">
     <div class="container-fluid">
       <div class="row">
@@ -87,9 +87,9 @@ function setActiveLink($pages)
             <div class="header-info">
               <div class="info-item">
                 <ul class="d-flex">
-                  <li><a href="https://www.linkedin.com/company/aster-elettronica-s.r.l./" target="_blank"><img src="<?= $pathindex ?>assets/images/icon set/contatti/linkedin.svg" alt="icona linkedin "></a>
+                  <li><a href="https://www.linkedin.com/company/aster-elettronica-s.r.l./" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                   </li>
-                  <li><a href="<?= $pathindex ?>" target="_blank"><img src="<?= $pathindex ?>assets/images/icon set/contatti/lingua.svg" alt="icona lingua"></a>
+                  <li><a href="<?= $pathindex ?>" target="_blank"><i class="fa-solid fa-earth-africa ms-2"></i></a>
                   </li>
                 </ul>
               </div>
@@ -105,7 +105,7 @@ function setActiveLink($pages)
         <div class="header-wrapper">
           <!-- site logo -->
           <div class="site_logo">
-            <a class="logo" href="index.html"><img src="<?= $pathindex ?>assets\images\logo\Aster_Elettronica-Logo.svg" alt="logo-principale"></a>
+            <a class="logo" href="<?= $pathindex ?>"><img src="<?= $pathindex ?>assets\images\logo\aster-elettronica-logo.svg" alt="logo-principale"></a>
           </div>
 
           <!-- navigation -->
@@ -115,24 +115,24 @@ function setActiveLink($pages)
                 <li class="<?= setActiveLink(["index.php"]) ?>"><a href="<?= $pathindex ?>">Home</a>
                 </li>
                 <li class="<?= setActiveLink(["azienda.php","settori.php","servizi.php","servizi.php","sviluppo.php"]) ?> has-dropdown"><a href="<?= $pathindex ?>azienda">Aster Elettronica</a>
-                  <ul class="sub-menu  mega-menu-service">
+                  <ul class="sub-menu">
                     <li class="<?= setActiveLink(["azienda.php"]) ?>">
-                      <a class="mega-menu-service-single text-center" href="<?= $pathindex ?>azienda">
+                      <a href="<?= $pathindex ?>azienda">
                         <span class="mega-menu-service-title">Su di noi</span>
                       </a>
                     </li>
                     <li class="<?= setActiveLink(["settori.php"]) ?>">
-                      <a class="mega-menu-service-single text-center" href="<?= $pathindex ?>settori">
+                      <a href="<?= $pathindex ?>settori">
                         <span class="mega-menu-service-title">Settori</span>
                       </a>
                     </li>
                     <li class="<?= setActiveLink(["servizi.php"]) ?>">
-                      <a class="mega-menu-service-single text-center" href="<?= $pathindex ?>servizi">
+                      <a href="<?= $pathindex ?>servizi">
                         <span class="mega-menu-service-title">Servizi</span>
                       </a>
                     </li>
                     <li class="<?= setActiveLink(["sviluppo.php"]) ?>">
-                      <a class="mega-menu-service-single text-center" href="<?= $pathindex ?>ricerca-e-sviluppo">
+                      <a href="<?= $pathindex ?>ricerca-e-sviluppo">
                         <span class="mega-menu-service-title">Ricerca & sviluppo</span>
                       </a>
                     </li>
