@@ -241,6 +241,10 @@ START: Theme Default CSS
   color:inherit !important;
 }
 
+.no-border{
+  border:none!important;
+}
+
 li {
   list-style: none;
 }
@@ -16558,7 +16562,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
   inset-inline-start: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--tj-color-theme-dark);
   opacity: 0;
   border-radius: 10px;
   z-index: -1;
@@ -16569,7 +16572,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .team-item .team-img::after {
-  background-color: var(--tj-color-theme-primary);
+  background-color: var(--grigio-scuro);
   opacity: 1;
   z-index: -1;
 }

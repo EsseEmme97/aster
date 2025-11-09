@@ -417,7 +417,7 @@ $heightseo = "115";
                                         </h2>
                                     </div>
                                     <div class="about-bottom-area mt-5">
-                                        <div class="customers-box style-3">
+                                        <div class="customers-box style-3 no-border">
                                             <div class="customers">
                                                 <ul>
                                                     <li class="wow fadeInLeft" data-wow-delay=".2s"><img
@@ -458,7 +458,7 @@ $heightseo = "115";
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 order-lg-1 order-2">
-                                <div class="about-img-area wow fadeInLeft" data-wow-delay=".2s">
+                                <div class="about-img-area wow fadeInLeft h-100" data-wow-delay=".2s">
                                     <div class="about-img overflow-hidden">
                                         <img data-speed="0.8" src="<?= $pathindex ?>assets/images/stock/stock-2.jpg" alt="immagine stock">
                                     </div>

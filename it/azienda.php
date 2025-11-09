@@ -119,11 +119,11 @@ $heightseo = "115";
                             <div class="col-xl-6 col-lg-6 order-lg-1 order-2">
                                 <div class="about-img-area style-2 wow fadeInLeft" data-wow-delay=".3s">
                                     <div class="about-img overflow-hidden">
-                                        <img data-speed=".8" src="<?= $pathindex ?>assets/images/about/about-5.webp" alt="">
+                                        <img data-speed=".8" src="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-intro-1.webp" alt="immagine servizi">
                                     </div>
                                     <div class="box-area style-2">
                                         <div class="progress-box wow fadeInUp" data-wow-delay=".3s">
-                                            <span class="title">Business Progress</span>
+                                            <span class="title h3">Business Progress</span>
                                             <ul class="tj-progress-list">
                                                 <li>
                                                     <span class="tj-progress-title">Revenue</span>
@@ -149,7 +149,7 @@ $heightseo = "115";
                             <div class="col-xl-6 col-lg-6 order-lg-2 order-1">
                                 <div class="about-content-area">
                                     <div class="sec-heading">
-                                        <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Get to Know
+                                        <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Get to Know
                                             Us</span>
                                         <h2 class="sec-title title-anim">Driving Innovation and Excellence for Sustainable Corporate Success
                                             <span>Worldwide.</span>
@@ -158,7 +158,7 @@ $heightseo = "115";
                                 </div>
                                 <div class="about-bottom-area">
                                     <div class="mission-vision-box wow fadeInLeft" data-wow-delay=".5s">
-                                        <span class="title">Our Mission</span>
+                                        <span class="title h3">Our Mission</span>
                                         <p class="desc">our mission is empower businesses through innovate best solution, exceptional
                                             service.
                                         </p>
@@ -169,7 +169,7 @@ $heightseo = "115";
                                         </ul>
                                     </div>
                                     <div class="mission-vision-box wow fadeInRight" data-wow-delay=".5s">
-                                        <span class="title">Our Vision</span>
+                                        <span class="title h3">Our Vision</span>
                                         <p class="desc">Our vision is to become a global leader in providing transformative business
                                             solutions.
                                         </p>
@@ -181,7 +181,7 @@ $heightseo = "115";
                                     </div>
                                 </div>
                                 <div class="wow fadeInUp my-5 mb-lg-0" data-wow-delay=".3s">
-                                    <a class="text-btn" href="about.html">
+                                    <a class="text-btn" href="<?= $pathindex ?>/contatti">
                                         <span class="btn-text"><span>Scopri di più</span></span>
                                         <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                     </a>
@@ -204,7 +204,7 @@ $heightseo = "115";
                         <div class="row">
                             <div class="col-12">
                                 <div class="sec-heading text-center">
-                                    <span class="sub-title wow fadeInUp" data-wow-delay=".1s"><i class="tji-box"></i>Meet Our Team</span>
+                                    <span class="sub-title wow fadeInUp" data-wow-delay=".1s">Meet Our Team</span>
                                     <h2 class="sec-title title-anim">People Behind <span>Bexon.</span></h2>
                                 </div>
                             </div>
@@ -215,21 +215,7 @@ $heightseo = "115";
                                     <div class="team-item wow fadeInUp" data-wow-delay=".1s">
                                         <div class="team-img">
                                             <div class="team-img-inner">
-                                                <img src="<?= $pathindex ?>assets/images/team/team-1.webp" alt="">
-                                            </div>
-                                            <div class="social-links">
-                                                <ul>
-                                                    <li><a href="https://www.facebook.com/" target="_blank"><i
-                                                                class="fa-brands fa-facebook-f"></i></a>
-                                                    </li>
-                                                    <li><a href="https://www.instagram.com/" target="_blank"><i
-                                                                class="fa-brands fa-instagram"></i></a>
-                                                    </li>
-                                                    <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                                    <li><a href="https://www.linkedin.com/" target="_blank"><i
-                                                                class="fa-brands fa-linkedin-in"></i></a>
-                                                    </li>
-                                                </ul>
+                                                <img src="<?= $pathindex ?>assets/images/team/team-1.webp" alt="immagine membro del team">
                                             </div>
                                         </div>
                                         <div class="team-content">
