@@ -61,7 +61,7 @@ $heightseo = "115";
                                     <span>Trust.</span>
                                 </h1>
                                 <div class="banner-desc-area wow fadeInUp" data-wow-delay=".7s">
-                                    <a class="banner-link" href="<?= $pathindex ?>about.html">
+                                    <a class="banner-link" href="<?= $pathindex ?>azienda">
                                         <span><i class="tji-arrow-right-big"></i></span>
                                     </a>
                                     <div class="banner-desc">Formazione costante, investimenti tecnologici, continuo impegno per migliorare processi e produzione.
@@ -97,7 +97,7 @@ $heightseo = "115";
                     <div class="banner-scroll wow fadeInDown" data-wow-delay="2s">
                         <a href="#choose" class="scroll-down">
                             <span><i class="tji-arrow-down-long"></i></span>
-                            Scroll Down
+                            Scorri la pagina
                         </a>
                     </div>
                 </section>
@@ -107,7 +107,7 @@ $heightseo = "115";
                     <div class="container">
                         <div class="row row-gap-4">
                             <div class="col-lg-4 col-md-6 order-lg-1 order-3">
-                                <div class="countup-item style-2 wow fadeInUp" data-wow-delay=".1s">
+                                <div class="countup-item style-2 wow fadeInUp border-primary-color" data-wow-delay=".1s">
                                     <span class="count-icon"><img src="<?= $pathindex ?>assets/images/favicon/Aster_Elettronica-Favicon.png" alt="icona aster"></span>
                                     <span class="steps">01.</span>
                                     <div class="count-inner">
@@ -119,7 +119,7 @@ $heightseo = "115";
                                 </div>
                             </div>
                             <div class="col-lg-8 col-sm-12 order-lg-2 order-1">
-                                <div class="about-content-area-2 wow fadeInUp" data-wow-delay=".3s">
+                                <div class="about-content-area-2 wow fadeInUp " data-wow-delay=".3s">
                                     <div class="about-content">
                                         <div class="sec-heading style-2">
                                             <span class="sub-title">Servizi</span>
@@ -129,53 +129,37 @@ $heightseo = "115";
                                             </h2>
                                         </div>
                                         <div class="wow fadeInUp" data-wow-delay=".3s">
-                                            <a class="text-btn" href="<?= $pathindex ?>about.html">
+                                            <a class="text-btn" href="<?= $pathindex ?>servizi">
                                                 <span class="btn-text"><span>Scopri di più</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
                                     </div>
                                     <div class="video-img wow fadeInRight" data-wow-delay=".7s">
-                                        <img src="<?= $pathindex ?>assets/images/about/about-3.webp" alt="Image">
-                                        <a class="video-btn video-popup" data-autoplay="true" data-vbtype="video" data-maxwidth="1200px"
-                                            href="https://www.youtube.com/watch?v=MLpWrANjFbI&amp;ab_channel=eidelchteinadvogados">
-                                            <span><i class="tji-play"></i></span>
-                                        </a>
+                                        <img src="<?= $pathindex ?>assets/images/home/home-intro-2.webp" alt="immagine servizio">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 order-lg-3 order-2">
-                                <div class="customers-box style-2 wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="customers-bg" data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg"></div>
-                                    <div class="customers">
-                                        <ul>
-                                            <li class="wow fadeInLeft" data-wow-delay=".3s"><img src="<?= $pathindex ?>assets/images/testimonial/client-1.webp"
-                                                    alt=""></li>
-                                            <li class="wow fadeInLeft" data-wow-delay=".4s"><img src="<?= $pathindex ?>assets/images/testimonial/client-2.webp"
-                                                    alt=""></li>
-                                            <li class="wow fadeInLeft" data-wow-delay=".5s"><img src="<?= $pathindex ?>assets/images/testimonial/client-3.webp"
-                                                    alt=""></li>
-                                            <li class="wow fadeInLeft" data-wow-delay=".6s"><span><i class="tji-plus"></i></span></li>
-                                        </ul>
-                                    </div>
+                                <div class="customers-box style-2 wow fadeInUp border-primary-color" data-wow-delay=".3s">
+                                    <div class="customers-bg" data-bg-image="assets/images/home/home-intro-1.webp"></div>
                                     <span class="customers-text wow fadeInLeft" data-wow-delay=".6s">Dal 1196 prodotti chiavi in mano</span>
-                                    <div class="star-icon zoomInOut"><img src="<?= $pathindex ?>assets/images/shape/star.svg" alt=""></div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 order-lg-4 order-4">
-                                <div class="countup-item style-2 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="countup-item style-2 wow fadeInUp border-primary-color" data-wow-delay=".5s">
                                     <span class="count-icon"><img src="<?= $pathindex ?>assets/images/favicon/Aster_Elettronica-Favicon.png" alt="icona aster"></span>
                                     <span class="steps">02.</span>
                                     <div class="count-inner">
                                         <div>
-                                            <span class="h3 fw-bold">Protipizzazione e progettazione su misura</span>
+                                            <span class="h3 fw-bold">Prototipizzazione e progettazione su misura</span>
                                         </div>
                                         <span class="count-text mt-2">Lorem ipsum dolor sit amet, consectutir lorem ipsum</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 order-lg-5 order-5">
-                                <div class="countup-item style-2 wow fadeInUp" data-wow-delay=".7s">
+                                <div class="countup-item style-2 wow fadeInUp border-primary-color" data-wow-delay=".7s">
                                     <span class="count-icon"><img src="<?= $pathindex ?>assets/images/favicon/Aster_Elettronica-Favicon.png" alt="icona aster"></span>
                                     <span class="steps">03.</span>
                                     <div class="count-inner">
@@ -215,19 +199,6 @@ $heightseo = "115";
                                                         <div class="service-img">
                                                             <img src="<?= $pathindex ?>assets/images/stock/stock-1.jpg" alt="immagine servizio">
                                                         </div>
-                                                        <div class="service-icon">
-                                                            <img src="<?= $pathindex ?>assets/images/icon set/settori/broadcast.svg" alt="icona servizio">
-                                                        </div>
-                                                        <div class="service-content">
-                                                            <span class="title"><a href="<?= $pathindex ?>service-details.html">Business Strategy Development</a></span>
-                                                            <p class="desc">Through a combination of data-driven insights and innovative approaches, we
-                                                                work
-                                                                closely with you to develop customized.</p>
-                                                            <a class="text-btn" href="<?= $pathindex ?>service-details.html">
-                                                                <span class="btn-text"><span>Learn More</span></span>
-                                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                                            </a>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             <? endfor; ?>
@@ -257,7 +228,7 @@ $heightseo = "115";
                                     </div>
                                     <div class="box-area style-2">
                                         <div class="progress-box wow fadeInUp" data-wow-delay=".3s">
-                                            <span class="title">I nostri risultati</span>
+                                            <span class="title h3">I nostri risultati</span>
                                             <ul class="tj-progress-list">
                                                 <li>
                                                     <span class="tj-progress-title">Revenue</span>
@@ -291,20 +262,20 @@ $heightseo = "115";
                                 </div>
                                 <div class="about-bottom-area">
                                     <div class="mission-vision-box wow fadeInLeft" data-wow-delay=".5s">
-                                        <span class="title">Ricerca dettagliata</span>
+                                        <span class="title h3">Ricerca dettagliata</span>
                                         <p class="desc mt-3">our mission is empower businesses through innovate best solution, exceptional
                                             service.
                                         </p>
                                     </div>
                                     <div class="mission-vision-box wow fadeInRight" data-wow-delay=".5s">
-                                        <span class="title">Sviluppo certosino</span>
+                                        <span class="title h3">Sviluppo certosino</span>
                                         <p class="desc mt-3">Our vision is to become a global leader in providing transformative business
                                             solutions.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="wow fadeInUp my-5 mb-lg-0" data-wow-delay=".3s">
-                                    <a class="text-btn" href="<?= $pathindex ?>about.html">
+                                    <a class="text-btn" href="<?= $pathindex ?>ricerca-e-svilluppo">
                                         <span class="btn-text"><span>Scopri di più</span></span>
                                         <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                     </a>
@@ -326,10 +297,12 @@ $heightseo = "115";
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="sec-heading style-3 text-center">
-                                    <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Our Solutions</span>
+                                    <span class="sub-title wow fadeInUp p-1" data-wow-delay=".3s">Our
+                                        Solutions</span>
                                     <h2 class="sec-title title-anim">Tailor Business Solutions for Corporates.</h2>
                                 </div>
                             </div>
+                            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ipsum quae fugiat quos molestias. Aliquam est ducimus ratione dicta deleniti excepturi repellendus veritatis expedita unde, corporis voluptatum praesentium possimus facilis?</p>
                         </div>
                         <div class="row">
                             <div class="col-12">
@@ -340,7 +313,7 @@ $heightseo = "115";
                                                 <div class="service-icon">
                                                     <img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="immagine aster">
                                                 </div>
-                                                <span class="title"><a href="<?= $pathindex ?>service-details.html">Business Strategy Development</a></span>
+                                                <span class="title h3">Business Strategy Development</span>
                                             </div>
                                             <div class="service-content">
                                                 <p class="desc">Through a combination of data-driven insights and innovative approaches, we work
@@ -355,7 +328,7 @@ $heightseo = "115";
                                                 <div class="service-icon">
                                                     <img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="immagine aster">
                                                 </div>
-                                                <span class="title"><a href="<?= $pathindex ?>service-details.html">Customer Experience Solutions</a></span>
+                                                <span class="title h3">Customer Experience Solutions</span>
                                             </div>
                                             <div class="service-content">
                                                 <p class="desc">Customer Experience Solutions are designed to enhance every touchpoint of your
@@ -370,7 +343,7 @@ $heightseo = "115";
                                                 <div class="service-icon">
                                                     <img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="immagine aster">
                                                 </div>
-                                                <span class="title"><a href="<?= $pathindex ?>service-details.html">Sustainability and ESG Consulting</a></span>
+                                                <span class="title h3">Sustainability and ESG Consulting</span>
                                             </div>
                                             <div class="service-content">
                                                 <p class="desc">Provide tailored strategies that not only drive long-term value but also build
@@ -386,7 +359,7 @@ $heightseo = "115";
                                                 <div class="service-icon">
                                                     <img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="immagine aster">
                                                 </div>
-                                                <span class="title"><a href="<?= $pathindex ?>service-details.html">Training and Development Programs</a></span>
+                                                <span class="title h3">Training and Development Programs</span>
                                             </div>
                                             <div class="service-content">
                                                 <p class="desc">Training and Development Programs are designed to empower employees with the
@@ -398,7 +371,7 @@ $heightseo = "115";
                                     </div>
                                 </div>
                                 <div class="service-btn-area text-center wow fadeInUp" data-wow-delay=".3s">
-                                    <a class="tj-primary-btn" href="<?= $pathindex ?>service.html">
+                                    <a class="tj-primary-btn" href="<?= $pathindex ?>produzione-e-assemblaggio">
                                         <span class="btn-text"><span>Scopri di più</span></span>
                                         <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                     </a>
@@ -431,7 +404,7 @@ $heightseo = "115";
                 </section>
                 <!-- end: Marquee Section -->
                 <!-- start: About Section -->
-                <section class="tj-about-section-2 section-gap section-gap-x">
+                <section class="tj-about-section-2 section-gap section-gap-x mt-15px">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -525,11 +498,7 @@ $heightseo = "115";
                                         </div>
                                     </div>
                                     <div class="video-img  wow fadeInUp" data-wow-delay=".9s">
-                                        <img src="assets/images/about/about-2.webp" alt="">
-                                        <a class="video-btn video-popup" data-autoplay="true" data-vbtype="video" data-maxwidth="1200px"
-                                            href="https://www.youtube.com/watch?v=MLpWrANjFbI&amp;ab_channel=eidelchteinadvogados">
-                                            <span><i class="tji-play"></i></span>
-                                        </a>
+                                        <img src="assets/images/about/about-2.webp" alt="immagine servizio">
                                     </div>
                                 </div>
                             </div>
@@ -554,7 +523,7 @@ $heightseo = "115";
                                         </div>
                                     </div>
                                     <div class="cta-img">
-                                        
+
                                     </div>
                                 </div>
                             </div>

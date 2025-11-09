@@ -57,11 +57,10 @@ $heightseo = "115";
                                 <div class="tj-page-header-content text-center">
                                     <h1 class="tj-page-title">About Us</h1>
                                     <div class="tj-page-link">
-                                        <span><i class="tji-home"></i></span>
                                         <span>
                                             <a href="<?= $pathindex ?>">Home</a>
                                         </span>
-                                        <span><i class="tji-arrow-right"></i></span>
+                                        <span><i class="tji-arrow-right text-blu-secondario"></i></span>
                                         <span>
                                             <span>About Us</span>
                                         </span>
@@ -81,35 +80,30 @@ $heightseo = "115";
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus suscipit explicabo, reiciendis commodi quos quidem neque eum sequi reprehenderit dolores quas nesciunt inventore ipsum officiis fuga illum totam a dolorem.</p>
                         </div>
                         <div class="row row-gap-4">
-                            <div class="col-lg-6 col-md-6 order-lg-1 order-3">
-                                <div class="countup-item style-2 wow fadeInUp" data-wow-delay=".1s">
-                                    <span class="count-icon"><i class="tji-complete"></i></span>
-                                    <span class="steps">01.</span>
-                                    <div class="count-inner">
-                                        <span class="count-text">Projects Completed.</span>
-                                        <div class="inline-content">
-                                            <span class="odometer countup-number" data-count="93"></span>
-                                            <span class="count-plus">%</span>
-                                        </div>
-                                    </div>
+                            <div class="col-lg-4 col-md-6 order-lg-1 order-3">
+                                <div class="countup-item style-2 wow fadeInUp h-100 justify-content-end align-items-start" data-wow-delay=".1s" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-mission-vision.webp">
+                                    <span class="h3 text-white">al fianco delle aziende dal 1996</span>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-sm-12 order-lg-2 order-1">
-                                <div class="about-content-area-2 wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="about-content ms-0">
+                            <div class="col-lg-8 col-sm-12 order-lg-2 order-1">
+                                <div class="about-content-area-2 wow fadeInUp " data-wow-delay=".3s">
+                                    <div class="about-content mx-auto">
                                         <div class="sec-heading style-2">
-                                            <span class="sub-title">Get to Know Us</span>
+                                            <span class="sub-title">Servizi</span>
                                             <h2 class="sec-title title-highlight">Driving into Excellence & Innovation: Your Trusted Partner
                                                 for
                                                 Sustainable Business Success.
                                             </h2>
                                         </div>
                                         <div class="wow fadeInUp" data-wow-delay=".3s">
-                                            <a class="text-btn" href="about.html">
+                                            <a class="text-btn" href="<?= $pathindex ?>servizi">
                                                 <span class="btn-text"><span>Scopri di più</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
+                                    </div>
+                                    <div class="video-img wow fadeInRight" data-wow-delay=".7s">
+                                        <img src="<?= $pathindex ?>assets/images/home/home-intro-2.webp" alt="immagine servizio">
                                     </div>
                                 </div>
                             </div>
