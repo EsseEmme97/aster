@@ -114,7 +114,7 @@ function setActiveLink($pages)
               <ul>
                 <li class="<?= setActiveLink(["index.php"]) ?>"><a href="<?= $pathindex ?>">Home</a>
                 </li>
-                <li class="<?= setActiveLink(["azienda.php","settori.php","servizi.php","servizi.php","sviluppo.php"]) ?> has-dropdown"><a href="<?= $pathindex ?>azienda">Aster Elettronica</a>
+                <li class="<?= setActiveLink(["azienda.php","settori.php","servizi.php","servizi.php","sviluppo.php","aster.php"]) ?> has-dropdown"><a href="<?= $pathindex ?>aster-elettronica">Aster Elettronica</a>
                   <ul class="sub-menu">
                     <li class="<?= setActiveLink(["azienda.php"]) ?>">
                       <a href="<?= $pathindex ?>azienda">

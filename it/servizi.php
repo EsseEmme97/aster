@@ -55,7 +55,7 @@ $heightseo = "115";
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="tj-page-header-content text-center">
-                                    <h1 class="tj-page-title">Produzione e Assemblaggio</h1>
+                                    <h1 class="tj-page-title">Servizi</h1>
                                     <div class="tj-page-link">
                                         <span><i class="tji-home"></i></span>
                                         <span>
@@ -78,17 +78,14 @@ $heightseo = "115";
                         <div class="row">
                             <div class="col-12">
                                 <div class="sec-heading-wrap">
-                                    <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Our Process</span>
+                                    <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Proud Projects</span>
                                     <div class="heading-wrap-content">
-                                        <div class="sec-heading style-2">
-                                            <h2 class="sec-title text-anim">Seamless Process, Great <span>Results.</span></h2>
+                                        <div class="sec-heading">
+                                            <h2 class="sec-title title-anim">Breaking Boundaries, Building <span class="fw-bold">Dreams.</span></h2>
                                         </div>
-                                        <p class="desc wow fadeInUp" data-wow-delay=".5s">Developing personalized customer journeys to
-                                            increase
-                                            satisfaction and loyalty.</p>
                                         <div class="btn-wrap wow fadeInUp" data-wow-delay=".6s">
-                                            <a class="tj-primary-btn" href="contact.html">
-                                                <span class="btn-text"><span>Request a Call</span></span>
+                                            <a class="tj-primary-btn" href="<?= $pathindex ?>contatti">
+                                                <span class="btn-text"><span>Contattaci</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
@@ -127,53 +124,45 @@ $heightseo = "115";
                     </div>
                 </section>
                 <!-- end: Working process Section -->
-                <!-- start: Service Section -->
-                <section class="tj-service-section overflow-hidden section-gap section-gap-x">
-                    <div class="container-fluid p-0">
+                <!-- start: Project Section -->
+                <?
+                $images = array_slice(scandir($pathindex . "assets/images/su-di-noi"), 15, 8);
+                ?>
+                <section class="h6-project section-gap section-gap-x">
+                    <div class="container-fluid">
                         <div class="row">
                             <div class="col-12">
-                                <div class="service-wrapper wow fadeInUp" data-wow-delay=".4s">
-                                    <div class="swiper service-slider">
-                                        <div class="swiper-wrapper">
-                                            <? for ($i = 0; $i < 8; $i++): ?>
-                                                <div class="swiper-slide">
-                                                    <div class="service-item style-1">
-                                                        <div class="service-img">
-                                                            <img src="<?= $pathindex ?>assets/images/stock/stock-1.jpg" alt="immagine servizio">
-                                                        </div>
-                                                        <div class="service-icon">
-                                                            <img src="<?= $pathindex ?>assets/images/icon set/settori/broadcast.svg" alt="icona servizio">
-                                                        </div>
-                                                        <div class="service-content">
-                                                            <span class="title"><a href="<?= $pathindex ?>service-details.html">Business Strategy Development</a></span>
-                                                            <p class="desc">Through a combination of data-driven insights and innovative approaches, we
-                                                                work
-                                                                closely with you to develop customized.</p>
-                                                            <a class="text-btn" href="<?= $pathindex ?>service-details.html">
-                                                                <span class="btn-text"><span>Learn More</span></span>
-                                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                                            </a>
-                                                        </div>
+                                <div class="h6-project-inner wow fadeInUp" data-wow-delay="0.6s">
+                                    <? for ($i = 0; $i < count($images); $i++): ?>
+                                        <div class=" project-item h6-project-item ">
+                                            <div class="project-item-inner h6-project-item-inner"
+                                                data-bg-image="<?= $pathindex . "assets/images/su-di-noi/" . $images[$i] ?>">
+                                                <div class="project-content">
+                                                    <span class="categories"><a href="portfolio-details.html">Empower</a></span>
+                                                    <div class="project-text">
+                                                        <span class="title"><a href="portfolio-details.html">Digital Marketing Campaign</a></span>
+                                                        <a class="project-btn" href="portfolio-details.html">
+                                                            <i class="tji-arrow-right-long"></i>
+                                                        </a>
                                                     </div>
                                                 </div>
-                                            <? endfor; ?>
+                                            </div>
                                         </div>
-                                        <div class="swiper-pagination-area white-pagination"></div>
-                                    </div>
+                                    <? endfor; ?>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="bg-shape-1">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="pattern di sfondo">
                     </div>
                     <div class="bg-shape-2">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="pattern di sfondo">
                     </div>
                 </section>
-                <!-- end: Service Section -->
+                <!-- end: Project Section -->
                 <!-- start: Cta Section -->
-                <section class="tj-cta-section section-gap">
+                <section class="tj-cta-section">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -181,14 +170,11 @@ $heightseo = "115";
                                     <div class="cta-content">
                                         <h2 class="title title-anim">Let’s Build Future Together.</h2>
                                         <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-                                            <a class="tj-primary-btn " href="contact.html">
+                                            <a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
                                                 <span class="btn-text"><span>Contattaci</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
-                                    </div>
-                                    <div class="cta-img">
-                                        <img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
                                     </div>
                                 </div>
                             </div>

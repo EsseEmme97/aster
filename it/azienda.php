@@ -50,12 +50,12 @@ $heightseo = "115";
             <main id="primary" class="site-main">
                 <div class="space-for-header"></div>
                 <!-- start: Breadcrumb Section -->
-                <section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/stock/stock-3.jpg">
+                <section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-gallery-8.webp">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="tj-page-header-content text-center">
-                                    <h1 class="tj-page-title">About Us</h1>
+                                    <h1 class="tj-page-title">Azienda</h1>
                                     <div class="tj-page-link">
                                         <span>
                                             <a href="<?= $pathindex ?>">Home</a>
@@ -199,6 +199,70 @@ $heightseo = "115";
                 <!-- end: About Section -->
 
                 <!-- start: Team Section -->
+                <?
+                $people = [
+                    [
+                        "name" => "Marcante Giampaolo",
+                        "role" => "Commercial&Sales Dep",
+                        "email" => "gmarcante@asterelettronica.com",
+                        "image" => "aster-elettronica-team-1.webp"
+                    ],
+                    [
+                        "name" => "Canale Pierluigi",
+                        "role" => "Production&Planning Dep",
+                        "email" => "pcanale@asterelettronica.com",
+                        "image" => "aster-elettronica-team-2.webp"
+                    ],
+                    [
+                        "name" => "Facchinelli Laura",
+                        "role" => "Administration&Purchasing Dep",
+                        "email" => "lfacchinelli@asterelettronica.com",
+                        "image" => "aster-elettronica-team-3.webp"
+                    ],
+                    [
+                        "name" => "Nome Cognome",
+                        "role" => "Dipartimento",
+                        "email" => "",
+                        "image" => "aster-elettronica-team-4.webp"
+                    ],
+                    [
+                        "name" => "De Gerone Pierluigi",
+                        "role" => "Technical Process Dep",
+                        "email" => "pdegerone@asterelettronica.com",
+                        "image" => "aster-elettronica-team-5.webp"
+                    ],
+                    [
+                        "name" => "Marcante Alex",
+                        "role" => "Technical&Quality Dep",
+                        "email" => "amarcante@asterelettronica.com",
+                        "image" => "aster-elettronica-team-6.webp"
+                    ],
+                    [
+                        "name" => "Capuzzo Martina",
+                        "role" => "Test Dep",
+                        "email" => "mcapuzzo@asterelettronica.com",
+                        "image" => "aster-elettronica-team-7.webp"
+                    ],
+                    [
+                        "name" => "Generico 1",
+                        "role" => "Dipartimento",
+                        "email" => "prova@mail.com",
+                        "image" => "aster-elettronica-team-8.webp"
+                    ],
+                    [
+                        "name" => "Maddalena Annachiara",
+                        "role" => "Warehouse Dep",
+                        "email" => "amaddalena@asterelettronica.com",
+                        "image" => "aster-elettronica-team-9.webp"
+                    ],
+                    [
+                        "name" => "Generico 2",
+                        "role" => "Dipartimento",
+                        "email" => "prova@mail.com",
+                        "image" => "aster-elettronica-team-10.webp"
+                    ]
+                ];
+                ?>
                 <section class="tj-team-section">
                     <div class="container">
                         <div class="row">
@@ -210,22 +274,22 @@ $heightseo = "115";
                             </div>
                         </div>
                         <div class="row row-cols-lg-5 row-cols-2">
-                            <? for ($i = 0; $i < 10; $i++): ?>
+                            <? foreach ($people as $member): ?>
                                 <div class="col col-sm-6">
                                     <div class="team-item wow fadeInUp" data-wow-delay=".1s">
                                         <div class="team-img">
                                             <div class="team-img-inner">
-                                                <img src="<?= $pathindex ?>assets/images/team/team-1.webp" alt="immagine membro del team">
+                                                <img src="<?= $pathindex . "assets/images/su-di-noi/" . $member["image"] ?>" alt="immagine membro del team">
                                             </div>
                                         </div>
                                         <div class="team-content">
-                                            <span class="title"><a href="team-details.html">Eade Marren</a></span>
-                                            <span class="designation">Chief Executive</span>
-                                            <a class="mail-at" href="mailto:info@bexon.com"><i class="tji-at"></i></a>
+                                            <span class="title d-block"><a href="team-details.html"><?= $member["name"] ?></a></span>
+                                            <span class="designation d-block"><?= $member["role"] ?></span>
+                                            <a class="mail-at" href="mailto:<?= $member["email"] ?>"><i class="tji-at"></i></a>
                                         </div>
                                     </div>
                                 </div>
-                            <? endfor; ?>
+                            <? endforeach; ?>
                         </div>
                     </div>
                 </section>
@@ -237,11 +301,11 @@ $heightseo = "115";
                             <div class="col-12">
                                 <div class="h6-client-title-wrapper">
                                     <span class="h6-client-title
-              ">we’re proud to partner with best-in-class clients</span>
+              ">Sosteniamo lo sport, i giovani e le attività locali</span>
 
                                 </div>
                             </div>
-                            <div class="col-12 d-flex gap-2 justify-content-around">
+                            <div class="col-12 d-flex gap-5 justify-content-center">
                                 <? for ($i = 0; $i < 4; $i++): ?>
                                     <div class="client-logo">
                                         <img src="<?= $pathindex ?>assets/images/brands/brand-1-light.webp" alt="">
@@ -253,15 +317,18 @@ $heightseo = "115";
                 </section>
                 <!-- end: Client Section -->
                 <!-- start: Project Section -->
+                <?
+                $images = array_slice(scandir($pathindex . "assets/images/su-di-noi"), 15, 8);
+                ?>
                 <section class="h6-project section-gap section-gap-x">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-12">
                                 <div class="h6-project-inner wow fadeInUp" data-wow-delay="0.6s">
-                                    <? for ($i = 0; $i < 8; $i++): ?>
+                                    <? for ($i = 0; $i < count($images); $i++): ?>
                                         <div class=" project-item h6-project-item ">
                                             <div class="project-item-inner h6-project-item-inner"
-                                                data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
+                                                data-bg-image="<?= $pathindex . "assets/images/su-di-noi/" . $images[$i] ?>">
                                                 <div class="project-content">
                                                     <span class="categories"><a href="portfolio-details.html">Empower</a></span>
                                                     <div class="project-text">
@@ -291,18 +358,15 @@ $heightseo = "115";
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <div class="cta-area">
+                                <div class="cta-area" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-cta.webp">
                                     <div class="cta-content">
                                         <h2 class="title title-anim">Let’s Build Future Together.</h2>
-                                        <div class="cta-btn wow fadeInUp mt-60" data-wow-delay=".6s">
-                                            <a class="tj-primary-btn " href="contact.html">
+                                        <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
+                                            <a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
                                                 <span class="btn-text"><span>Contattaci</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
-                                    </div>
-                                    <div class="cta-img">
-                                        <img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
                                     </div>
                                 </div>
                             </div>

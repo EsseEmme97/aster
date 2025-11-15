@@ -175,6 +175,59 @@ $heightseo = "115";
                 </section>
                 <!-- end: About Section -->
                 <!-- start: Service Section -->
+                 <?
+				$settori = [
+					[
+						"titolo" => "Edilizia civile/industriale",
+						"icona" => "edilizia-civile.svg"
+					],
+					[
+						"titolo" => "Prestazioni sportive",
+						"icona" => "prestazioni-sportive.svg"
+					],
+					[
+						"titolo" => "Lighting",
+						"icona" => "illuminazione.svg"
+					],
+					[
+						"titolo" => "Meteo & traffico",
+						"icona" => "meteo-traffico.svg"
+					],
+					[
+						"titolo" => "Elettromedicale",
+						"icona" => "elettromedicale.svg"
+					],
+					[
+						"titolo" => "Soluzioni audio professionali",
+						"icona" => "broadcast.svg"
+					],
+					[
+						"titolo" => "Sistemi di controllo motore (inverter)",
+						"icona" => "controllo-motore.svg"
+					],
+					[
+						"titolo" => "Sistemi di controllo industriale",
+						"icona" => "controllo-industriale.svg"
+					],
+					[
+						"titolo" => "Vending machines",
+						"icona" => "vending-machines.svg"
+					],
+					[
+						"titolo" => "Sistemi destinati alla ricerca scientifica",
+						"icona" => "ricerca-scientifica.svg"
+					],
+					[
+						"titolo" => "Cantieri edili e navali",
+						"icona" => "cantieri-edili-navali.svg"
+					],
+					[
+						"titolo" => "Sistemi APR di pilotaggio remoto",
+						"icona" => "pilotaggio-remoto.svg"
+					],
+				];
+				$basePath = "assets/images/settori/"
+				?>
                 <section class="tj-service-section overflow-hidden section-gap section-gap-x">
                     <div class="container">
                         <div class="row">
@@ -193,15 +246,18 @@ $heightseo = "115";
                                 <div class="service-wrapper wow fadeInUp" data-wow-delay=".4s">
                                     <div class="swiper service-slider">
                                         <div class="swiper-wrapper">
-                                            <? for ($i = 0; $i < 8; $i++): ?>
+                                            <? foreach ($settori as $settore): ?>
                                                 <div class="swiper-slide">
                                                     <div class="service-item style-1">
-                                                        <div class="service-img">
-                                                            <img src="<?= $pathindex ?>assets/images/stock/stock-1.jpg" alt="immagine servizio">
+                                                        <div class="service-icon">
+                                                            <img src="<?= $pathindex . $basePath . $settore["icona"] ?>" alt="icona settore">
+                                                        </div>
+                                                        <div class="service-content">
+                                                            <a class="title text-white" href="service-details.html"><?= $settore["titolo"] ?></a>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            <? endfor; ?>
+                                            <? endforeach; ?>
                                         </div>
                                         <div class="swiper-pagination-area white-pagination"></div>
                                     </div>
@@ -210,15 +266,15 @@ $heightseo = "115";
                         </div>
                     </div>
                     <div class="bg-shape-1">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="pattern di sfondo">
                     </div>
                     <div class="bg-shape-2">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="pattern di sfondo">
                     </div>
                 </section>
                 <!-- end: Service Section -->
                 <!-- start: About Section -->
-                <section class="tj-about-section-2 section-gap section-gap-x">
+                <section class="tj-about-section-2 mt-15px section-gap section-gap-x">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 order-lg-1 order-2">
@@ -419,7 +475,7 @@ $heightseo = "115";
                                     <div class="about-bottom-area mt-5">
                                         <div class="customers-box style-3 no-border">
                                             <div class="customers">
-                                                <ul>
+                                                <ul class="gap-2">
                                                     <li class="wow fadeInLeft" data-wow-delay=".2s"><img
                                                             src="<?= $pathindex ?>assets/images/testimonial/client-1.webp" alt=""></li>
                                                     <li class="wow fadeInLeft" data-wow-delay=".3s"><img
@@ -429,8 +485,7 @@ $heightseo = "115";
                                                     <li class="wow fadeInLeft" data-wow-delay=".5s"><span><i class="tji-plus"></i></span></li>
                                                 </ul>
                                             </div>
-                                            <span class="customers-text wow fadeInLeft" data-wow-delay=".6s">We have <span>100+</span> happy
-                                                customer.
+                                            <span class="customers-text wow fadeInLeft" data-wow-delay=".6s">Entra anche tu nella squadra!
                                             </span>
                                         </div>
                                         <div class="about-btn-area-2 wow fadeInUp" data-wow-delay="1s">
@@ -480,7 +535,7 @@ $heightseo = "115";
                                     <div class="sec-heading">
                                         <span class="sub-title wow fadeInUp bg-carta-da-zucchero" data-wow-delay=".3s"><i class="tji-box"></i>Get to Know
                                             Us</span>
-                                        <h2 class="sec-title title-anim">Da oggi siamo partner di Luminovo: la filosofia <span>Kaizen</span>, applicata.
+                                        <h2 class="sec-title title-anim">Da oggi siamo partner di Luminovo: la filosofia <span>Kaizen</span> applicata.
                                         </h2>
                                     </div>
                                     <div class="wow fadeInUp" data-wow-delay=".5s">
@@ -521,9 +576,6 @@ $heightseo = "115";
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
-                                    </div>
-                                    <div class="cta-img">
-
                                     </div>
                                 </div>
                             </div>

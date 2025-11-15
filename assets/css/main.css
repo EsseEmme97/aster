@@ -1290,7 +1290,6 @@ START: Theme Header CSS
   inset-inline-start: 0;
   -webkit-animation: sticky 0.9s;
   animation: sticky 0.9s;
-  border-bottom: none;
   z-index: 1002;
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
@@ -8769,13 +8768,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
   -ms-flex-align: center;
   align-items: center;
   gap: 4px;
-  color: var(--tj-color-heading-primary);
+  color: var(--blu-primario);
   font-size: 14px;
   line-height: 1;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   font-weight: var(--tj-fw-bold);
-  border: 1px dashed var(--tj-color-border-1);
+  background-color: var(--carta-da-zucchero);
   padding: 2px 10px;
   margin-bottom: 20px;
   border-radius: 4px;
@@ -11390,6 +11389,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   overflow: hidden;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  padding-bottom:95px;
 }
 
 .service-item.style-1 .service-content .title {
@@ -11416,9 +11416,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .service-item.style-1 .service-content .desc {
   color: var(--tj-color-text-body-2);
-  opacity: 0;
-  visibility: hidden;
-  height: 0;
+  opacity: 1;
+  /* visibility: hidden;
+  height: 0; */
   -webkit-transition: none;
   transition: none;
 }
@@ -11440,9 +11440,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .service-item.style-1 .text-btn {
   position: absolute;
   inset-inline-start: auto;
-  bottom: 0;
-  opacity: 0;
-  visibility: hidden;
+  bottom: 40px;
+  opacity: 1;
   -webkit-transition: none;
   transition: none;
 }
@@ -16572,7 +16571,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .team-item .team-img::after {
-  background-color: var(--grigio-scuro);
+  background-color: var(--blu-primario);
   opacity: 1;
   z-index: -1;
 }

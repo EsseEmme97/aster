@@ -55,7 +55,7 @@ $heightseo = "115";
 						<div class="row">
 							<div class="col-lg-12">
 								<div class="tj-page-header-content text-center">
-									<h1 class="tj-page-title">Produzione e Assemblaggio</h1>
+									<h1 class="tj-page-title">Settori</h1>
 									<div class="tj-page-link">
 										<span><i class="tji-home"></i></span>
 										<span>
@@ -63,7 +63,7 @@ $heightseo = "115";
 										</span>
 										<span><i class="tji-arrow-right"></i></span>
 										<span>
-											<span>Produzione e Assemblaggio</span>
+											<span>Settori</span>
 										</span>
 									</div>
 								</div>
@@ -74,10 +74,65 @@ $heightseo = "115";
 				</section>
 				<!-- end: Breadcrumb Section <-->
 				<section class="section-gap section-gap-x">
-					<h1>Lorem ipsum</h1>
-					<p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sint consequuntur iusto atque. Expedita facere mollitia reiciendis laboriosam, repudiandae ducimus nisi iusto, cupiditate quas illum voluptate dolor excepturi. Provident, laboriosam!</p>
+					<div class="container">
+						<h1>Lorem ipsum</h1>
+						<p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sint consequuntur iusto atque. Expedita facere mollitia reiciendis laboriosam, repudiandae ducimus nisi iusto, cupiditate quas illum voluptate dolor excepturi. Provident, laboriosam!</p>
+					</div>
 				</section>
 				<!-- start: Service Section -->
+				<?
+				$settori = [
+					[
+						"titolo" => "Edilizia civile/industriale, videocitofonia & sistemi antifurto",
+						"icona" => "edilizia-civile.svg"
+					],
+					[
+						"titolo" => "Prestazioni sportive",
+						"icona" => "prestazioni-sportive.svg"
+					],
+					[
+						"titolo" => "Lighting",
+						"icona" => "illuminazione.svg"
+					],
+					[
+						"titolo" => "Meteo & traffico",
+						"icona" => "meteo-traffico.svg"
+					],
+					[
+						"titolo" => "Elettromedicale",
+						"icona" => "elettromedicale.svg"
+					],
+					[
+						"titolo" => "Soluzioni audio professionali",
+						"icona" => "broadcast.svg"
+					],
+					[
+						"titolo" => "Sistemi di controllo motore (inverter)",
+						"icona" => "controllo-motore.svg"
+					],
+					[
+						"titolo" => "Sistemi di controllo industriale (automazione e processo)",
+						"icona" => "controllo-industriale.svg"
+					],
+					[
+						"titolo" => "Vending machines",
+						"icona" => "vending-machines.svg"
+					],
+					[
+						"titolo" => "Sistemi destinati alla ricerca scientifica",
+						"icona" => "ricerca-scientifica.svg"
+					],
+					[
+						"titolo" => "Cantieri edili e navali",
+						"icona" => "cantieri-edili-navali.svg"
+					],
+					[
+						"titolo" => "Sistemi APR di pilotaggio remoto",
+						"icona" => "pilotaggio-remoto.svg"
+					],
+				];
+				$basePath = "assets/images/settori/"
+				?>
 				<section class="tj-service-section service-2 section-gap section-gap-x slidebar-stickiy-container">
 					<div class="container">
 						<div class="row">
@@ -89,96 +144,31 @@ $heightseo = "115";
 											<span>Corporates.</span>
 										</h2>
 									</div>
-									<div class="wow fadeInUp" data-wow-delay=".6s">
-										<a class="tj-primary-btn" href="service.html">
-											<span class="btn-text"><span>Scopri di più</span></span>
-											<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-										</a>
-									</div>
 								</div>
 							</div>
 							<div class="col-lg-8">
 								<div class="service-wrapper-2">
-									<div class="service-item-wrapper tj-fadein-right-on-scroll">
-										<div class="service-item style-2 ">
-											<div class="title-area">
-												<div class="service-icon">
-													<i class="tji-service-1"></i>
+									<? foreach ($settori as $settore): ?>
+										<div class="service-item-wrapper tj-fadein-right-on-scroll">
+											<div class="service-item style-2 ">
+												<div class="title-area">
+													<div class="service-icon">
+														<img src="<?= $pathindex . $basePath . $settore["icona"] ?>" alt="icona settore">
+													</div>
+													<span class="title d-block"><?= $settore["titolo"] ?></span>
 												</div>
-												<span class="title d-block">Cantieri navali</span>
-											</div>
-											<div class="service-content">
-												<p class="desc">Through a combination of data-driven insights and innovative approaches, we work
-													closely with you to develop customized.</p>
-												<ul class="list-items">
-													<li><i class="tji-list"></i>Expansion Strategies</li>
-													<li><i class="tji-list"></i>Operational Efficiency</li>
-													<li><i class="tji-list"></i>Competitive Edge</li>
-												</ul>
+												<div class="service-content">
+													<p class="desc">Through a combination of data-driven insights and innovative approaches, we work
+														closely with you to develop customized.</p>
+													<ul class="list-items">
+														<li><i class="tji-list"></i>Expansion Strategies</li>
+														<li><i class="tji-list"></i>Operational Efficiency</li>
+														<li><i class="tji-list"></i>Competitive Edge</li>
+													</ul>
+												</div>
 											</div>
 										</div>
-									</div>
-
-									<div class="service-item-wrapper tj-fadein-right-on-scroll">
-										<div class="service-item style-2">
-											<div class="title-area">
-												<div class="service-icon">
-													<i class="tji-service-2"></i>
-												</div>
-												<span class="title d-block">Customer Experience Solutions</span>
-											</div>
-											<div class="service-content">
-												<p class="desc">Developing personalized customer journeys to increase satisfaction and loyalty
-													of our expansion to keep competitive.</p>
-												<ul class="list-items">
-													<li><i class="tji-list"></i>Personalized Customer</li>
-													<li><i class="tji-list"></i>Seamless Service</li>
-													<li><i class="tji-list"></i>Proactive Support</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-
-									<div class="service-item-wrapper tj-fadein-right-on-scroll">
-										<div class="service-item style-2">
-											<div class="title-area">
-												<div class="service-icon">
-													<i class="tji-service-3"></i>
-												</div>
-												<span class="title d-block">Customer Experience Solutions</span>
-											</div>
-											<div class="service-content">
-												<p class="desc">Provide tailored strategies that not only drive long-term value but also build
-													trust with stakeholders, investors.</p>
-												<ul class="list-items">
-													<li><i class="tji-list"></i>Strategy Development</li>
-													<li><i class="tji-list"></i>Sustainable Business</li>
-													<li><i class="tji-list"></i>Impactful Reporting</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-
-									<div class="service-item-wrapper tj-fadein-right-on-scroll">
-										<div class="service-item style-2">
-											<div class="title-area">
-												<div class="service-icon">
-													<i class="tji-service-4"></i>
-												</div>
-												<span class="title d-block">Customer Experience Solutions</span>
-											</div>
-											<div class="service-content">
-												<p class="desc">Training and Development Programs are designed to empower employees with the
-													skills, knowledge, and tools they need.</p>
-												<ul class="list-items">
-													<li><i class="tji-list"></i>Leadership Development</li>
-													<li><i class="tji-list"></i>Skill Enhancement</li>
-													<li><i class="tji-list"></i>Employee Engagement</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-
+									<? endforeach; ?>
 								</div>
 							</div>
 						</div>
@@ -192,29 +182,26 @@ $heightseo = "115";
 				</section>
 				<!-- end: Service Section -->
 				<!-- start: Cta Section -->
-				<section class="tj-cta-section section-gap">
-					<div class="container">
-						<div class="row">
-							<div class="col-12">
-								<div class="cta-area">
-									<div class="cta-content">
-										<h2 class="title title-anim">Let’s Build Future Together.</h2>
-										<div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-											<a class="tj-primary-btn " href="contact.html">
-												<span class="btn-text"><span>Contattaci</span></span>
-												<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-											</a>
-										</div>
-									</div>
-									<div class="cta-img">
-										<img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end: Cta Section -->
+                <section class="tj-cta-section section-gap pb-0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cta-area">
+                                    <div class="cta-content">
+                                        <h2 class="title title-anim">Let’s Build Future Together.</h2>
+                                        <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
+                                            <a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
+                                                <span class="btn-text"><span>Contattaci</span></span>
+                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end: Cta Section -->
 
 			</main>
 			<!-- ==================== Start Footer ==================== -->
