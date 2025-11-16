@@ -74,7 +74,7 @@ $heightseo = "115";
                         </div>
                         <div class="banner-right-box">
                             <div class="banner-img">
-                                <img data-speed="0.8" src="<?= $pathindex ?>assets/images/stock/stock-1.jpg" alt="immagine banner">
+                                <img data-speed="0.8" src="<?= $pathindex ?>assets/images/home/home-hero.webp" alt="immagine banner">
                             </div>
                             <div class="box-area">
                                 <div class="customers-box">
@@ -175,59 +175,72 @@ $heightseo = "115";
                 </section>
                 <!-- end: About Section -->
                 <!-- start: Service Section -->
-                 <?
-				$settori = [
-					[
-						"titolo" => "Edilizia civile/industriale",
-						"icona" => "edilizia-civile.svg"
-					],
-					[
-						"titolo" => "Prestazioni sportive",
-						"icona" => "prestazioni-sportive.svg"
-					],
-					[
-						"titolo" => "Lighting",
-						"icona" => "illuminazione.svg"
-					],
-					[
-						"titolo" => "Meteo & traffico",
-						"icona" => "meteo-traffico.svg"
-					],
-					[
-						"titolo" => "Elettromedicale",
-						"icona" => "elettromedicale.svg"
-					],
-					[
-						"titolo" => "Soluzioni audio professionali",
-						"icona" => "broadcast.svg"
-					],
-					[
-						"titolo" => "Sistemi di controllo motore",
-						"icona" => "controllo-motore.svg"
-					],
-					[
-						"titolo" => "Sistemi di controllo industriale",
-						"icona" => "controllo-industriale.svg"
-					],
-					[
-						"titolo" => "Vending machines",
-						"icona" => "vending-machines.svg"
-					],
-					[
-						"titolo" => "Sistemi destinati alla ricerca scientifica",
-						"icona" => "ricerca-scientifica.svg"
-					],
-					[
-						"titolo" => "Cantieri edili e navali",
-						"icona" => "cantieri-edili-navali.svg"
-					],
-					[
-						"titolo" => "Sistemi APR di pilotaggio remoto",
-						"icona" => "pilotaggio-remoto.svg"
-					],
-				];
-				$basePath = "assets/images/settori/"
-				?>
+                <?
+                $settori = [
+                    [
+                        "titolo" => "Edilizia civile/industriale",
+                        "icona" => "edilizia-civile.svg",
+                        "id" => "edilizia-civile-industriale"
+                    ],
+                    [
+                        "titolo" => "Prestazioni sportive",
+                        "icona" => "prestazioni-sportive.svg",
+                        "id" => "prestazioni-sportive"
+                    ],
+                    [
+                        "titolo" => "Lighting",
+                        "icona" => "illuminazione.svg",
+                        "id" => "lighting"
+                    ],
+                    [
+                        "titolo" => "Meteo & traffico",
+                        "icona" => "meteo-traffico.svg",
+                        "id" => "meteo-traffico"
+                    ],
+                    [
+                        "titolo" => "Elettromedicale",
+                        "icona" => "elettromedicale.svg",
+                        "id" => "elettromedicale"
+                    ],
+                    [
+                        "titolo" => "Soluzioni audio professionali",
+                        "icona" => "broadcast.svg",
+                        "id" => "audio-professionale"
+                    ],
+                    [
+                        "titolo" => "Sistemi di controllo motore",
+                        "icona" => "controllo-motore.svg",
+                        "id" => "controllo-motore"
+                    ],
+                    [
+                        "titolo" => "Sistemi di controllo industriale",
+                        "icona" => "controllo-industriale.svg",
+                        "id" => "controllo-industriale"
+                    ],
+                    [
+                        "titolo" => "Vending machines",
+                        "icona" => "vending-machines.svg",
+                        "id" => "vending-machines"
+                    ],
+                    [
+                        "titolo" => "Sistemi destinati alla ricerca scientifica",
+                        "icona" => "ricerca-scientifica.svg",
+                        "id" => "ricerca-scientifica"
+                    ],
+                    [
+                        "titolo" => "Cantieri edili e navali",
+                        "icona" => "cantieri-edili-navali.svg",
+                        "id" => "cantieri-edili-navali"
+                    ],
+                    [
+                        "titolo" => "Sistemi APR di pilotaggio remoto",
+                        "icona" => "pilotaggio-remoto.svg",
+                        "id" => "sistemi-apr"
+                    ],
+                ];
+
+                $basePath = "assets/images/icon set/settori/"
+                ?>
                 <section class="tj-service-section overflow-hidden section-gap section-gap-x">
                     <div class="container">
                         <div class="row">
@@ -253,11 +266,11 @@ $heightseo = "115";
                                                             <img src="<?= $pathindex . $basePath . $settore["icona"] ?>" alt="icona settore">
                                                         </div>
                                                         <div class="service-content">
-                                                            <a class="title text-white" href="service-details.html"><?= $settore["titolo"] ?></a>
+                                                            <a class="title text-white" href="<?= $pathindex . "settori#" . $settore["id"] ?>"><?= $settore["titolo"] ?></a>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            <? endforeach; ?>
+                                                <? endforeach; ?>
                                         </div>
                                         <div class="swiper-pagination-area white-pagination"></div>
                                     </div>
@@ -280,7 +293,7 @@ $heightseo = "115";
                             <div class="col-xl-6 col-lg-6 order-lg-1 order-2">
                                 <div class="about-img-area style-2 wow fadeInLeft" data-wow-delay=".3s">
                                     <div class="about-img overflow-hidden">
-                                        <img data-speed=".8" src="<?= $pathindex ?>assets/images/stock/stock-2.jpg" alt="immagine stock">
+                                        <img data-speed=".8" src="<?= $pathindex ?>assets/images/home/home-ricerca-sviluppo.webp" alt="immagine stock">
                                     </div>
                                     <div class="box-area style-2">
                                         <div class="progress-box wow fadeInUp" data-wow-delay=".3s">
@@ -340,10 +353,10 @@ $heightseo = "115";
                         </div>
                     </div>
                     <div class="bg-shape-1">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="pattern di sfondo">
                     </div>
                     <div class="bg-shape-2">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="pattern di sfondo">
                     </div>
                 </section>
                 <!-- end: About Section -->
