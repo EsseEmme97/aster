@@ -133,7 +133,7 @@ function setActiveLink($pages)
                     </li>
                     <li class="<?= setActiveLink(["sviluppo.php"]) ?>">
                       <a href="<?= $pathindex ?>ricerca-e-sviluppo">
-                        <span class="mega-menu-service-title">Ricerca & sviluppo</span>
+                        <span class="mega-menu-service-title">Ricerca & Sviluppo</span>
                       </a>
                     </li>
                   </ul>

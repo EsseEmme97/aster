@@ -90,7 +90,7 @@ Progressbar js
 
 	////////////////////////////////////////////////////
 	// Sticky Nav Js
-	var lastScrollTop = "";
+	/* var lastScrollTop = "";
 	function stickyMenu($targetMenu, $toggleClass) {
 		var st = $(window).scrollTop();
 		if ($(window).scrollTop() > 500) {
@@ -110,7 +110,7 @@ Progressbar js
 		if ($(".header-area").length) {
 			stickyMenu($(".header-sticky"), "sticky");
 		}
-	});
+	}); */
 
 	////////////////////////////////////////////////////
 	// Mobile Menu Js

@@ -24,7 +24,7 @@
                     <div class="footer-widget widget-nav-menu wow fadeInUp" data-wow-delay=".5s">
                         <a class="d-block no-color blu-on-hover" href="tel:+390445508900">T. +39 0445 508 900</a>
                         <span class="d-block mt-2 no-color">F. +39 0445 533 343</span>
-                        <a class="d-block mt-2 no-color" href="mailto:info@asterelettronica.com">info@asterelettronica.com</a>
+                        <a class="d-block mt-2 no-color blu-on-hover" href="mailto:info@asterelettronica.com">info@asterelettronica.com</a>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">

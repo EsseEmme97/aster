@@ -57,7 +57,6 @@ $heightseo = "115";
                                 <div class="tj-page-header-content text-center">
                                     <h1 class="tj-page-title">Contatti</h1>
                                     <div class="tj-page-link">
-                                        <span><i class="tji-home"></i></span>
                                         <span>
                                             <a href="<?= $pathindex ?>">Home</a>
                                         </span>
@@ -236,128 +235,59 @@ $heightseo = "115";
                 </section>
                 <!-- end: Contact Section -->
                 <!-- start: Project Section -->
-                <section class="h6-project section-bottom-gap section-gap-x">
+                <section class="h6-project section-gap section-gap-x pt-0">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-12">
                                 <div class="h6-project-inner wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class=" project-item h6-project-item ">
-                                        <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
-
-                                        </div>
-                                    </div>
-                                    <div class=" project-item h6-project-item ">
-                                        <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
-                                            <div class="project-content">
-                                                <span class="categories"><a href="portfolio-details.html">Empower</a></span>
-                                                <div class="project-text">
-                                                    <h3 class="title"><a href="portfolio-details.html">Digital Marketing Campaign</a></h3>
-                                                    <a class="project-btn" href="portfolio-details.html">
-                                                        <i class="tji-arrow-right-long"></i>
-                                                    </a>
-                                                </div>
+                                    <? for ($i = 0; $i < 8; $i++): ?>
+                                        <div class=" project-item h6-project-item ">
+                                            <div class="project-item-inner h6-project-item-inner"
+                                                data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class=" project-item h6-project-item active">
-                                        <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
-                                            <div class="project-content">
-                                                <span class="categories"><a href="portfolio-details.html">Support</a></span>
-                                                <div class="project-text">
-                                                    <h3 class="title"><a href="portfolio-details.html">Interactive Learning Platform</a></h3>
-                                                    <a class="project-btn" href="portfolio-details.html">
-                                                        <i class="tji-arrow-right-long"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class=" project-item h6-project-item ">
-                                        <div class="project-item-inner h6-project-item-inner"
-                                            data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg"">
-                                            <div class=" project-content">
-                                            <span class="categories"><a href="portfolio-details.html">Business</a></span>
-                                            <div class="project-text">
-                                                <h3 class="title"><a href="portfolio-details.html">Environmental Impact Dashboard</a></h3>
-                                                <a class="project-btn" href="portfolio-details.html">
-                                                    <i class="tji-arrow-right-long"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <? endfor; ?>
                                 </div>
-                                <div class=" project-item h6-project-item ">
-                                    <div class="project-item-inner h6-project-item-inner"
-                                        data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
-                                        <div class="project-content">
-                                            <span class="categories"><a href="portfolio-details.html">Connect</a></span>
-                                            <div class="project-text">
-                                                <h3 class="title"><a href="portfolio-details.html">Event Management Platform</a></h3>
-                                                <a class="project-btn" href="portfolio-details.html">
-                                                    <i class="tji-arrow-right-long"></i>
-                                                </a>
-                                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-shape-1">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="pattern di sfondo">
+                    </div>
+                    <div class="bg-shape-2">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="pattern di sfondo">
+                    </div>
+                </section>
+                <!-- end: Project Section -->
+                <!-- start: Cta Section -->
+                <section class="tj-cta-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cta-area">
+                                    <div class="cta-content">
+                                        <h2 class="title title-anim">Let’s Build Future Together.</h2>
+                                        <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
+                                            <a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
+                                                <span class="btn-text"><span>Contattaci</span></span>
+                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                            </a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class=" project-item h6-project-item ">
-                                    <div class="project-item-inner h6-project-item-inner"
-                                        data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
-                                        <div class="project-content">
-                                            <span class="categories"><a href="portfolio-details.html">Empower</a></span>
-                                            <div class="project-text">
-                                                <h3 class="title"><a href="portfolio-details.html">Digital Marketing Campaign</a></h3>
-                                                <a class="project-btn" href="portfolio-details.html">
-                                                    <i class="tji-arrow-right-long"></i>
-                                                </a>
-                                            </div>
-                                        </div>
+                                    <div class="cta-img">
+                                        <img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </section>
+                <!-- end: Cta Section -->
+            </main>
+            <!-- ==================== Start Footer ==================== -->
+            <? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>
+            <!-- ==================== End Footer ==================== -->
         </div>
-        <div class="bg-shape-1">
-            <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="pattern di sfondo">
-        </div>
-        <div class="bg-shape-2">
-            <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="pattern di sfondo">
-        </div>
-        </section>
-        <!-- end: Project Section -->
-        <!-- start: Cta Section -->
-        <section class="tj-cta-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="cta-area">
-                            <div class="cta-content">
-                                <h2 class="title title-anim">Let’s Build Future Together.</h2>
-                                <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-                                    <a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
-                                        <span class="btn-text"><span>Contattaci</span></span>
-                                        <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="cta-img">
-                                <img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end: Cta Section -->
-        </main>
-        <!-- ==================== Start Footer ==================== -->
-        <? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>
-        <!-- ==================== End Footer ==================== -->
-    </div>
     </div>
 
 

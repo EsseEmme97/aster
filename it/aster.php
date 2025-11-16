@@ -57,7 +57,6 @@ $heightseo = "115";
 								<div class="tj-page-header-content text-center">
 									<h1 class="tj-page-title">Aster elettronica</h1>
 									<div class="tj-page-link">
-										<span><i class="tji-home"></i></span>
 										<span>
 											<a href="<?= $pathindex ?>">Home</a>
 										</span>

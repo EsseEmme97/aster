@@ -57,7 +57,6 @@ $heightseo = "115";
                                 <div class="tj-page-header-content text-center">
                                     <h1 class="tj-page-title">Lavora con noi</h1>
                                     <div class="tj-page-link">
-                                        <span><i class="tji-home"></i></span>
                                         <span>
                                             <a href="<?= $pathindex ?>">Home</a>
                                         </span>
@@ -164,7 +163,7 @@ $heightseo = "115";
                 <!-- end: Faq Section -->
 
                 <!-- start: Contact Section -->
-                <section class="tj-contact-section section-gap section-gap-x">
+                <section class="tj-contact-section section-gap pt-0 section-gap-x">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
@@ -247,7 +246,7 @@ $heightseo = "115";
                                                 <div class="form-input position-relative border-bottom border-dark py-4">
                                                     <input class="file-upload" type="file" name="cv" placeholder="Allega il tuo CV">
                                                     <div class="d-flex align-items-center gap-2">
-                                                       <i class="fa-solid fa-file fa-xl color-text-body"></i>
+                                                        <i class="fa-solid fa-file fa-xl color-text-body"></i>
                                                         <span id="inputLabel" class="color-text-body">Allega il tuo cv</span>
                                                     </div>
                                                 </div>
@@ -273,7 +272,7 @@ $heightseo = "115";
                 </section>
                 <!-- end: Contact Section -->
                 <!-- start: Cta Section -->
-                <section class="tj-cta-section section-gap">
+                <section class="tj-cta-section">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -286,9 +285,6 @@ $heightseo = "115";
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
-                                    </div>
-                                    <div class="cta-img">
-                                        <img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
                                     </div>
                                 </div>
                             </div>

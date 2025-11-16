@@ -57,7 +57,6 @@ $heightseo = "115";
 								<div class="tj-page-header-content text-center">
 									<h1 class="tj-page-title">Ricerca & Sviluppo</h1>
 									<div class="tj-page-link">
-										<span><i class="tji-home"></i></span>
 										<span>
 											<a href="<?= $pathindex ?>">Home</a>
 										</span>
@@ -215,7 +214,7 @@ $heightseo = "115";
 				</section>
 				<!-- end: Testimonial Section -->
 				<!-- start: Project Section -->
-				<section class="h6-project section-gap section-gap-x">
+				<section class="h6-project section-gap section-gap-x pt-0">
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-12">
@@ -224,15 +223,6 @@ $heightseo = "115";
 										<div class=" project-item h6-project-item ">
 											<div class="project-item-inner h6-project-item-inner"
 												data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
-												<div class="project-content">
-													<span class="categories"><a href="portfolio-details.html">Empower</a></span>
-													<div class="project-text">
-														<span class="title"><a href="portfolio-details.html">Digital Marketing Campaign</a></span>
-														<a class="project-btn" href="portfolio-details.html">
-															<i class="tji-arrow-right-long"></i>
-														</a>
-													</div>
-												</div>
 											</div>
 										</div>
 									<? endfor; ?>

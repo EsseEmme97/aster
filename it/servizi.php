@@ -57,7 +57,6 @@ $heightseo = "115";
                                 <div class="tj-page-header-content text-center">
                                     <h1 class="tj-page-title">Servizi</h1>
                                     <div class="tj-page-link">
-                                        <span><i class="tji-home"></i></span>
                                         <span>
                                             <a href="<?= $pathindex ?>">Home</a>
                                         </span>
@@ -93,27 +92,21 @@ $heightseo = "115";
                                 </div>
                             </div>
                         </div>
-                        <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus magni rerum ipsam sit modi? Id in sed laborum eum totam dolorum fugiat officia, eius provident. Provident id tempora dicta culpa.</p>
+                        <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus magni rerum ipsam sit modi? Id in sed laborum eum totam dolorum fugiat officia, eius provident. Provident id tempora dicta culpa.</p>
                         <div class="row row-gap-4">
-                            <? for ($i = 0; $i < 9; $i++): ?>
+                            <? $titles = ["Servizio di consulenza prototipi e PCB", "Industrializzazione prodotto", "Produzione di campionature", "Servizio di ricerca componenti", "Servizio di approvigionamento materiali BOM", "Gestione e stocaggio di componenti in c/pieno e c/lavoro", "Montaggio scheda elettronica SMD", "Montaggio scheda elettronica PHT", "Test ottico", "Rework", "Raggi x", "Montaggio apparecchio, collaudo e imballaggio chiavi in mano", "Servizio di riparazione post vendita"] ?>
+                            <? foreach ($titles as $title): ?>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="service-item style-4 wow fadeInUp" data-wow-delay=".1s">
-                                        <div class="service-icon">
-                                            <i class="tji-service-1"></i>
-                                        </div>
                                         <div class="service-content">
-                                            <h4 class="title"><a href="service-details.html">Business Strategy Development</a></h4>
+                                            <span class="title h3"><a href="service-details.html"><?= $title  ?></a></span>
                                             <p class="desc">Customer Experience Solutions are designed to enhance every touchpoint of your
                                                 customer
                                                 journey, from first interaction.</p>
-                                            <a class="text-btn" href="service-details.html">
-                                                <span class="btn-text"><span>Learn More</span></span>
-                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                            <? endfor; ?>
+                            <? endforeach; ?>
                         </div>
                     </div>
                     <div class="bg-shape-1">
@@ -137,15 +130,6 @@ $heightseo = "115";
                                         <div class=" project-item h6-project-item ">
                                             <div class="project-item-inner h6-project-item-inner"
                                                 data-bg-image="<?= $pathindex . "assets/images/su-di-noi/" . $images[$i] ?>">
-                                                <div class="project-content">
-                                                    <span class="categories"><a href="portfolio-details.html">Empower</a></span>
-                                                    <div class="project-text">
-                                                        <span class="title"><a href="portfolio-details.html">Digital Marketing Campaign</a></span>
-                                                        <a class="project-btn" href="portfolio-details.html">
-                                                            <i class="tji-arrow-right-long"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
                                     <? endfor; ?>

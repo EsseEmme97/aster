@@ -202,7 +202,7 @@ $heightseo = "115";
 						"icona" => "broadcast.svg"
 					],
 					[
-						"titolo" => "Sistemi di controllo motore (inverter)",
+						"titolo" => "Sistemi di controllo motore",
 						"icona" => "controllo-motore.svg"
 					],
 					[
@@ -467,7 +467,7 @@ $heightseo = "115";
                                 <div class="about-content-area style-3 wow fadeInLeft" data-wow-delay=".3s">
                                     <div class="sec-heading style-4">
                                         <div class="subtitle-text">
-                                            <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Lavora con noi</span>
+                                            <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Lavora con noi</span>
                                         </div>
                                         <h2 class="sec-title title-highlight">Scopri le <span class="text-blu-primario">posizioni aperte</span>, oppure invia la tua candidatura spontanea
                                         </h2>
@@ -521,7 +521,7 @@ $heightseo = "115";
                                         <div class="border-primary-color p-4 rounded">
                                             <span class="h3">Vai alla sezione news</span>
                                             <div class="wow fadeInUp mt-5" data-wow-delay=".5s">
-                                                <a class="text-btn" href="about.html">
+                                                <a class="text-btn" href="<?= $pathindex  ?>news">
                                                     <span class="btn-text"><span>Scopri di più</span></span>
                                                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                                 </a>
@@ -533,14 +533,14 @@ $heightseo = "115";
                             <div class="col-xl-6 col-lg-6 order-lg-2 order-1">
                                 <div class="about-content-area style-1 wow fadeInLeft" data-wow-delay=".2s">
                                     <div class="sec-heading">
-                                        <span class="sub-title wow fadeInUp bg-carta-da-zucchero" data-wow-delay=".3s"><i class="tji-box"></i>Get to Know
+                                        <span class="sub-title wow fadeInUp bg-carta-da-zucchero" data-wow-delay=".3s">Get to Know
                                             Us</span>
                                         <h2 class="sec-title title-anim">Da oggi siamo partner di Luminovo: la filosofia <span>Kaizen</span> applicata.
                                         </h2>
                                     </div>
                                     <div class="wow fadeInUp" data-wow-delay=".5s">
-                                        <a class="text-btn" href="about.html">
-                                            <span class="btn-text"><span>Scopri di più</span></span>
+                                        <a class="text-btn" href="<?= $pathindex  ?>news">
+                                            <span class="btn-text"><span>Leggi tutto</span></span>
                                             <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                         </a>
                                     </div>

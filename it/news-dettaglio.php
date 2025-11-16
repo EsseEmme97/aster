@@ -59,7 +59,6 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 								<div class="tj-page-header-content text-center">
 									<h1 class="tj-page-title">News n° <?= $news_id ?></h1>
 									<div class="tj-page-link">
-										<span><i class="tji-home"></i></span>
 										<span>
 											<a href="<?= $pathindex ?>">Home</a>
 										</span>

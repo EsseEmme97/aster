@@ -1066,7 +1066,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  line-height: 1;
+  line-height: 1.4;
   text-shadow: 0 30px 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -1184,7 +1184,8 @@ START: Theme Header CSS
   background-color: var(--tj-color-common-white);
   border-end-start-radius: 12px;
   border-end-end-radius: 12px;
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 99;
 }
 
@@ -1623,7 +1624,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   color: var(--grigio-scuro);
   display: block;
   padding: 37px 0;
-  font-weight: var(--tj-fw-medium);
+  font-weight: bold;
   line-height: 1;
 }
 
@@ -10746,7 +10747,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: end;
 }
 
 .about-bottom-area .client-info {
@@ -11476,11 +11477,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   opacity: 0.3;
 }
 
-.service-item.style-1:hover .service-icon {
+/* .service-item.style-1:hover .service-icon {
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-}
+} */
 
 .service-item.style-1:hover .service-content {
   padding-bottom: 95px;

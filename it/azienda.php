@@ -181,7 +181,7 @@ $heightseo = "115";
                                     </div>
                                 </div>
                                 <div class="wow fadeInUp my-5 mb-lg-0" data-wow-delay=".3s">
-                                    <a class="text-btn" href="<?= $pathindex ?>/contatti">
+                                    <a class="text-btn" href="<?= $pathindex ?>contatti">
                                         <span class="btn-text"><span>Scopri di più</span></span>
                                         <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                     </a>
@@ -329,15 +329,6 @@ $heightseo = "115";
                                         <div class=" project-item h6-project-item ">
                                             <div class="project-item-inner h6-project-item-inner"
                                                 data-bg-image="<?= $pathindex . "assets/images/su-di-noi/" . $images[$i] ?>">
-                                                <div class="project-content">
-                                                    <span class="categories"><a href="portfolio-details.html">Empower</a></span>
-                                                    <div class="project-text">
-                                                        <span class="title"><a href="portfolio-details.html">Digital Marketing Campaign</a></span>
-                                                        <a class="project-btn" href="portfolio-details.html">
-                                                            <i class="tji-arrow-right-long"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
                                     <? endfor; ?>
