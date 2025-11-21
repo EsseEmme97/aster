@@ -7,7 +7,7 @@
                     <div class="footer-widget wow fadeInUp" data-wow-delay=".1s">
                         <div class="footer-logo">
                             <a href="index.html">
-                                <img src="<?= $pathindex ?>assets\images\logo\Aster_Elettronica-Logo.svg" alt="immagine logo">
+                                <img src="<?= $pathindex ?>assets\images\logo\aster-elettronica-logo.svg" alt="immagine logo">
                             </a>
                         </div>
 
@@ -15,7 +15,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="footer-widget widget-nav-menu wow fadeInUp" data-wow-delay=".3s">
-                        <span class="d-block fw-bold">Aster Elettronica srl</span>
+                        <span class="d-block fw-bold">Aster Elettronica Srl</span>
                         <span class="d-block mt-2">Via Lungo Gogna, 45</span>
                         <span class="d-block mt-2">36015 Schio (VI)</span>
                     </div>

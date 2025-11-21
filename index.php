@@ -270,7 +270,7 @@ $heightseo = "115";
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <? endforeach; ?>
+                                            <? endforeach; ?>
                                         </div>
                                         <div class="swiper-pagination-area white-pagination"></div>
                                     </div>
@@ -440,7 +440,7 @@ $heightseo = "115";
                                     </div>
                                 </div>
                                 <div class="service-btn-area text-center wow fadeInUp" data-wow-delay=".3s">
-                                    <a class="tj-primary-btn" href="<?= $pathindex ?>produzione-e-assemblaggio">
+                                    <a class="text-btn" href="<?= $pathindex ?>produzione-e-assemblaggio">
                                         <span class="btn-text"><span>Scopri di più</span></span>
                                         <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                     </a>
@@ -502,8 +502,8 @@ $heightseo = "115";
                                             </span>
                                         </div>
                                         <div class="about-btn-area-2 wow fadeInUp" data-wow-delay="1s">
-                                            <a class="tj-primary-btn" href="<?= $pathindex ?>lavora-con-noi">
-                                                <span class="btn-text">Scopri di più</span>
+                                            <a class="text-btn" href="<?= $pathindex ?>produzione-e-assemblaggio">
+                                                <span class="btn-text"><span>Scopri di più</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
@@ -584,8 +584,8 @@ $heightseo = "115";
                                     <div class="cta-content">
                                         <h2 class="title title-anim">Let’s Build Future Together.</h2>
                                         <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-                                            <a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
-                                                <span class="btn-text"><span>Contattaci</span></span>
+                                            <a class="text-btn" href="<?= $pathindex  ?>contatti">
+                                                <span class="btn-text"><span>Scopri di più</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
