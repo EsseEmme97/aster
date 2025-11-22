@@ -80,11 +80,11 @@ $heightseo = "115";
                                 <div class="customers-box">
                                     <div class="customers">
                                         <ul>
-                                            <li class="wow fadeInLeft" data-wow-delay=".5s"><img src="<?= $pathindex ?>assets/images/testimonial/client-1.webp"
-                                                    alt=""></li>
-                                            <li class="wow fadeInLeft" data-wow-delay=".6s"><img src="<?= $pathindex ?>assets/images/testimonial/client-2.webp"
-                                                    alt=""></li>
-                                            <li class="wow fadeInLeft" data-wow-delay=".7s"><img src="<?= $pathindex ?>assets/images/testimonial/client-3.webp"=""></li>
+                                            <li class="wow fadeInLeft" data-wow-delay=".5s"><img src="<?= $pathindex ?>assets/images/home/aster-avatar-carriera-1.webp"
+                                                    alt="avatar dipendente"></li>
+                                            <li class="wow fadeInLeft" data-wow-delay=".6s"><img src="<?= $pathindex ?>assets/images/home/aster-avatar-carriera-2.webp"
+                                                    alt="avatar dipendente"></li>
+                                            <li class="wow fadeInLeft" data-wow-delay=".7s"><img src="<?= $pathindex ?>assets/images/home/aster-avatar-carriera-3.webp" alt="avatar dipendente"></li>
                                             <li class="wow fadeInLeft" data-wow-delay=".8s"><span><i class="tji-plus"></i></span></li>
                                         </ul>
                                     </div>
@@ -108,7 +108,7 @@ $heightseo = "115";
                         <div class="row row-gap-4">
                             <div class="col-lg-4 col-md-6 order-lg-1 order-3">
                                 <div class="countup-item style-2 wow fadeInUp border-primary-color" data-wow-delay=".1s">
-                                    <span class="count-icon"><img src="<?= $pathindex ?>assets/images/favicon/Aster_Elettronica-Favicon.png" alt="icona aster"></span>
+                                    <span class="count-icon"><img src="<?= $pathindex ?>assets/images/home/home-intro.svg" alt="icona aster"></span>
                                     <span class="steps">01.</span>
                                     <div class="count-inner">
                                         <div>
@@ -143,24 +143,24 @@ $heightseo = "115";
                             <div class="col-lg-4 col-md-6 order-lg-3 order-2">
                                 <div class="customers-box style-2 wow fadeInUp border-primary-color" data-wow-delay=".3s">
                                     <div class="customers-bg" data-bg-image="assets/images/home/home-intro-1.webp"></div>
-                                    <span class="customers-text wow fadeInLeft" data-wow-delay=".6s">Dal 1196 prodotti chiavi in mano</span>
+                                    <span class="customers-text wow fadeInLeft" data-wow-delay=".6s">Dal 1996, prodotti “chiavi in mano”</span>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 order-lg-4 order-4">
                                 <div class="countup-item style-2 wow fadeInUp border-primary-color" data-wow-delay=".5s">
-                                    <span class="count-icon"><img src="<?= $pathindex ?>assets/images/favicon/Aster_Elettronica-Favicon.png" alt="icona aster"></span>
+                                    <span class="count-icon"><img src="<?= $pathindex ?>assets/images/home/home-intro.svg" alt="icona aster"></span>
                                     <span class="steps">02.</span>
                                     <div class="count-inner">
                                         <div>
-                                            <span class="h3 fw-bold">Prototipizzazione e progettazione su misura</span>
+                                            <span class="h3 fw-bold">Prototipizzazione <br></span>
                                         </div>
-                                        <span class="count-text mt-2">Lorem ipsum dolor sit amet, consectutir lorem ipsum</span>
+                                        <span class="count-text mt-2">Lorem ipsum dolor sit amet, consectutir lorem ipsum, Lorem ipsum dolor sit amet, consectutir lorem ipsum</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 order-lg-5 order-5">
                                 <div class="countup-item style-2 wow fadeInUp border-primary-color" data-wow-delay=".7s">
-                                    <span class="count-icon"><img src="<?= $pathindex ?>assets/images/favicon/Aster_Elettronica-Favicon.png" alt="icona aster"></span>
+                                    <span class="count-icon"><img src="<?= $pathindex ?>assets/images/home/home-intro.svg" alt="icona aster"></span>
                                     <span class="steps">03.</span>
                                     <div class="count-inner">
                                         <div>
@@ -259,14 +259,15 @@ $heightseo = "115";
                                 <div class="service-wrapper wow fadeInUp" data-wow-delay=".4s">
                                     <div class="swiper service-slider">
                                         <div class="swiper-wrapper">
-                                            <? foreach ($settori as $settore): ?>
+                                            <? foreach ($settori as $index=>$settore): ?>
+                                            <? $settore_corretto= $index == 0 || $index == 1 ? "settori" : $settori[$index-2]["id"] ?>
                                                 <div class="swiper-slide">
                                                     <div class="service-item style-1">
                                                         <div class="service-icon">
                                                             <img src="<?= $pathindex . $basePath . $settore["icona"] ?>" alt="icona settore">
                                                         </div>
                                                         <div class="service-content">
-                                                            <a class="title text-white" href="<?= $pathindex . "settori#" . $settore["id"] ?>"><?= $settore["titolo"] ?></a>
+                                                            <a class="title text-white" href="<?= $pathindex . "settori#" . $settore_corretto ?>"><?= $settore["titolo"] ?></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -344,7 +345,7 @@ $heightseo = "115";
                                     </div>
                                 </div>
                                 <div class="wow fadeInUp my-5 mb-lg-0" data-wow-delay=".3s">
-                                    <a class="text-btn" href="<?= $pathindex ?>ricerca-e-svilluppo">
+                                    <a class="text-btn" href="<?= $pathindex ?>ricerca-e-sviluppo">
                                         <span class="btn-text"><span>Scopri di più</span></span>
                                         <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                     </a>
@@ -380,9 +381,9 @@ $heightseo = "115";
                                         <div class="service-content-wrap">
                                             <div class="service-title">
                                                 <div class="service-icon">
-                                                    <img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="immagine aster">
+                                                    <img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-01.svg" alt="immagine aster">
                                                 </div>
-                                                <span class="title h3">Business Strategy Development</span>
+                                                <span class="title h3">Fase di produzione & assemblaggio</span>
                                             </div>
                                             <div class="service-content">
                                                 <p class="desc">Through a combination of data-driven insights and innovative approaches, we work
@@ -395,9 +396,9 @@ $heightseo = "115";
                                         <div class="service-content-wrap">
                                             <div class="service-title">
                                                 <div class="service-icon">
-                                                    <img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="immagine aster">
+                                                    <img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-02.svg" alt="immagine aster">
                                                 </div>
-                                                <span class="title h3">Customer Experience Solutions</span>
+                                                <span class="title h3">Fase di produzione & assemblaggio</span>
                                             </div>
                                             <div class="service-content">
                                                 <p class="desc">Customer Experience Solutions are designed to enhance every touchpoint of your
@@ -410,9 +411,9 @@ $heightseo = "115";
                                         <div class="service-content-wrap">
                                             <div class="service-title">
                                                 <div class="service-icon">
-                                                    <img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="immagine aster">
+                                                    <img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-03.svg" alt="immagine aster">
                                                 </div>
-                                                <span class="title h3">Sustainability and ESG Consulting</span>
+                                                <span class="title h3">Fase di produzione & assemblaggio</span>
                                             </div>
                                             <div class="service-content">
                                                 <p class="desc">Provide tailored strategies that not only drive long-term value but also build
@@ -426,9 +427,9 @@ $heightseo = "115";
                                         <div class="service-content-wrap">
                                             <div class="service-title">
                                                 <div class="service-icon">
-                                                    <img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="immagine aster">
+                                                    <img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-04.svg" alt="immagine aster">
                                                 </div>
-                                                <span class="title h3">Training and Development Programs</span>
+                                                <span class="title h3">Fase di produzione & assemblaggio</span>
                                             </div>
                                             <div class="service-content">
                                                 <p class="desc">Training and Development Programs are designed to empower employees with the
@@ -458,13 +459,25 @@ $heightseo = "115";
                                 <div class="swiper-slide marquee-item">
                                     <span class="marquee-text">Aster</span>
                                     <div class="marquee-img">
-                                        <img src="<?= $pathindex ?>assets/images/marquee/marquee-1.webp" alt="">
+                                        <img src="<?= $pathindex ?>assets/images/home/home-animazione-1.webp" alt="immagine animazione">
                                     </div>
                                 </div>
                                 <div class="swiper-slide marquee-item">
                                     <span class="marquee-text">Elettronica</span>
                                     <div class="marquee-img">
-                                        <img src="<?= $pathindex ?>assets/images/marquee/marquee-2.webp" alt="">
+                                        <img src="<?= $pathindex ?>assets/images/home/home-animazione-2.webp" alt="immagine animazione">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <span class="marquee-text">Elettronica</span>
+                                    <div class="marquee-img">
+                                        <img src="<?= $pathindex ?>assets/images/home/home-animazione-3.webp" alt="immagine animazione">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <span class="marquee-text">Elettronica</span>
+                                    <div class="marquee-img">
+                                        <img src="<?= $pathindex ?>assets/images/home/home-animazione-4.webp" alt="immagine animazione">
                                     </div>
                                 </div>
                             </div>
@@ -473,7 +486,7 @@ $heightseo = "115";
                 </section>
                 <!-- end: Marquee Section -->
                 <!-- start: About Section -->
-                <section class="tj-about-section-2 section-gap section-gap-x mt-15px">
+                <section class="tj-about-section-2 section-gap-3 section-gap-x mt-15px">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -498,7 +511,7 @@ $heightseo = "115";
                                                     <li class="wow fadeInLeft" data-wow-delay=".5s"><span><i class="tji-plus"></i></span></li>
                                                 </ul>
                                             </div>
-                                            <span class="customers-text wow fadeInLeft" data-wow-delay=".6s">Entra anche tu nella squadra!
+                                            <span class="customers-text wow fadeInLeft d-block mt-4" data-wow-delay=".6s">Entra anche tu nella squadra!
                                             </span>
                                         </div>
                                         <div class="about-btn-area-2 wow fadeInUp" data-wow-delay="1s">
@@ -528,10 +541,10 @@ $heightseo = "115";
                             <div class="col-xl-6 col-lg-6 order-lg-1 order-2">
                                 <div class="about-img-area wow fadeInLeft h-100" data-wow-delay=".2s">
                                     <div class="about-img overflow-hidden">
-                                        <img data-speed="0.8" src="<?= $pathindex ?>assets/images/stock/stock-2.jpg" alt="immagine stock">
+                                        <img data-speed="0.8" src="<?= $pathindex ?>" alt="immagine stock">
                                     </div>
                                     <div class="box-area">
-                                        <div class="border-primary-color p-4 rounded">
+                                        <div class="border-primary-color p-4 rounded bg-white">
                                             <span class="h3">Vai alla sezione news</span>
                                             <div class="wow fadeInUp mt-5" data-wow-delay=".5s">
                                                 <a class="text-btn" href="<?= $pathindex  ?>news">
@@ -548,7 +561,7 @@ $heightseo = "115";
                                     <div class="sec-heading">
                                         <span class="sub-title wow fadeInUp bg-carta-da-zucchero" data-wow-delay=".3s">Get to Know
                                             Us</span>
-                                        <h2 class="sec-title title-anim">Da oggi siamo partner di Luminovo: la filosofia <span>Kaizen</span> applicata.
+                                        <h2 class="sec-title">Da oggi siamo partner di Luminovo: la filosofia <span>Kaizen</span> applicata.
                                         </h2>
                                     </div>
                                     <div class="wow fadeInUp" data-wow-delay=".5s">
@@ -562,11 +575,11 @@ $heightseo = "115";
                                     <div class="client-review-cont wow fadeInUp" data-wow-delay=".7s">
                                         <p class="desc">Siamo orgogliosi di annunciare la nuova partnership, per migliorare l’efficienza operativa e offrire un valore maggiore ai nostri clienti.</p>
                                         <div class="client-info-area">
-                                            <span class="quote-icon"><i class="tji-quote"></i></span>
+                                            <img style="max-width: 36px;" src="<?= $pathindex ?>assets/images/home/home-news-virgolette.svg" alt="virgolette" >
                                         </div>
                                     </div>
                                     <div class="video-img  wow fadeInUp" data-wow-delay=".9s">
-                                        <img src="assets/images/about/about-2.webp" alt="immagine servizio">
+                                        <img src="<?= $pathindex ?>assets/images/home/home-news-azienda.webp" alt="immagine servizio">
                                     </div>
                                 </div>
                             </div>

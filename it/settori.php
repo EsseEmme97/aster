@@ -145,7 +145,7 @@ $heightseo = "115";
 
 				$basePath = "assets/images/settori/"
 				?>
-				<section class="tj-service-section service-2 section-gap section-gap-x slidebar-stickiy-container">
+				<section id="servizi" class="tj-service-section service-2 section-gap section-gap-x slidebar-stickiy-container">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-4">

@@ -50,19 +50,19 @@ $heightseo = "115";
 			<main id="primary" class="site-main">
 				<div class="space-for-header"></div>
 				<!-- start: Breadcrumb Section -->
-				<section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/stock/stock-1.jpg">
+				<section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/aster-elettronica/aster-elettronica-header.webp">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-12">
 								<div class="tj-page-header-content text-center">
-									<h1 class="tj-page-title">Aster elettronica</h1>
+									<h1 class="tj-page-title">Aster Elettronica</h1>
 									<div class="tj-page-link">
 										<span>
 											<a href="<?= $pathindex ?>">Home</a>
 										</span>
-										<span><i class="tji-arrow-right"></i></span>
+										<span><i class="tji-arrow-right text-blu-secondario"></i></span>
 										<span>
-											<span>Aster elettronica</span>
+											<span>Aster Elettronica</span>
 										</span>
 									</div>
 								</div>
@@ -83,29 +83,25 @@ $heightseo = "115";
 										<div class="sec-heading">
 											<h2 class="sec-title title-anim">Breaking Boundaries, Building <span>Dreams.</span></h2>
 										</div>
-										<p class="desc wow fadeInUp" data-wow-delay=".5s">We work closely with our clients to understand
-											their
-											unique needs and craft tailored
-											solutions that address challenges.</p>
 										<div class="btn-wrap wow fadeInUp" data-wow-delay=".6s">
-											<a class="tj-primary-btn" href="portfolio.html">
-												<span class="btn-text"><span>More Projects</span></span>
+											<a class="tj-primary-btn" href="<?= $pathindex ?>contatti">
+												<span class="btn-text"><span>Contattaci</span></span>
 												<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
 											</a>
 										</div>
 									</div>
 								</div>
 							</div>
+							<p class="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, eaque. Asperiores debitis quibusdam animi voluptas nostrum quasi, perspiciatis culpa explicabo labore quae cum ipsam recusandae autem dignissimos corrupti voluptatem repellendus!</p>
 						</div>
 						<div class="row">
 							<div class="col-12">
 								<div class="project-area tj-arrange-container">
 									<div class="project-item tj-arrange-item">
-										<div class="project-img" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-gallery-1.webp"></div>
+										<div class="project-img" data-bg-image="<?= $pathindex ?>assets/images/aster-elettronica/anteprima-su-di-noi.webp"></div>
 										<div class="project-content">
-											<span class="categories"><a href="<?= $pathindex ?>su-di-noi">Connect</a></span>
 											<div class="project-text">
-												<span class="title"><a href="<?= $pathindex ?>su-di-noi">Su di noi</a></span>
+												<span class="title h3"><a href="<?= $pathindex ?>su-di-noi">Su di noi</a></span>
 												<a class="project-btn" href="<?= $pathindex ?>su-di-noi">
 													<i class="tji-arrow-right-long"></i>
 												</a>
@@ -115,7 +111,6 @@ $heightseo = "115";
 									<div class="project-item tj-arrange-item">
 										<div class="project-img" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-gallery-2.webp"></div>
 										<div class="project-content">
-											<span class="categories"><a href="<?= $pathindex ?>settori">Empower</a></span>
 											<div class="project-text">
 												<span class="title"><a href="<?= $pathindex ?>settori">Settori</a></span>
 												<a class="project-btn" href="<?= $pathindex ?>settori">
@@ -125,11 +120,10 @@ $heightseo = "115";
 										</div>
 									</div>
 									<div class="project-item tj-arrange-item">
-										<div class="project-img" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-gallery-3.webp"></div>
+										<div class="project-img" data-bg-image="<?= $pathindex ?>assets/images/aster-elettronica/anteprima-servizi.webp"></div>
 										<div class="project-content">
-											<span class="categories"><a href="<?= $pathindex ?>servizi">Support</a></span>
 											<div class="project-text">
-												<span class="title"><a href="<?= $pathindex ?>servizi">Servizi</a></span>
+												<span class="title h3"><a href="<?= $pathindex ?>servizi">Servizi</a></span>
 												<a class="project-btn" href="<?= $pathindex ?>servizi">
 													<i class="tji-arrow-right-long"></i>
 												</a>
@@ -137,11 +131,10 @@ $heightseo = "115";
 										</div>
 									</div>
 									<div class="project-item tj-arrange-item">
-										<div class="project-img" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-gallery-4.webp"></div>
+										<div class="project-img" data-bg-image="<?= $pathindex ?>assets/images/aster-elettronica/anteprima-ricerca-sviluppo.webp"></div>
 										<div class="project-content">
-											<span class="categories"><a href="<?= $pathindex ?>ricerca-e-sviluppo">Business</a></span>
 											<div class="project-text">
-												<span class="title"><a href="<?= $pathindex ?>ricerca-e-sviluppo">Ricerca e sviluppo</a></span>
+												<span class="title h3"><a href="<?= $pathindex ?>ricerca-e-sviluppo">Ricerca e sviluppo</a></span>
 												<a class="project-btn" href="<?= $pathindex ?>ricerca-e-sviluppo">
 													<i class="tji-arrow-right-long"></i>
 												</a>
@@ -155,26 +148,26 @@ $heightseo = "115";
 				</section>
 				<!-- end: Project Section -->
 				<!-- start: Cta Section -->
-				<section class="tj-cta-section ">
-					<div class="container">
-						<div class="row">
-							<div class="col-12">
-								<div class="cta-area">
-									<div class="cta-content">
-										<h2 class="title title-anim">Let’s Build Future Together.</h2>
-										<div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-											<a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
-												<span class="btn-text"><span>Contattaci</span></span>
-												<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end: Cta Section -->
+                <section class="tj-cta-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cta-area">
+                                    <div class="cta-content">
+                                        <h2 class="title title-anim">Let’s Build Future Together.</h2>
+                                        <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
+                                            <a class="text-btn" href="<?= $pathindex  ?>contatti">
+                                                <span class="btn-text"><span>Scopri di più</span></span>
+                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end: Cta Section -->
 
 			</main>
 			<!-- ==================== Start Footer ==================== -->
