@@ -50,7 +50,7 @@ $heightseo = "115";
 			<main id="primary" class="site-main">
 				<div class="space-for-header"></div>
 				<!-- start: Breadcrumb Section -->
-				<section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/stock/stock-1.jpg">
+				<section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/produzione-assemblaggio/produzione-assemblaggio-header.webp">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-12">
@@ -92,7 +92,7 @@ $heightseo = "115";
 										<div class="service-content-wrap">
 											<div class="service-title">
 												<div class="service-icon">
-													<img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona aster">
+													<img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-01.svg" alt="immagine aster">
 												</div>
 												<span class="title">Fase di produzione & assemblaggio</span>
 											</div>
@@ -107,7 +107,7 @@ $heightseo = "115";
 										<div class="service-content-wrap">
 											<div class="service-title">
 												<div class="service-icon">
-													<img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona aster">
+													<img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-02.svg" alt="immagine aster">
 												</div>
 												<span class="title">Fase di produzione & assemblaggio</span>
 											</div>
@@ -122,7 +122,7 @@ $heightseo = "115";
 										<div class="service-content-wrap">
 											<div class="service-title">
 												<div class="service-icon">
-													<img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona aster">
+													<img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-03.svg" alt="immagine aster">
 												</div>
 												<span class="title">Fase di produzione & assemblaggio</span>
 											</div>
@@ -138,7 +138,7 @@ $heightseo = "115";
 										<div class="service-content-wrap">
 											<div class="service-title">
 												<div class="service-icon">
-													<img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona aster">
+													<img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-04.svg" alt="immagine aster">
 												</div>
 												<span class="title">Fase di produzione & assemblaggio</span>
 											</div>
@@ -174,7 +174,7 @@ $heightseo = "115";
 									<div class="countup-item">
 										<div class="inline-content">
 											<span class="odometer countup-number" data-count="20"></span>
-											<span class="count-plus">K</span>
+											<span class="count-plus">k</span>
 										</div>
 										<span class="count-text">Componenti realizzate</span>
 										<span class="count-separator" data-bg-image="<?= $pathindex ?>assets/images/shape/separator.svg"></span>
@@ -182,7 +182,7 @@ $heightseo = "115";
 									<div class="countup-item">
 										<div class="inline-content">
 											<span class="odometer countup-number" data-count="8.5"></span>
-											<span class="count-plus">X</span>
+											<span class="count-plus">x</span>
 										</div>
 										<span class="count-text">Velocità di crescita</span>
 										<span class="count-separator" data-bg-image="<?= $pathindex ?>assets/images/shape/separator.svg"></span>
@@ -201,7 +201,7 @@ $heightseo = "115";
 				</div>
 				<!-- end: Countup Section -->
 
-				<section class="section-gap">
+				<section class="section-gap-3">
 					<div class="container post-details-wrapper">
 						<h2 class="title title-anim">Unlocking Business Potential: Innovative Solutions for Unmatched Success
 						</h2>
@@ -215,42 +215,39 @@ $heightseo = "115";
 								businesses
 								with the tools and strategies needed to stay ahead.</p>
 							<ul class="wow fadeInUp" data-wow-delay=".3s">
-								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Embrace Innovation</li>
-								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Customer-Centric Approach</li>
-								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Effective Leadership</li>
-								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Operational Efficiency</li>
-								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Scalable Systems</li>
-								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Resilience</li>
-								<li><span><img src="<?= $pathindex ?>assets/images/favicon/favicon-blu.png" alt="icona"></span>Continuous Learning</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Embrace Innovation</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Customer-Centric Approach</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Effective Leadership</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Operational Efficiency</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Scalable Systems</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Resilience</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Continuous Learning</li>
 							</ul>
 						</div>
 					</div>
 				</section>
 
 				<!-- start: Cta Section -->
-				<section class="tj-cta-section">
-					<div class="container">
-						<div class="row">
-							<div class="col-12">
-								<div class="cta-area">
-									<div class="cta-content">
-										<h2 class="title title-anim">Let’s Build Future Together.</h2>
-										<div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-											<a class="tj-primary-btn " href="contact.html">
-												<span class="btn-text"><span>Contattaci</span></span>
-												<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-											</a>
-										</div>
-									</div>
-									<div class="cta-img">
-										<img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end: Cta Section -->
+                <section class="tj-cta-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cta-area">
+                                    <div class="cta-content">
+                                        <h2 class="title title-anim">Let’s Build Future Together.</h2>
+                                        <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
+                                            <a class="text-btn" href="<?= $pathindex  ?>contatti">
+                                                <span class="btn-text"><span>Scopri di più</span></span>
+                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end: Cta Section -->
 				<!-- ==================== Start Footer ==================== -->
 				<? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>
 				<!-- ==================== End Footer ==================== -->

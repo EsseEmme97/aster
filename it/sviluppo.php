@@ -60,7 +60,7 @@ $heightseo = "115";
 										<span>
 											<a href="<?= $pathindex ?>">Home</a>
 										</span>
-										<span><i class="tji-arrow-right"></i></span>
+										<span><i class="tji-arrow-right text-blu-secondario"></i></span>
 										<span>
 											<span>Ricerca & Sviluppo</span>
 										</span>
@@ -72,7 +72,7 @@ $heightseo = "115";
 					<div class="page-header-overlay"></div>
 				</section>
 				<!-- end: Breadcrumb Section -->
-				
+
 				<!-- start: About Section -->
 				<section class="tj-about-section section-gap">
 					<div class="container">
@@ -191,10 +191,10 @@ $heightseo = "115";
 							<div class="col-lg-6 order-lg-2">
 								<div class="testimonial-img-area wow fadeInUp" data-wow-delay=".3s">
 									<div class="testimonial-img">
-										<img src="<?= $pathindex ?>assets/images/testimonial/testimonial-img.webp" alt="">
+										<img src="<?= $pathindex ?>assets\images\ricerca-sviluppo\ricerca-sviluppo-iso-9001.webp" alt="immagine certificazione ISO 9001">
 										<div class="sec-heading style-2">
 											<h2 class="sec-title title-anim mb-5">Noi siamo certificati ISO 9001:2015</h2>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+											<p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 											<div class="wow fadeInUp mt-5" data-wow-delay=".3s">
 												<a class="text-btn" href="<?= $pathindex ?>about.html">
 													<span class="btn-text"><span>Download pdf</span></span>
@@ -206,7 +206,7 @@ $heightseo = "115";
 								</div>
 							</div>
 							<div class="col-lg-6 order-lg-1">
-								<div class="testimonial-wrapper wow fadeInUp border-radius-12px p-4 bg-white border-primary-color" data-wow-delay=".5s">
+								<div class="testimonial-wrapper wow fadeInUp border-radius-12px p-4 bg-white" data-wow-delay=".5s">
 									<h2 class="mb-5">Noi siamo <br> <span class="text-blu-primario">Kaizein People</span>.</h2>
 									<p>
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -221,18 +221,21 @@ $heightseo = "115";
 				</section>
 				<!-- end: Testimonial Section -->
 				<!-- start: Project Section -->
+				<?
+				$images = array_slice(scandir($pathindex . "assets/images/ricerca-sviluppo/"), 3, 8);
+				?>
 				<section class="h6-project section-gap section-gap-x pt-0">
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-12">
 								<div class="h6-project-inner wow fadeInUp" data-wow-delay="0.6s">
-									<? for ($i = 0; $i < 8; $i++): ?>
+									<? foreach ($images as $image): ?>
 										<div class=" project-item h6-project-item ">
 											<div class="project-item-inner h6-project-item-inner"
-												data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
+												data-bg-image="<?= $pathindex . "assets/images/ricerca-sviluppo/" . $image ?>">
 											</div>
 										</div>
-									<? endfor; ?>
+									<? endforeach; ?>
 								</div>
 							</div>
 						</div>
@@ -253,15 +256,12 @@ $heightseo = "115";
 								<div class="cta-area">
 									<div class="cta-content">
 										<h2 class="title title-anim">Let’s Build Future Together.</h2>
-										<div class="cta-btn wow fadeInUp mt-60" data-wow-delay=".6s">
-											<a class="tj-primary-btn " href="contact.html">
-												<span class="btn-text"><span>Contattaci</span></span>
+										<div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
+											<a class="text-btn" href="<?= $pathindex  ?>contatti">
+												<span class="btn-text"><span>Scopri di più</span></span>
 												<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
 											</a>
 										</div>
-									</div>
-									<div class="cta-img">
-										<img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
 									</div>
 								</div>
 							</div>

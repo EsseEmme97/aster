@@ -50,7 +50,7 @@ $heightseo = "115";
 			<main id="primary" class="site-main">
 				<div class="space-for-header"></div>
 				<!-- start: Breadcrumb Section -->
-				<section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/stock/stock-3.jpg">
+				<section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/news/news-header.webp">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-12">
@@ -60,7 +60,7 @@ $heightseo = "115";
 										<span>
 											<a href="<?= $pathindex ?>">Home</a>
 										</span>
-										<span><i class="tji-arrow-right"></i></span>
+										<span><i class="tji-arrow-right text-blu-secondario"></i></span>
 										<span>
 											<span>News</span>
 										</span>
@@ -111,22 +111,19 @@ $heightseo = "115";
 			</main>
 			<!-- end: Blog Section -->								
 			<!-- start: Cta Section -->
-                <section class="tj-cta-section">
+                <section class="tj-cta-section" >
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <div class="cta-area">
+                                <div class="cta-area" data-bg-image="<?= $pathindex ?>assets/images/news/news-cta.webp">
                                     <div class="cta-content">
                                         <h2 class="title title-anim">Let’s Build Future Together.</h2>
-                                        <div class="cta-btn wow fadeInUp mt-60" data-wow-delay=".6s">
-                                            <a class="tj-primary-btn " href="contact.html">
-                                                <span class="btn-text"><span>Contattaci</span></span>
+                                        <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
+                                            <a class="text-btn" href="<?= $pathindex  ?>contatti">
+                                                <span class="btn-text"><span>Scopri di più</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
-                                    </div>
-                                    <div class="cta-img">
-                                        <img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
                                     </div>
                                 </div>
                             </div>

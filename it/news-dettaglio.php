@@ -62,7 +62,11 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 										<span>
 											<a href="<?= $pathindex ?>">Home</a>
 										</span>
-										<span><i class="tji-arrow-right"></i></span>
+										<span><i class="tji-arrow-right text-blu-secondario"></i></span>
+										<span>
+											<a href="<?= $pathindex ?>news">News</a>
+										</span>
+										<span><i class="tji-arrow-right text-blu-secondario"></i></span>
 										<span>
 											<span>News n° <?= $news_id ?></span>
 										</span>
@@ -81,9 +85,6 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 						<div class="row row-gap-5">
 							<div class="col-lg-8">
 								<div class="post-details-wrapper">
-									<div class="blog-images wow fadeInUp" data-wow-delay=".1s">
-										<img src="<?= $pathindex ?>assets\images\stock\stock-3.jpg" alt="immagine principale">
-									</div>
 									<h2 class="title title-anim">Unlocking Business Potential: Innovative Solutions for Unmatched Success
 									</h2>
 									<div class="blog-text">
@@ -101,6 +102,9 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 											new market opportunities, our tailored solutions are designed to empower your business to achieve
 											unparalleled success. With a focus on sustainability, scalability, and adaptability, we help your
 											business.</p>
+									<div class="blog-images wow fadeInUp" data-wow-delay=".1s">
+										<img src="<?= $pathindex ?>assets\images\stock\stock-3.jpg" alt="immagine principale">
+									</div>
 										<span class="wow fadeInUp h3 d-inline-block" data-wow-delay=".3s">Kye lessons of Business Potential</span>
 										<p class="wow fadeInUp" data-wow-delay=".3s">Unlocking your business potential requires more than
 											just
@@ -146,16 +150,27 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 										<!-- previous post -->
 										<div class="tj-nav__post previous">
 											<div class="tj-nav-post__nav prev_post">
-												<a href="blog-details.html"><span><i class="tji-arrow-left"></i></span>Previous</a>
+												<a href="blog-details.html"><span><i class="tji-arrow-left"></i></span>Precedente</a>
 											</div>
 										</div>
 										<div class="tj-nav-post__grid">
-											<a href="blog.html"><i class="tji-window"></i></a>
+											<a href="<?= $pathindex ?>news">
+												<svg class="icona-news" id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+												<polygon class="cls-1" points="10.36 10.61 .71 14.67 14.23 14.65 10.36 10.61"/>
+												<polygon class="cls-1" points="14.73 0 10.75 10.22 14.72 14.36 14.73 13.58 14.73 0"/>
+												<polygon class="cls-1" points="19.71 10.63 29.22 14.63 15.87 14.65 19.71 10.63"/>
+												<polygon class="cls-1" points="15.12 0 19.3 10.26 15.31 14.44 15.12 0"/>
+												<polygon class="cls-1" points="10.52 19.46 .74 15.24 14.54 15.24 10.52 19.46"/>
+												<polygon class="cls-1" points="14.73 30 10.82 19.95 14.72 15.86 14.73 16.43 14.73 30"/>
+												<polygon class="cls-1" points="19.57 19.43 29.29 15.24 15.56 15.24 19.57 19.43"/>
+												<polygon class="cls-1" points="15.12 30 19.24 19.88 15.31 15.77 15.12 30"/>
+												</svg>
+											</a>
 										</div>
 										<!-- next post -->
 										<div class="tj-nav__post next">
 											<div class="tj-nav-post__nav next_post">
-												<a href="blog-details.html">Next<span><i class="tji-arrow-right"></i></span></a>
+												<a href="blog-details.html">Seguente<span><i class="tji-arrow-right"></i></span></a>
 											</div>
 										</div>
 									</div>
@@ -163,6 +178,21 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 							</div>
 							<div class="col-lg-4">
 								<div class="tj-main-sidebar slidebar-stickiy">
+									<div class="tj-sidebar-widget widget-feature-item wow fadeInUp" data-wow-delay=".3s">
+										<div class="feature-box">
+											<div class="feature-content">
+												<h2 class="title">Modern</h2>
+												<span>Home Makeover</span>
+												<a class="read-more feature-contact" href="tel:8321890640">
+													<i class="tji-phone-3"></i>
+													<span>+8 (321) 890-640</span>
+												</a>
+											</div>
+											<div class="feature-images">
+												<img src="<?= $pathindex ?>assets/images/service/service-ad.webp" alt="immagine banner">
+											</div>
+										</div>
+									</div>
 									<div class="tj-sidebar-widget tj-recent-posts wow fadeInUp" data-wow-delay=".3s">
 										<span class="widget-title">Related post</span>
 										<ul>
@@ -213,21 +243,6 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 											</li>
 										</ul>
 									</div>
-									<div class="tj-sidebar-widget widget-feature-item wow fadeInUp" data-wow-delay=".3s">
-										<div class="feature-box">
-											<div class="feature-content">
-												<h2 class="title">Modern</h2>
-												<span>Home Makeover</span>
-												<a class="read-more feature-contact" href="tel:8321890640">
-													<i class="tji-phone-3"></i>
-													<span>+8 (321) 890-640</span>
-												</a>
-											</div>
-											<div class="feature-images">
-												<img src="<?= $pathindex ?>assets/images/service/service-ad.webp" alt="immagine banner">
-											</div>
-										</div>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -235,29 +250,26 @@ $news_id = explode('/', $uri)[array_key_last(explode('/', $uri))];
 				</section>
 				<!-- end: Blog Section -->
 				<!-- start: Cta Section -->
-				<section class="tj-cta-section">
-					<div class="container">
-						<div class="row">
-							<div class="col-12">
-								<div class="cta-area">
-									<div class="cta-content">
-										<h2 class="title title-anim">Let’s Build Future Together.</h2>
-										<div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-											<a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
-												<span class="btn-text"><span>Contattaci</span></span>
-												<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-											</a>
-										</div>
-									</div>
-									<div class="cta-img">
-										<img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- end: Cta Section -->
+                <section class="tj-cta-section" >
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cta-area" data-bg-image="<?= $pathindex ?>assets/images/news/news-cta.webp">
+                                    <div class="cta-content">
+                                        <h2 class="title title-anim">Let’s Build Future Together.</h2>
+                                        <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
+                                            <a class="text-btn" href="<?= $pathindex  ?>contatti">
+                                                <span class="btn-text"><span>Scopri di più</span></span>
+                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end: Cta Section -->
 			</main>
 			<!-- ==================== Start Footer ==================== -->
 			<? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>

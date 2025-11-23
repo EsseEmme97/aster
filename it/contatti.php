@@ -60,7 +60,7 @@ $heightseo = "115";
                                         <span>
                                             <a href="<?= $pathindex ?>">Home</a>
                                         </span>
-                                        <span><i class="tji-arrow-right"></i></span>
+                                        <span><i class="tji-arrow-right text-blu-secondario"></i></span>
                                         <span>
                                             <span>Contatti</span>
                                         </span>

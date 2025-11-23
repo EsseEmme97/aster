@@ -60,7 +60,7 @@ $heightseo = "115";
                                         <span>
                                             <a href="<?= $pathindex ?>">Home</a>
                                         </span>
-                                        <span><i class="tji-arrow-right"></i></span>
+                                        <span><i class="tji-arrow-right text-blu-secondario"></i></span>
                                         <span>
                                             <span>Servizi</span>
                                         </span>
@@ -72,7 +72,7 @@ $heightseo = "115";
                     <div class="page-header-overlay"></div>
                 </section>
                 <!-- end: Breadcrumb Section <-->
-                <section class="tj-working-process section-gap section-gap-x">
+                <section class="tj-working-process section-gap section-gap-x bg-grigio-chiaro">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -80,10 +80,10 @@ $heightseo = "115";
                                     <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Proud Projects</span>
                                     <div class="heading-wrap-content">
                                         <div class="sec-heading">
-                                            <h2 class="sec-title title-anim">Breaking Boundaries, Building <span class="fw-bold">Dreams.</span></h2>
+                                            <h2 class="sec-title">Breaking Boundaries, Building <span class="fw-bold">Dreams.</span></h2>
                                         </div>
                                         <div class="btn-wrap wow fadeInUp" data-wow-delay=".6s">
-                                            <a class="tj-primary-btn" href="<?= $pathindex ?>contatti">
+                                            <a class="text-btn" href="<?= $pathindex ?>contatti">
                                                 <span class="btn-text"><span>Contattaci</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
@@ -92,7 +92,7 @@ $heightseo = "115";
                                 </div>
                             </div>
                         </div>
-                        <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus magni rerum ipsam sit modi? Id in sed laborum eum totam dolorum fugiat officia, eius provident. Provident id tempora dicta culpa.</p>
+                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus magni rerum ipsam sit modi? Id in sed laborum eum totam dolorum fugiat officia, eius provident. Provident id tempora dicta culpa.</p>
                         <div class="row row-gap-4">
                             <? $titles = ["Servizio di consulenza prototipi e PCB", "Industrializzazione prodotto", "Produzione di campionature", "Servizio di ricerca componenti", "Servizio di approvigionamento materiali BOM", "Gestione e stocaggio di componenti in c/pieno e c/lavoro", "Montaggio scheda elettronica SMD", "Montaggio scheda elettronica PHT", "Test ottico", "Rework", "Raggi x", "Montaggio apparecchio, collaudo e imballaggio chiavi in mano", "Servizio di riparazione post vendita"] ?>
                             <? foreach ($titles as $title): ?>
@@ -100,7 +100,7 @@ $heightseo = "115";
                                     <div class="service-item style-4 wow fadeInUp" data-wow-delay=".1s">
                                         <div class="service-content">
                                             <span class="title h3"><a href="service-details.html"><?= $title  ?></a></span>
-                                            <p class="desc">Customer Experience Solutions are designed to enhance every touchpoint of your
+                                            <p class="desc mt-3">Customer Experience Solutions are designed to enhance every touchpoint of your
                                                 customer
                                                 journey, from first interaction.</p>
                                         </div>

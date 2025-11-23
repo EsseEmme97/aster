@@ -60,7 +60,7 @@ $heightseo = "115";
 										<span>
 											<a href="<?= $pathindex ?>">Home</a>
 										</span>
-										<span><i class="tji-arrow-right"></i></span>
+										<span><i class="tji-arrow-right text-blu-secondario"></i></span>
 										<span>
 											<span>Settori</span>
 										</span>
@@ -167,15 +167,15 @@ $heightseo = "115";
 													<div class="service-icon">
 														<img src="<?= $pathindex . $basePath . $settore["icona"] ?>" alt="icona settore">
 													</div>
-													<span class="title d-block"><?= $settore["titolo"] ?></span>
+													<span class="title d-block h3"><?= $settore["titolo"] ?></span>
 												</div>
 												<div class="service-content">
 													<p class="desc">Through a combination of data-driven insights and innovative approaches, we work
 														closely with you to develop customized.</p>
 													<ul class="list-items">
-														<li><i class="tji-list"></i>Expansion Strategies</li>
-														<li><i class="tji-list"></i>Operational Efficiency</li>
-														<li><i class="tji-list"></i>Competitive Edge</li>
+														<li><img style="display: inline-block; width:16px" src="<?= $pathindex ?>assets\images\settori\aster-punto-elenco.svg" alt="icona aster"></i>Expansion Strategies</li>
+														<li><img style="display: inline-block; width:16px" src="<?= $pathindex ?>assets\images\settori\aster-punto-elenco.svg" alt="icona aster"></i>Operational Efficiency</li>
+														<li><img style="display: inline-block; width:16px" src="<?= $pathindex ?>assets\images\settori\aster-punto-elenco.svg" alt="icona aster"></i>Competitive Edge</li>
 													</ul>
 												</div>
 											</div>

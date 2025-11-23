@@ -50,19 +50,19 @@ $heightseo = "115";
             <main id="primary" class="site-main">
                 <div class="space-for-header"></div>
                 <!-- start: Breadcrumb Section -->
-                <section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-gallery-8.webp">
+                <section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-header.webp">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="tj-page-header-content text-center">
-                                    <h1 class="tj-page-title">Azienda</h1>
+                                    <h1 class="tj-page-title">Su di noi</h1>
                                     <div class="tj-page-link">
                                         <span>
                                             <a href="<?= $pathindex ?>">Home</a>
                                         </span>
                                         <span><i class="tji-arrow-right text-blu-secondario"></i></span>
                                         <span>
-                                            <span>About Us</span>
+                                            <span>Su di noi</span>
                                         </span>
                                     </div>
                                 </div>
@@ -81,8 +81,7 @@ $heightseo = "115";
                         </div>
                         <div class="row row-gap-4">
                             <div class="col-lg-4 col-md-6 order-lg-1 order-3">
-                                <div class="countup-item style-2 wow fadeInUp h-100 justify-content-end align-items-start" data-wow-delay=".1s" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-mission-vision.webp">
-                                    <span class="h3 text-white">al fianco delle aziende dal 1996</span>
+                                <div class="countup-item style-2 wow fadeInUp h-100 justify-content-end align-items-start" data-wow-delay=".1s" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-intro-1.webp">
                                 </div>
                             </div>
                             <div class="col-lg-8 col-sm-12 order-lg-2 order-1">
@@ -96,14 +95,14 @@ $heightseo = "115";
                                             </h2>
                                         </div>
                                         <div class="wow fadeInUp" data-wow-delay=".3s">
-                                            <a class="text-btn" href="<?= $pathindex ?>servizi">
-                                                <span class="btn-text"><span>Scopri di più</span></span>
+                                            <a class="text-btn" href="<?= $pathindex ?>contatti">
+                                                <span class="btn-text"><span>Contattaci</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
                                     </div>
                                     <div class="video-img wow fadeInRight" data-wow-delay=".7s">
-                                        <img src="<?= $pathindex ?>assets/images/home/home-intro-2.webp" alt="immagine servizio">
+                                        <img src="<?= $pathindex ?>assets/images/home/home-intro-1.webp" alt="immagine servizio">
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +118,7 @@ $heightseo = "115";
                             <div class="col-xl-6 col-lg-6 order-lg-1 order-2">
                                 <div class="about-img-area style-2 wow fadeInLeft" data-wow-delay=".3s">
                                     <div class="about-img overflow-hidden">
-                                        <img data-speed=".8" src="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-intro-1.webp" alt="immagine servizi">
+                                        <img data-speed=".8" src="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-mission-vision.webp" alt="immagine servizi">
                                     </div>
                                     <div class="box-area style-2">
                                         <div class="progress-box wow fadeInUp" data-wow-delay=".3s">
