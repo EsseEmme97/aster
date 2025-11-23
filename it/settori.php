@@ -83,56 +83,69 @@ $heightseo = "115";
 				$settori = [
 					[
 						"titolo" => "Edilizia civile/industriale, videocitofonia & sistemi antifurto",
-						"icona" => "edilizia-civile.svg"
+						"icona" => "edilizia-civile.svg",
+						"id" => "edilizia-civile-industriale"
 					],
 					[
 						"titolo" => "Prestazioni sportive",
-						"icona" => "prestazioni-sportive.svg"
+						"icona" => "prestazioni-sportive.svg",
+						"id" => "prestazioni-sportive"
 					],
 					[
 						"titolo" => "Lighting",
-						"icona" => "illuminazione.svg"
+						"icona" => "illuminazione.svg",
+						"id" => "lighting"
 					],
 					[
 						"titolo" => "Meteo & traffico",
-						"icona" => "meteo-traffico.svg"
+						"icona" => "meteo-traffico.svg",
+						"id" => "meteo-traffico"
 					],
 					[
 						"titolo" => "Elettromedicale",
-						"icona" => "elettromedicale.svg"
+						"icona" => "elettromedicale.svg",
+						"id" => "elettromedicale"
 					],
 					[
 						"titolo" => "Soluzioni audio professionali",
-						"icona" => "broadcast.svg"
+						"icona" => "broadcast.svg",
+						"id" => "audio-professionale"
 					],
 					[
 						"titolo" => "Sistemi di controllo motore (inverter)",
-						"icona" => "controllo-motore.svg"
+						"icona" => "controllo-motore.svg",
+						"id" => "controllo-motore"
 					],
 					[
 						"titolo" => "Sistemi di controllo industriale (automazione e processo)",
-						"icona" => "controllo-industriale.svg"
+						"icona" => "controllo-industriale.svg",
+						"id" => "controllo-industriale"
 					],
 					[
 						"titolo" => "Vending machines",
-						"icona" => "vending-machines.svg"
+						"icona" => "vending-machines.svg",
+						"id" => "vending-machines"
 					],
 					[
 						"titolo" => "Sistemi destinati alla ricerca scientifica",
-						"icona" => "ricerca-scientifica.svg"
+						"icona" => "ricerca-scientifica.svg",
+						"id" => "ricerca-scientifica"
 					],
 					[
 						"titolo" => "Cantieri edili e navali",
-						"icona" => "cantieri-edili-navali.svg"
+						"icona" => "cantieri-edili-navali.svg",
+						"id" => "cantieri-edili-navali"
 					],
 					[
 						"titolo" => "Sistemi APR di pilotaggio remoto",
-						"icona" => "pilotaggio-remoto.svg"
+						"icona" => "pilotaggio-remoto.svg",
+						"id" => "sistemi-apr"
 					],
 				];
+
 				$basePath = "assets/images/settori/"
 				?>
-				<section class="tj-service-section service-2 section-gap section-gap-x slidebar-stickiy-container">
+				<section id="servizi" class="tj-service-section service-2 section-gap section-gap-x slidebar-stickiy-container">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-4">
@@ -148,7 +161,7 @@ $heightseo = "115";
 							<div class="col-lg-8">
 								<div class="service-wrapper-2">
 									<? foreach ($settori as $settore): ?>
-										<div class="service-item-wrapper tj-fadein-right-on-scroll">
+										<div id="<?= $settore["id"]  ?>" class="service-item-wrapper tj-fadein-right-on-scroll">
 											<div class="service-item style-2 ">
 												<div class="title-area">
 													<div class="service-icon">
@@ -181,26 +194,26 @@ $heightseo = "115";
 				</section>
 				<!-- end: Service Section -->
 				<!-- start: Cta Section -->
-                <section class="tj-cta-section section-gap pb-0">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cta-area">
-                                    <div class="cta-content">
-                                        <h2 class="title title-anim">Let’s Build Future Together.</h2>
-                                        <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-                                            <a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
-                                                <span class="btn-text"><span>Contattaci</span></span>
-                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- end: Cta Section -->
+				<section class="tj-cta-section section-gap pb-0">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="cta-area">
+									<div class="cta-content">
+										<h2 class="title title-anim">Let’s Build Future Together.</h2>
+										<div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
+											<a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
+												<span class="btn-text"><span>Contattaci</span></span>
+												<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end: Cta Section -->
 
 			</main>
 			<!-- ==================== Start Footer ==================== -->
