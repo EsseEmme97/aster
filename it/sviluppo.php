@@ -72,34 +72,41 @@ $heightseo = "115";
 					<div class="page-header-overlay"></div>
 				</section>
 				<!-- end: Breadcrumb Section -->
+				
 				<!-- start: About Section -->
 				<section class="tj-about-section section-gap">
 					<div class="container">
 						<div class="row row-gap-4">
-							<div class="col-lg-6 col-md-6 order-lg-1 order-3">
-								<div class="countup-item style-2 wow fadeInUp border-primary-color" data-wow-delay=".1s">
-									<span class="count-icon"><img src="<?= $pathindex ?>assets/images/Aster_Elettronica-Favicon.png" alt="icona"></span>
-									<span class="steps">01.</span>
-									<div class="count-inner">
-										<span class="h3 d-block fw-bold">Lorem ipsum in grande</span>
-										<span class="d-block mt-2">lorem ipsum</span>
-									</div>
+							<div class="col-lg-4 col-md-6 order-lg-1 order-3">
+								<div class="countup-item style-2 wow fadeInUp h-100 justify-content-end align-items-start" data-wow-delay=".1s" data-bg-image="<?= $pathindex ?>assets/images/ricerca-sviluppo/ricerca-sviluppo-intro-1.webp">
+									<span class="h3 text-white">al fianco delle aziende dal 1996</span>
 								</div>
 							</div>
-							<div class="col-lg-6 col-sm-12 order-lg-2 order-1">
-								<div class="about-content-area-2 wow fadeInUp" data-wow-delay=".3s">
-									<div class="about-content ms-0">
+							<div class="col-lg-8 col-sm-12 order-lg-2 order-1">
+								<div class="about-content-area-2 wow fadeInUp " data-wow-delay=".3s">
+									<div class="about-content mx-auto">
 										<div class="sec-heading style-2">
 											<span class="sub-title">Servizi</span>
 											<h2 class="sec-title title-highlight">Per un lavoro di qualità, dall’inizio alla fine <span>puntiamo sempre alle stelle</span>
 											</h2>
 										</div>
-
+										<div class="wow fadeInUp" data-wow-delay=".3s">
+											<a class="text-btn" href="<?= $pathindex ?>servizi">
+												<span class="btn-text"><span>Scopri di più</span></span>
+												<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+											</a>
+										</div>
+									</div>
+									<div class="video-img wow fadeInRight" data-wow-delay=".7s">
+										<img src="<?= $pathindex ?>assets/images/ricerca-sviluppo/ricerca-sviluppo-intro-2.webp" alt="immagine servizio">
 									</div>
 								</div>
 							</div>
 						</div>
-						<p class="mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						<div class="mt-5">
+							<h2 class="fw-bold">Testo introduttivo</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus suscipit explicabo, reiciendis commodi quos quidem neque eum sequi reprehenderit dolores quas nesciunt inventore ipsum officiis fuga illum totam a dolorem.</p>
+						</div>
 					</div>
 				</section>
 				<!-- end: About Section -->
@@ -110,11 +117,11 @@ $heightseo = "115";
 							<div class="col-xl-6 col-lg-6 order-lg-1 order-2">
 								<div class="about-img-area style-2 wow fadeInLeft" data-wow-delay=".3s">
 									<div class="about-img overflow-hidden">
-										<img data-speed=".8" src="<?= $pathindex ?>assets/images/stock/stock-2.jpg" alt="immagine stock">
+										<img data-speed=".8" src="<?= $pathindex ?>assets/images/ricerca-sviluppo/ricerca-sviluppo-formazione-tecnologia.webp" alt="immagine stock">
 									</div>
 									<div class="box-area style-2">
 										<div class="progress-box wow fadeInUp" data-wow-delay=".3s">
-											<span class="title">I nostri risultati</span>
+											<span class="title h3">I nostri risultati</span>
 											<ul class="tj-progress-list">
 												<li>
 													<span class="tj-progress-title">Revenue</span>
@@ -148,20 +155,20 @@ $heightseo = "115";
 								</div>
 								<div class="about-bottom-area">
 									<div class="mission-vision-box wow fadeInLeft" data-wow-delay=".5s">
-										<span class="title">Formazione continua</span>
+										<span class="title h3">Formazione continua</span>
 										<p class="desc mt-3">our mission is empower businesses through innovate best solution, exceptional
 											service.
 										</p>
 									</div>
 									<div class="mission-vision-box wow fadeInRight" data-wow-delay=".5s">
-										<span class="title">Tecnologie avanzate</span>
+										<span class="title h3">Tecnologie avanzate</span>
 										<p class="desc mt-3">Our vision is to become a global leader in providing transformative business
 											solutions.
 										</p>
 									</div>
 								</div>
 								<div class="wow fadeInUp mt-5" data-wow-delay=".3s">
-									<a class="text-btn" href="<?= $pathindex ?>about.html">
+									<a class="text-btn" href="<?= $pathindex ?>su-di-noi">
 										<span class="btn-text"><span>Scopri di più</span></span>
 										<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
 									</a>
@@ -200,7 +207,7 @@ $heightseo = "115";
 							</div>
 							<div class="col-lg-6 order-lg-1">
 								<div class="testimonial-wrapper wow fadeInUp border-radius-12px p-4 bg-white border-primary-color" data-wow-delay=".5s">
-									<h2 class="mb-5">Noi siamo Kaizein People.</h2>
+									<h2 class="mb-5">Noi siamo <br> <span class="text-blu-primario">Kaizein People</span>.</h2>
 									<p>
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 									</p>

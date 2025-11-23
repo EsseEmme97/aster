@@ -13112,7 +13112,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .testimonial-img-area .testimonial-img .sec-heading {
   position: absolute;
-  top: 40px;
+  top: 24px;
   inset-inline-start: 30px;
   width: 60%;
   z-index: 2;
