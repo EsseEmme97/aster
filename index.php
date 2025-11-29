@@ -4,8 +4,10 @@ require_once("inc/global.php");
 require_once("inc/header.php");
 require_once("inc/mysqli.php");
 // $database = new DB();
-$titleseo = "aster";
-$descriptionseo = "descrizione";
+$titleseo = "Produzione schede elettroniche | Aster Elettronica";
+$descriptionseo = "Aster Elettronica, produttori di schede elettroniche di
+qualità. Siamo specializzati in produzione di schede elettroniche e
+componenti elettronici per l’industria.";
 $image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
@@ -57,8 +59,9 @@ $heightseo = "115";
                                 <span class="sub-title wow fadeInDown" data-wow-delay=".2s">
                                     BENVENUTI IN ASTER ELETTRONICA
                                 </span>
-                                <h1 class="banner-title title-anim">Driving Excellence Through Evolution and
-                                    <span>Trust.</span>
+                                <h1 class="banner-title title-anim">Portiamo l’Eccellenza
+                                    nella Produzione di
+                                    <span>Schede Elettroniche.</span>
                                 </h1>
                                 <div class="banner-desc-area wow fadeInUp" data-wow-delay=".7s">
                                     <a class="banner-link" href="<?= $pathindex ?>azienda">
@@ -112,9 +115,11 @@ $heightseo = "115";
                                     <span class="steps">01.</span>
                                     <div class="count-inner">
                                         <div>
-                                            <span class="h3 fw-bold">Consulenza all’industrializzazione del prodotto</span>
+                                            <span class="h3 fw-bold">Dalla consulenza all’industrializzazione del prodotto</span>
                                         </div>
-                                        <span class="count-text mt-2">Lorem ipsum dolor sit amet, consectutir lorem ipsum</span>
+                                        <span class="count-text mt-2">Accompagniamo il cliente in tutte le fasi: definizione delle distinte base, scelta
+                                            dei componenti, <a class="text-link" href="<?= $pathindex ?>produzione-e-assemblaggio">produzione e assemblaggio</a> dei prodotti elettronici,
+                                            consulenza post vendita e ottimizzazione dei tempi.</span>
                                     </div>
                                 </div>
                             </div>
@@ -123,9 +128,8 @@ $heightseo = "115";
                                     <div class="about-content">
                                         <div class="sec-heading style-2">
                                             <span class="sub-title">Servizi</span>
-                                            <h2 class="sec-title title-highlight">Driving into Excellence & Innovation: Your Trusted Partner
-                                                for
-                                                Sustainable Business Success.
+                                            <h2 class="sec-title title-highlight">Produttori di schede elettroniche e assemblaggio di prodotti elettronici
+                                                per la tua azienda, dal 1990
                                             </h2>
                                         </div>
                                         <div class="wow fadeInUp" data-wow-delay=".3s">
@@ -154,7 +158,8 @@ $heightseo = "115";
                                         <div>
                                             <span class="h3 fw-bold">Prototipizzazione <br></span>
                                         </div>
-                                        <span class="count-text mt-2">Lorem ipsum dolor sit amet, consectutir lorem ipsum, Lorem ipsum dolor sit amet, consectutir lorem ipsum</span>
+                                        <span class="count-text mt-2">Trasformiamo una tua idea o progetto in una campionatura pronta alla
+                                            produzione, garantendo test, ottimizzazioni e massima qualità.</span>
                                     </div>
                                 </div>
                             </div>
@@ -166,7 +171,8 @@ $heightseo = "115";
                                         <div>
                                             <span class="h3 fw-bold">Assemblaggio di serie e di piccoli lotti</span>
                                         </div>
-                                        <span class="count-text mt-2">Lorem ipsum dolor sit amet, consectutir lorem ipsum</span>
+                                        <span class="count-text mt-2">Linee automatizzate SMD e PTH, controlli ottici e reparti specializzati
+                                            garantiscono produzioni precise, affidabili e conformi.</span>
                                     </div>
                                 </div>
                             </div>
@@ -246,9 +252,9 @@ $heightseo = "115";
                         <div class="row">
                             <div class="col-12">
                                 <div class="sec-heading text-center">
-                                    <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Our
-                                        Solutions</span>
-                                    <h2 class="sec-title text-white title-anim">Solutions to Transform Your <span>Business.</span></h2>
+                                    <span class="sub-title wow fadeInUp" data-wow-delay=".3s">LE NOSTRE PRODUZIONI</span>
+                                    <h2 class="sec-title text-white title-anim">Dispositivi elettronici avanzati
+                                        per aziende orientate <span>alla qualità.</span></h2>
                                 </div>
                             </div>
                         </div>
@@ -259,8 +265,8 @@ $heightseo = "115";
                                 <div class="service-wrapper wow fadeInUp" data-wow-delay=".4s">
                                     <div class="swiper service-slider">
                                         <div class="swiper-wrapper">
-                                            <? foreach ($settori as $index=>$settore): ?>
-                                            <? $settore_corretto= $index == 0 || $index == 1 ? "settori" : $settori[$index-2]["id"] ?>
+                                            <? foreach ($settori as $index => $settore): ?>
+                                                <? $settore_corretto = $index == 0 || $index == 1 ? "settori" : $settori[$index - 2]["id"] ?>
                                                 <div class="swiper-slide">
                                                     <div class="service-item style-1">
                                                         <div class="service-icon">
@@ -287,6 +293,7 @@ $heightseo = "115";
                     </div>
                 </section>
                 <!-- end: Service Section -->
+
                 <!-- start: About Section -->
                 <section class="tj-about-section-2 mt-15px section-gap section-gap-x">
                     <div class="container">
@@ -301,7 +308,7 @@ $heightseo = "115";
                                             <span class="title h3">I nostri risultati</span>
                                             <ul class="tj-progress-list">
                                                 <li>
-                                                    <span class="tj-progress-title">Revenue</span>
+                                                    <span class="tj-progress-title">Qualità</span>
                                                     <div class="tj-progress">
                                                         <span class="tj-progress-percent">82%</span>
                                                         <div class="tj-progress-bar" data-percent="82">
@@ -309,7 +316,7 @@ $heightseo = "115";
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <span class="tj-progress-title">Satisfaction</span>
+                                                    <span class="tj-progress-title">Affidabilità</span>
                                                     <div class="tj-progress">
                                                         <span class="tj-progress-percent">90%</span>
                                                         <div class="tj-progress-bar" data-percent="90">
@@ -325,22 +332,25 @@ $heightseo = "115";
                                 <div class="about-content-area">
                                     <div class="sec-heading">
                                         <span class="sub-title wow fadeInUp" data-wow-delay=".3s">RICERCA & SVILUPPO</span>
-                                        <h2 class="sec-title title-anim">Driving Innovation and Excellence for Sustainable Corporate Success
-                                            <span>Worldwide.</span>
+                                        <h2 class="sec-title title-anim">Tecnologia innovativa, metodo
+                                            e formazione per prodotti elettronici
+                                            <span>impeccabili.</span>
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="about-bottom-area">
                                     <div class="mission-vision-box wow fadeInLeft" data-wow-delay=".5s">
                                         <span class="title h3">Ricerca dettagliata</span>
-                                        <p class="desc mt-3">our mission is empower businesses through innovate best solution, exceptional
-                                            service.
+                                        <p class="desc mt-3">Grazie al continuo scambio di informazioni con il cliente, individuiamo le
+                                            soluzioni tecniche più adatte, selezioniamo i migliori componenti elettronici e
+                                            definiamo processi sicuri e ripetibili.
                                         </p>
                                     </div>
                                     <div class="mission-vision-box wow fadeInRight" data-wow-delay=".5s">
                                         <span class="title h3">Sviluppo certosino</span>
-                                        <p class="desc mt-3">Our vision is to become a global leader in providing transformative business
-                                            solutions.
+                                        <p class="desc mt-3">Ogni fase produttiva viene analizzata, controllata e ottimizzata per garantire
+                                            efficienza, qualità e continuità. Il nostro è un approccio certosino, che ci
+                                            distingue tra i principali produttori di schede elettroniche in Veneto.
                                         </p>
                                     </div>
                                 </div>
@@ -367,12 +377,17 @@ $heightseo = "115";
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="sec-heading style-3 text-center">
-                                    <span class="sub-title wow fadeInUp p-1" data-wow-delay=".3s">Our
-                                        Solutions</span>
-                                    <h2 class="sec-title title-anim">Tailor Business Solutions for Corporates.</h2>
+                                    <span class="sub-title wow fadeInUp p-1" data-wow-delay=".3s">ASTER ELETTRONICA</span>
+                                    <h2 class="sec-title title-anim">Precisione elettronica, senza compromessi.</h2>
                                 </div>
                             </div>
-                            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ipsum quae fugiat quos molestias. Aliquam est ducimus ratione dicta deleniti excepturi repellendus veritatis expedita unde, corporis voluptatum praesentium possimus facilis?</p>
+                            <p class="mb-5">Dal oltre 35 anni, Aster Elettronica affianca aziende di numerosi <a href="<?= $pathindex ?>settori" class="text-link">settori</a> nella
+                                produzione di schede elettroniche e apparecchiature elettroniche assemblate,
+                                su progetto del cliente. Siamo un partner strategico, affidabile e aggiornato:
+                                dall’approvvigionamento di componenti all’assemblaggio di schede e prodotti
+                                elettronici, i nostri <a href="<?= $pathindex ?>" class="text-link">servizi</a> includono test, collaudi e prototipi, fino
+                                all’industrializzazione. Per la tua azienda, offriamo massima efficienza e
+                                qualità nei processi produttivi.</p>
                         </div>
                         <div class="row">
                             <div class="col-12">
@@ -383,11 +398,12 @@ $heightseo = "115";
                                                 <div class="service-icon">
                                                     <img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-01.svg" alt="immagine aster">
                                                 </div>
-                                                <span class="title h3">Fase di produzione & assemblaggio</span>
+                                                <span class="title h3">Produzione elettronica conto terzi</span>
                                             </div>
                                             <div class="service-content">
-                                                <p class="desc">Through a combination of data-driven insights and innovative approaches, we work
-                                                    closely with you to develop customized.</p>
+                                                <p class="desc">Realizziamo, su progetto del cliente, schede elettroniche, apparecchi e
+                                                    sistemi elettronici per ogni esigenza: dall’assemblaggio elettronico, alla
+                                                    prototipazione e produzione in serie.</p>
                                             </div>
                                         </div>
                                         <div class="service-reveal-bg" data-bg-image="assets/images/service/service-2.webp"></div>
@@ -398,11 +414,11 @@ $heightseo = "115";
                                                 <div class="service-icon">
                                                     <img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-02.svg" alt="immagine aster">
                                                 </div>
-                                                <span class="title h3">Fase di produzione & assemblaggio</span>
+                                                <span class="title h3">Flessibilità e personalizzazione</span>
                                             </div>
                                             <div class="service-content">
-                                                <p class="desc">Customer Experience Solutions are designed to enhance every touchpoint of your
-                                                    customer journey, from first interaction.</p>
+                                                <p class="desc">Ogni cliente è unico: per questo sviluppiamo dispositivi elettronici su misura,
+                                                    adattandoci ad esigenze specifiche e a contesti operativi diversi.</p>
                                             </div>
                                         </div>
                                         <div class="service-reveal-bg" data-bg-image="assets/images/service/service-3.webp"></div>
@@ -413,12 +429,12 @@ $heightseo = "115";
                                                 <div class="service-icon">
                                                     <img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-03.svg" alt="immagine aster">
                                                 </div>
-                                                <span class="title h3">Fase di produzione & assemblaggio</span>
+                                                <span class="title h3">Supporto tecnico costante</span>
                                             </div>
                                             <div class="service-content">
-                                                <p class="desc">Provide tailored strategies that not only drive long-term value but also build
-                                                    trust
-                                                    with stakeholders, investors.</p>
+                                                <p class="desc">Il nostro team specializzato affianca il cliente in ogni fase. Competenze
+                                                    aggiornate e interventi tempestivi assicurano precisione e continuità
+                                                    operativa.</p>
                                             </div>
                                         </div>
                                         <div class="service-reveal-bg" data-bg-image="assets/images/service/service-4.webp"></div>
@@ -429,12 +445,11 @@ $heightseo = "115";
                                                 <div class="service-icon">
                                                     <img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-04.svg" alt="immagine aster">
                                                 </div>
-                                                <span class="title h3">Fase di produzione & assemblaggio</span>
+                                                <span class="title h3">Fornitura di componenti elettronici</span>
                                             </div>
                                             <div class="service-content">
-                                                <p class="desc">Training and Development Programs are designed to empower employees with the
-                                                    skills,
-                                                    knowledge, and tools they need.</p>
+                                                <p class="desc">Su richiesta del cliente, selezioniamo e approvvigioniamo componenti
+                                                    elettronici per ogni esigenza, garantendo massima qualità e affidabilità.</p>
                                             </div>
                                         </div>
                                         <div class="service-reveal-bg" data-bg-image="assets/images/service/service-6.webp"></div>
@@ -575,7 +590,7 @@ $heightseo = "115";
                                     <div class="client-review-cont wow fadeInUp" data-wow-delay=".7s">
                                         <p class="desc">Siamo orgogliosi di annunciare la nuova partnership, per migliorare l’efficienza operativa e offrire un valore maggiore ai nostri clienti.</p>
                                         <div class="client-info-area">
-                                            <img style="max-width: 36px;" src="<?= $pathindex ?>assets/images/home/home-news-virgolette.svg" alt="virgolette" >
+                                            <img style="max-width: 36px;" src="<?= $pathindex ?>assets/images/home/home-news-virgolette.svg" alt="virgolette">
                                         </div>
                                     </div>
                                     <div class="video-img  wow fadeInUp" data-wow-delay=".9s">

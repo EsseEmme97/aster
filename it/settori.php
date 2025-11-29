@@ -4,8 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once("../inc/mysqli.php");
 // $database = new DB();
-$titleseo = "aster";
-$descriptionseo = "descrizione";
+$titleseo = "Elettronica industriale: Settori | Aster Elettronica";
+$descriptionseo = "Con assemblaggi elettronici conto terzi, costruiamo il futuro
+della tua azienda: dalla videosorveglianza al controllo industriale, scopri i
+settori serviti.";
 $image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
@@ -74,8 +76,30 @@ $heightseo = "115";
 				<!-- end: Breadcrumb Section <-->
 				<section class="section-gap section-gap-x">
 					<div class="container">
-						<h1>Lorem ipsum</h1>
-						<p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sint consequuntur iusto atque. Expedita facere mollitia reiciendis laboriosam, repudiandae ducimus nisi iusto, cupiditate quas illum voluptate dolor excepturi. Provident, laboriosam!</p>
+						<h1>Elettronica industriale per ogni settore</h1>
+						<p class="mt-5">Da oltre trent’anni <a href="<?= $pathindex ?>aster-elettronica" class="text-link">Aster Elettronica</a> sviluppa e produce soluzioni di elettronica
+							industriale, destinate a settori che richiedono affidabilità, continuità operativa
+							e precisione. Nata nel 1990 come azienda specializzata negli <a href="<?= $pathindex ?>produzione-e-assemblaggio" class="text-link">assemblaggi</a>
+							elettronici conto terzi, l’azienda è cresciuta sviluppando competenze
+							avanzate, processi ottimizzati e una forte capacità di personalizzazione:
+							elementi che oggi le permettono di supportare realtà produttive tra le più
+							diverse.</p>
+						<p>La nostra forza risiede in un approccio tecnico strutturato, alimentato da
+							<strong>formazione continua, investimenti tecnologici e collaborazione diretta
+								con i clienti.</strong> Questo metodo consente ad Aster Elettronica di adattarsi
+							rapidamente ad ogni contesto applicativo, sviluppando schede ed apparecchi
+							elettronici per applicazioni civili, industriali, scientifiche, medicali e
+							professionali. Ogni progetto nasce da un confronto attivo con il committente e
+							si traduce in soluzioni realizzate con attenzione alla qualità, all’innovazione
+							dei processi e alla stabilità produttiva.
+						</p>
+						<p>
+							Dalla sicurezza dei sistemi di videocitofonia alle prestazioni sportive
+							professionali, dal controllo industriale al settore biomedicale, fino ai dispositivi
+							per la ricerca scientifica: ovunque serva elettronica precisa, sicura e
+							personalizzata, Aster è il partner che trasforma qualsiasi esigenza tecnica in
+							una soluzione concreta.
+						</p>
 					</div>
 				</section>
 				<!-- start: Service Section -->
@@ -83,61 +107,121 @@ $heightseo = "115";
 				$settori = [
 					[
 						"titolo" => "Edilizia civile/industriale, videocitofonia & sistemi antifurto",
+						"testo" => "Produciamo elettronica per videocitofoni, sistemi di comunicazione e
+									sicurezza per edifici residenziali, condominiali, industriali e navali.",
+						"label-1" => "Sicurezza avanzata",
+						"label-2" => "Sistemi di comunicazione",
+						"label-3" => "Integrazione edificio",
 						"icona" => "edilizia-civile.svg",
 						"id" => "edilizia-civile-industriale"
 					],
 					[
 						"titolo" => "Prestazioni sportive",
+						"testo" => "Realizziamo dispositivi elettronici per il monitoraggio atletico e gestione
+								  competizioni, con raccolta dati in tempo reale.",
+						"label-1" => "Performance realtime",
+						"label-2" => "Cronometraggio preciso",
+						"label-3" => "Raccolta dati wireless",
 						"icona" => "prestazioni-sportive.svg",
 						"id" => "prestazioni-sportive"
 					],
 					[
 						"titolo" => "Lighting",
+						"testo" => "Sviluppiamo soluzioni elettroniche per il controllo dell’illuminazione, in
+									applicazioni civili e industriali.",
+						"label-1" => "Efficienza luminosa",
+						"label-2" => "Controllo dinamico",
+						"label-3" => "Gestione smart",
 						"icona" => "illuminazione.svg",
 						"id" => "lighting"
 					],
 					[
 						"titolo" => "Meteo & traffico",
+						"testo" => "Produciamo sistemi per il monitoraggio ambientale e stradale: sensori,
+									centraline dati e pannelli informativi.",
+						"label-1" => "Rilevazioni affidabili",
+						"label-2" => "Gestione dati",
+						"label-3" => "Sicurezza stradale",
 						"icona" => "meteo-traffico.svg",
 						"id" => "meteo-traffico"
 					],
 					[
 						"titolo" => "Elettromedicale",
+						"testo"=>"Forniamo elettronica per dispositivi biomedicali: monitor, stimolatori, sensori
+								  medici.",
+						"label-1"=>"Precisione clinica",
+						"label-2"=>"Affidabilità continua",
+						"label-3"=>"Sicurezza certificata",
 						"icona" => "elettromedicale.svg",
 						"id" => "elettromedicale"
 					],
 					[
 						"titolo" => "Soluzioni audio professionali",
+						"testo"=>"Realizziamo elettronica per audio professionale, destinata a broadcast, eventi
+								  live e installazioni tecniche.",
+						"label-1"=>"Qualità sonora",
+						"label-2"=>"Stabilità operativa",
+						"label-3"=>"Uso professionale",
 						"icona" => "broadcast.svg",
 						"id" => "audio-professionale"
 					],
 					[
 						"titolo" => "Sistemi di controllo motore (inverter)",
+						"testo"=>"Progettiamo soluzioni elettroniche per la gestione di motori industriali e
+								  inverter ad alte prestazioni.",
+						"label-1"=>"Efficienza motori",
+						"label-2"=>"Controllo preciso",
+						"label-3"=>"Uso industriale",
 						"icona" => "controllo-motore.svg",
 						"id" => "controllo-motore"
 					],
 					[
 						"titolo" => "Sistemi di controllo industriale (automazione e processo)",
+						"testo" => "Sviluppiamo schede elettroniche per automazione, controllo di processo,
+									macchine industriali e interfacce HMI.",
+						"label-1"=>"Processi continui",
+						"label-2"=>"Automazione avanzata",
+						"label-3"=>"Controllo preciso",
 						"icona" => "controllo-industriale.svg",
 						"id" => "controllo-industriale"
 					],
 					[
 						"titolo" => "Vending machines",
+						"testo"=>"Elettronica per distributori automatici: riconoscimento pagamenti,
+								  termoregolazione, controllo motori e sensori.",
+						"label-1"=>"Gestione credito",
+						"label-2"=>"Affidabilità meccanica",
+						"label-3"=>"Controllo temperatura",
 						"icona" => "vending-machines.svg",
 						"id" => "vending-machines"
 					],
 					[
 						"titolo" => "Sistemi destinati alla ricerca scientifica",
+						"testo"=>"Produciamo elettronica dedicata a strumenti scientifici, telescopi,
+								  radiotelescopi e rilevatori di fotoni.",
+						"label-1"=>"Misure complesse",
+						"label-2"=>"Strumenti avanzati",
+						"label-3"=>"Alta sensibilità",
 						"icona" => "ricerca-scientifica.svg",
 						"id" => "ricerca-scientifica"
 					],
 					[
 						"titolo" => "Cantieri edili e navali",
+						"testo"=>"Forniamo sistemi elettronici per gestione operativa, monitoraggio e sicurezza
+								  in cantieri, a terra o in mare.",
+						"label-1"=>"Controllo attivo",
+						"label-2"=>"Robustezza ambientale",
+						"label-3"=>"Operatività continua",
 						"icona" => "cantieri-edili-navali.svg",
 						"id" => "cantieri-edili-navali"
 					],
 					[
 						"titolo" => "Sistemi APR di pilotaggio remoto",
+						"testo"=>"Sviluppiamo elettronica per droni, sistemi APR e applicazioni di controllo
+								  remoto avanzato.",
+						"label-1"=>"Pilotaggio remoto",
+						"label-2"=>"Stabilità di volo",
+						"label-3"=>"Integrazione sensori",
 						"icona" => "pilotaggio-remoto.svg",
 						"id" => "sistemi-apr"
 					],
@@ -151,9 +235,9 @@ $heightseo = "115";
 							<div class="col-lg-4">
 								<div class="content-wrap  slidebar-stickiy">
 									<div class="sec-heading style-2">
-										<span class="sub-title wow fadeInUp bg-carta-da-zucchero" data-wow-delay=".3s">Our Solutions</span>
-										<h2 class="sec-title text-white text-anim">Tailored Business Solutions for our
-											<span>Corporates.</span>
+										<span class="sub-title wow fadeInUp bg-carta-da-zucchero" data-wow-delay=".3s">I SETTORI</span>
+										<h2 class="sec-title text-white text-anim">Assemblaggi elettronici evoluti, per qualsiasi
+											<span>applicazione</span>
 										</h2>
 									</div>
 								</div>
@@ -170,12 +254,11 @@ $heightseo = "115";
 													<span class="title d-block h3"><?= $settore["titolo"] ?></span>
 												</div>
 												<div class="service-content">
-													<p class="desc">Through a combination of data-driven insights and innovative approaches, we work
-														closely with you to develop customized.</p>
+													<p class="desc"><?= $settore["testo"] ?></p>
 													<ul class="list-items">
-														<li><img style="display: inline-block; width:16px" src="<?= $pathindex ?>assets\images\settori\aster-punto-elenco.svg" alt="icona aster"></i>Expansion Strategies</li>
-														<li><img style="display: inline-block; width:16px" src="<?= $pathindex ?>assets\images\settori\aster-punto-elenco.svg" alt="icona aster"></i>Operational Efficiency</li>
-														<li><img style="display: inline-block; width:16px" src="<?= $pathindex ?>assets\images\settori\aster-punto-elenco.svg" alt="icona aster"></i>Competitive Edge</li>
+														<li><img style="display: inline-block; width:16px" src="<?= $pathindex ?>assets\images\settori\aster-punto-elenco.svg" alt="icona aster"></i><?= $settore["label-1"] ?></li>
+														<li><img style="display: inline-block; width:16px" src="<?= $pathindex ?>assets\images\settori\aster-punto-elenco.svg" alt="icona aster"></i><?= $settore["label-2"] ?></li>
+														<li><img style="display: inline-block; width:16px" src="<?= $pathindex ?>assets\images\settori\aster-punto-elenco.svg" alt="icona aster"></i><?= $settore["label-3"] ?></li>
 													</ul>
 												</div>
 											</div>

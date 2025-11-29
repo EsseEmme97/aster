@@ -4,8 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once("../inc/mysqli.php");
 // $database = new DB();
-$titleseo = "aster";
-$descriptionseo = "descrizione";
+$titleseo = "Azienda elettronica e assemblaggio | Aster Elettronica";
+$descriptionseo = "ditta elettronica specializzata in assemblaggio di
+elettronica, componenti elettronici e assemblaggio schede elettroniche di
+qualità: scopri Aster Elettronica!";
 $image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
@@ -78,10 +80,10 @@ $heightseo = "115";
 						<div class="row">
 							<div class="col-12">
 								<div class="sec-heading-wrap">
-									<span class="sub-title wow fadeInUp" data-wow-delay=".3s"></i>Proud Projects</span>
+									<span class="sub-title wow fadeInUp" data-wow-delay=".3s"></i>CHI SIAMO</span>
 									<div class="heading-wrap-content">
 										<div class="sec-heading">
-											<h2 class="sec-title title-anim">Breaking Boundaries, Building <span>Dreams.</span></h2>
+											<h2 class="sec-title">L&#39;azienda elettronica per il tuo <span>business.</span></h2>
 										</div>
 										<div class="btn-wrap wow fadeInUp" data-wow-delay=".6s">
 											<a class="tj-primary-btn" href="<?= $pathindex ?>contatti">
@@ -92,7 +94,22 @@ $heightseo = "115";
 									</div>
 								</div>
 							</div>
-							<p class="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, eaque. Asperiores debitis quibusdam animi voluptas nostrum quasi, perspiciatis culpa explicabo labore quae cum ipsam recusandae autem dignissimos corrupti voluptatem repellendus!</p>
+							<p>Da oltre 35 anni, Aster Elettronica è un punto di riferimento tra le aziende di
+								assemblaggio di schede elettroniche in Veneto.</p>
+							<p>Fondata nel 1990 come ditta elettronica specializzata nell’assemblaggio
+								conto terzi, oggi Aster Elettronica è una realtà in crescita continua, con oltre
+								50 dipendenti impegnati ogni giorno nello sviluppo di <a href="<?= $pathindex ?>servizi" class="text-link">soluzioni</a> tecnologiche
+								su misura. Il nostro approccio si basa sulla collaborazione: il dialogo costante
+								con il cliente ci permette di garantire qualità, tracciabilità e innovazione in
+								ogni progetto.</p>
+							<p class="mb-5>
+								Le radici della nostra azienda elettronica si fondano su tre pilastri per noi
+								fondamentali: <strong>formazione continua, investimenti in tecnologie avanzate e
+								miglioramento costante dei processi produttivi.</strong> Operiamo come partner
+								strategico per aziende di diversi <a href="<?= $pathindex ?>settori" class="text-link">settori</a> , che cercano affidabilità, flessibilità e
+								precisione nell’assemblaggio elettronico. Trasformiamo ogni progetto del
+								cliente in un percorso condiviso, verso il miglior risultato possibile.
+							</p>
 						</div>
 						<div class="row">
 							<div class="col-12">
@@ -148,26 +165,26 @@ $heightseo = "115";
 				</section>
 				<!-- end: Project Section -->
 				<!-- start: Cta Section -->
-                <section class="tj-cta-section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cta-area">
-                                    <div class="cta-content">
-                                        <h2 class="title title-anim">Let’s Build Future Together.</h2>
-                                        <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-                                            <a class="text-btn" href="<?= $pathindex  ?>contatti">
-                                                <span class="btn-text"><span>Scopri di più</span></span>
-                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- end: Cta Section -->
+				<section class="tj-cta-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="cta-area">
+									<div class="cta-content">
+										<h2 class="title title-anim">Let’s Build Future Together.</h2>
+										<div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
+											<a class="text-btn" href="<?= $pathindex  ?>contatti">
+												<span class="btn-text"><span>Scopri di più</span></span>
+												<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end: Cta Section -->
 
 			</main>
 			<!-- ==================== Start Footer ==================== -->

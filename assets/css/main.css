@@ -199,8 +199,27 @@ START: Theme Default CSS
   color: var(--blu-primario) !important;
 }
 
+.min-h-267px{
+  min-height:267px!important;
+}
+
+@media (min-width:768px){
+  .min-h-lg-260{
+    min-height:260px!important;
+  }
+}
+
 .text-blu-secondario {
   color: var(--blu-secondario) !important;
+}
+
+.text-link{
+  color:var(--blu-primario)!important;
+  text-decoration:underline;
+}
+
+.text-link:hover{
+  color:var(--blu-primario)!important;
 }
 
 .bg-carta-da-zucchero {
@@ -231,6 +250,10 @@ START: Theme Default CSS
 
 .border-radius-12px{
   border-radius:12px!important;
+}
+
+.border-radius-10px{
+  border-radius:10px!important;
 }
 
 .file-upload{

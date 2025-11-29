@@ -4,8 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once("../inc/mysqli.php");
 // $database = new DB();
-$titleseo = "aster";
-$descriptionseo = "descrizione";
+$titleseo = "Assemblaggio di schede elettroniche | Aster Elettronica";
+$descriptionseo = "Montaggio e assemblaggio di schede elettroniche e
+componenti elettronici, saldatura elettronica e produzione di componenti
+elettronici su misura.";
 $image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
@@ -79,12 +81,25 @@ $heightseo = "115";
 						<div class="row">
 							<div class="col-lg-12">
 								<div class="sec-heading style-3 text-center">
-									<span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Produzione e assemblaggio</span>
-									<h2 class="sec-title title-anim">Tailor Business Solutions for Corporates.</h2>
+									<span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>ASSEMBLAGGIO DI SCHEDE ELETTRONICHE</span>
+									<h2 class="sec-title title-anim">Soluzioni complete di assemblaggio elettronico, <span class="text-blue">precisione e qualità</span></h2>
 								</div>
 							</div>
 						</div>
-						<p class="mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam odit voluptates fugit molestias laborum earum enim similique odio aspernatur! Modi qui vel dolores nisi fugit doloremque, quos excepturi ex repellat.</p>
+						<p><a href="<?= $pathindex ?>azienda" class="text-link">Aster Elettronica</a> offre un servizio completo di assemblaggio di schede
+							elettroniche, partendo dal progetto del cliente fino alla produzione industriale.
+							Grazie a competenze consolidate e <a href="<?= $pathindex ?>ricerca-e-sviluppo" class="text-link">processi certificati</a>, realizziamo schede
+							elettroniche SMD e PTH con la massima precisione, includendo controlli ottici
+							(AOI), test funzionali e saldature a onda e selettive.</p>
+						<p class="mb-5">
+							Ogni fase è monitorata per garantire affidabilità e qualità, anche per volumi
+							elevati. Offriamo inoltre <a href="<?= $pathindex ?>servizi" class="text-link">servizi</a> di approvvigionamento di componenti
+							elettronici, montaggio di apparecchi chiavi in mano e gestione dei materiali,
+							assicurando una produzione efficiente, sicura e affidabile.<strong>Il nostro
+								approccio flessibile ci consente di adattarci a qualsiasi esigenza del
+								cliente</strong> , garantendo assemblaggi elettronici personalizzati e prestazioni
+							elevate.
+						</p>
 						<div class="row">
 							<div class="col-12">
 								<div class="service-wrapper">
@@ -94,11 +109,11 @@ $heightseo = "115";
 												<div class="service-icon">
 													<img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-01.svg" alt="immagine aster">
 												</div>
-												<span class="title">Fase di produzione & assemblaggio</span>
+												<span class="title">Approvvigionamento componenti</span>
 											</div>
 											<div class="service-content">
-												<p class="desc">Through a combination of data-driven insights and innovative approaches, we work
-													closely with you to develop customized.</p>
+												<p class="desc">Ricerca e fornitura di componenti elettronici, gestendo obsolescenze e
+													garantendo reperibilità anche in mercati critici.</p>
 											</div>
 										</div>
 										<div class="service-reveal-bg" data-bg-image="assets/images/service/service-2.webp"></div>
@@ -109,11 +124,12 @@ $heightseo = "115";
 												<div class="service-icon">
 													<img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-02.svg" alt="immagine aster">
 												</div>
-												<span class="title">Fase di produzione & assemblaggio</span>
+												<span class="title">Montaggio schede elettroniche e apparecchi chiavi in mano</span>
 											</div>
 											<div class="service-content">
-												<p class="desc">Customer Experience Solutions are designed to enhance every touchpoint of your
-													customer journey, from first interaction.</p>
+												<p class="desc">Assemblaggio SMD e PTH: garantiamo un processo integrato, affidabile e
+													controllato che va dall’assemblaggio della scheda al prodotto finito, per tutti i
+													settori industriali.</p>
 											</div>
 										</div>
 										<div class="service-reveal-bg" data-bg-image="assets/images/service/service-3.webp"></div>
@@ -124,12 +140,12 @@ $heightseo = "115";
 												<div class="service-icon">
 													<img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-03.svg" alt="immagine aster">
 												</div>
-												<span class="title">Fase di produzione & assemblaggio</span>
+												<span class="title">Industrializzazione prodotto</span>
 											</div>
 											<div class="service-content">
-												<p class="desc">Provide tailored strategies that not only drive long-term value but also build
-													trust
-													with stakeholders, investors.</p>
+												<p class="desc">Supportiamo il cliente nell’industrializzazione delle schede elettroniche,
+													ottimizzando distinte base e standardizzando processi produttivi, per una
+													maggiore efficienza.</p>
 											</div>
 										</div>
 										<div class="service-reveal-bg" data-bg-image="assets/images/service/service-4.webp"></div>
@@ -140,12 +156,11 @@ $heightseo = "115";
 												<div class="service-icon">
 													<img src="<?= $pathindex ?>assets/images/home/produzione-assemblaggio-fase-04.svg" alt="immagine aster">
 												</div>
-												<span class="title">Fase di produzione & assemblaggio</span>
+												<span class="title">Gestione materiali e stoccaggio</span>
 											</div>
 											<div class="service-content">
-												<p class="desc">Training and Development Programs are designed to empower employees with the
-													skills,
-													knowledge, and tools they need.</p>
+												<p class="desc">Offriamo servizi di logistica integrata: ricezione dei materiali, controllo qualità
+													in ingresso, stoccaggio in magazzino organizzato e gestione FIFO.</p>
 											</div>
 										</div>
 										<div class="service-reveal-bg" data-bg-image="assets/images/service/service-6.webp"></div>
@@ -203,51 +218,44 @@ $heightseo = "115";
 
 				<section class="section-gap-3">
 					<div class="container post-details-wrapper">
-						<h2 class="title title-anim">Unlocking Business Potential: Innovative Solutions for Unmatched Success
+						<h2 class="title title-anim">Produzione di componenti elettronici, per ogni applicazione
 						</h2>
 						<div class="blog-text">
-							<p class="wow fadeInUp" data-wow-delay=".3s">In today’s competitive landscape, businesses must
-								continuously adapt and innovate to thrive.
-								Unlocking Business Potential means identifying untapped opportunities and leveraging innovative
-								solutions to drive growth, enhance efficiency, and foster lasting success. At [Company Name], we
-								believe that success is not just about working harder—it's about working smarter. By harnessing
-								cutting-edge technologies, data-driven insights, and creative problem-solving, we provide
-								businesses
-								with the tools and strategies needed to stay ahead.</p>
+							<p class="wow fadeInUp" data-wow-delay=".3s">Garantiamo un processo integrato, affidabile e controllato di montaggio
+								elettronico, per tutti i settori industriali. I nostri servizi includono:</p>
 							<ul class="wow fadeInUp" data-wow-delay=".3s">
-								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Embrace Innovation</li>
-								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Customer-Centric Approach</li>
-								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Effective Leadership</li>
-								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Operational Efficiency</li>
-								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Scalable Systems</li>
-								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Resilience</li>
-								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Continuous Learning</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Assemblaggio elettronico</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Saldatura componenti elettronici</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Test ottico AOI</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Collaudo funzionale</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Gestione materiali</li>
+								<li><span><img src="<?= $pathindex ?>assets/images/produzione-assemblaggio/aster-punto-elenco.svg" alt="icona"></span>Stoccaggio protetto ESD</li>
 							</ul>
 						</div>
 					</div>
 				</section>
 
 				<!-- start: Cta Section -->
-                <section class="tj-cta-section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cta-area" data-bg-image="<?= $pathindex ?>assets/images/produzione-assemblaggio/produzione-assemblaggio-cta.webp">
-                                    <div class="cta-content">
-                                        <h2 class="title title-anim">Let’s Build Future Together.</h2>
-                                        <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-                                            <a class="text-btn" href="<?= $pathindex  ?>contatti">
-                                                <span class="btn-text"><span>Scopri di più</span></span>
-                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- end: Cta Section -->
+				<section class="tj-cta-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="cta-area" data-bg-image="<?= $pathindex ?>assets/images/produzione-assemblaggio/produzione-assemblaggio-cta.webp">
+									<div class="cta-content">
+										<h2 class="title title-anim">Let’s Build Future Together.</h2>
+										<div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
+											<a class="text-btn" href="<?= $pathindex  ?>contatti">
+												<span class="btn-text"><span>Scopri di più</span></span>
+												<span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- end: Cta Section -->
 				<!-- ==================== Start Footer ==================== -->
 				<? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>
 				<!-- ==================== End Footer ==================== -->

@@ -4,8 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once("../inc/mysqli.php");
 // $database = new DB();
-$titleseo = "aster";
-$descriptionseo = "descrizione";
+$titleseo = "Assemblaggio conto terzi: Servizi | Aster Elettronica";
+$descriptionseo = "Aster Elettronica offre montaggio conto terzi e assemblaggi
+elettronici di schede elettroniche su misura, garantendo alta qualità e
+precisione costante.";
 $image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
@@ -77,10 +79,10 @@ $heightseo = "115";
                         <div class="row">
                             <div class="col-12">
                                 <div class="sec-heading-wrap">
-                                    <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Proud Projects</span>
+                                    <span class="sub-title wow fadeInUp" data-wow-delay=".3s">MONTAGGI ELETTRONICI</span>
                                     <div class="heading-wrap-content">
                                         <div class="sec-heading">
-                                            <h2 class="sec-title">Breaking Boundaries, Building <span class="fw-bold">Dreams.</span></h2>
+                                            <h2 class="sec-title">Assemblaggio conto terzi, con tante <span class="fw-bold">soluzioni</span></h2>
                                         </div>
                                         <div class="btn-wrap wow fadeInUp" data-wow-delay=".6s">
                                             <a class="text-btn" href="<?= $pathindex ?>contatti">
@@ -92,17 +94,94 @@ $heightseo = "115";
                                 </div>
                             </div>
                         </div>
-                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus magni rerum ipsam sit modi? Id in sed laborum eum totam dolorum fugiat officia, eius provident. Provident id tempora dicta culpa.</p>
+                        <p ><a href="<?= $pathindex ?>aster-elettronica" class="text-link">Aster Elettronica</a> offre un servizio completo di assemblaggio conto terzi,
+                            progettato per supportare le <a href="<?= $pathindex ?>settori" class="text-link">aziende</a> che necessitano di dispositivi elettronici
+                            affidabili, personalizzati e ad alte prestazioni. Dal 1990 operiamo come
+                            partner tecnico nella produzione di schede ed apparecchi elettronici, su
+                            progetto del cliente, garantendo qualità, personalizzazione ed un approccio
+                            flessibile in ogni fase del processo.</p>
+                        <p>Il nostro obiettivo è <strong>accompagnare il cliente dalla sua idea</strong> alla
+                            prototipazione, <strong>fino alla produzione in serie</strong>, integrando esigenze
+                            progettuali, ottimizzazione dei materiali e controllo di qualità rigoroso.
+                            <strong>Investiamo costantemente nella formazione del personale e
+                                nell’aggiornamento delle nostre tecnologie</strong>, così da offrire montaggi
+                            elettronici avanzati, sicuri e conformi agli standard internazionali.
+                        </p>
+                        <p>
+                            Siamo in grado di operare in conto lavoro pieno, parziale o misto, adattandoci
+                            alle specifiche richieste del progetto. Ciò significa poter affiancare il cliente
+                            sia nell’approvvigionamento dei componenti, sia nella gestione della
+                            produzione e dei test, assicurando soluzioni su misura per schede
+                            elettroniche e dispositivi di ogni complessità.
+                        </p>
+                        <p class="mb-5">
+                            Grazie ad un’organizzazione solida, alla lunga esperienza e ad un impegno
+                            costante nel miglioramento, Aster Elettronica rappresenta un partner
+                            affidabile per chi cerca assemblaggi elettronici di qualità, precisione tecnica e
+                            supporto continuativo.
+                        </p>
                         <div class="row row-gap-4">
-                            <? $titles = ["Servizio di consulenza prototipi e PCB", "Industrializzazione prodotto", "Produzione di campionature", "Servizio di ricerca componenti", "Servizio di approvigionamento materiali BOM", "Gestione e stocaggio di componenti in c/pieno e c/lavoro", "Montaggio scheda elettronica SMD", "Montaggio scheda elettronica PHT", "Test ottico", "Rework", "Raggi x", "Montaggio apparecchio, collaudo e imballaggio chiavi in mano", "Servizio di riparazione post vendita"] ?>
-                            <? foreach ($titles as $title): ?>
+                            <? $servizi = [
+                                [
+                                    "titolo" => "Servizio di consulenza prototipi e PCB",
+                                    "testo" => "Supporto tecnico per sviluppare prototipi e PCB ottimizzati, pronti per una produzione industriale efficiente."
+                                ],
+                                [
+                                    "titolo" => "Industrializzazione prodotto",
+                                    "testo" => "Convertiamo il tuo progetto in un processo produttivo stabile, garantendo costi ottimizzati e competitività sul mercato."
+                                ],
+                                [
+                                    "titolo" => "Produzione di campionature",
+                                    "testo" => "Realizziamo campioni funzionali e prototipi rapidi per test, validazioni e verifiche pre-produzione."
+                                ],
+                                [
+                                    "titolo" => "Servizio di ricerca componenti",
+                                    "testo" => "Ricerchiamo componenti elettronici affidabili attraverso fornitori qualificati, garantendo compatibilità e continuità produttiva."
+                                ],
+                                [
+                                    "titolo" => "Approvvigionamento materiali BOM",
+                                    "testo" => "Gestiamo l’intera BOM assicurando reperibilità, qualità e tracciabilità dei componenti elettronici."
+                                ],
+                                [
+                                    "titolo" => "Gestione e stoccaggio componenti in conto pieno e conto lavoro",
+                                    "testo" => "Organizziamo materiali in conto pieno e conto lavoro con stoccaggio sicuro e tracciabile."
+                                ],
+                                [
+                                    "titolo" => "Montaggio scheda elettronica SMD",
+                                    "testo" => "Montaggio SMD automatizzato con linee dedicate per garantire precisione, velocità e qualità costante."
+                                ],
+                                [
+                                    "titolo" => "Montaggio scheda elettronica PHT",
+                                    "testo" => "Assemblaggio PHT con macchine preformatrici per assiali e radiali e stazioni di montaggio singole o in linea."
+                                ],
+                                [
+                                    "titolo" => "Test ottico",
+                                    "testo" => "Ispezioni accurate con standard di qualità elevati, applicate a tutte le fasi del processo."
+                                ],
+                                [
+                                    "titolo" => "Rework",
+                                    "testo" => "Interventi di rework su schede difettose o da aggiornare, eseguiti da personale specializzato."
+                                ],
+                                [
+                                    "titolo" => "Raggi X",
+                                    "testo" => "Controlli a raggi X per verificare connessioni, difetti e componenti nascosti con massima precisione."
+                                ],
+                                [
+                                    "titolo" => "Montaggio apparecchio, collaudo e imballaggio chiavi in mano",
+                                    "testo" => "Produzione completa di apparecchi elettronici con collaudo funzionale e imballaggio chiavi in mano."
+                                ],
+                                [
+                                    "titolo" => "Servizio di riparazione post vendita",
+                                    "testo" => "Supporto tecnico continuativo con riparazioni e manutenzioni su prodotti elettronici già in uso."
+                                ]
+                            ];
+                            ?>
+                            <? foreach ($servizi as $servizio): ?>
                                 <div class="col-lg-4 col-md-6">
-                                    <div class="service-item style-4 wow fadeInUp" data-wow-delay=".1s">
+                                    <div class="service-item style-4 wow fadeInUp min-h-267px" data-wow-delay=".1s">
                                         <div class="service-content">
-                                            <span class="title h3"><a href="service-details.html"><?= $title  ?></a></span>
-                                            <p class="desc mt-3">Customer Experience Solutions are designed to enhance every touchpoint of your
-                                                customer
-                                                journey, from first interaction.</p>
+                                            <span class="title h3"><a href="service-details.html"><?= $servizio["titolo"]  ?></a></span>
+                                            <p class="desc mt-3"><?= $servizio["testo"] ?></p>
                                         </div>
                                     </div>
                                 </div>

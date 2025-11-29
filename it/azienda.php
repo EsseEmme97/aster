@@ -4,8 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once("../inc/mysqli.php");
 // $database = new DB();
-$titleseo = "aster";
-$descriptionseo = "descrizione";
+$titleseo = "Elettronica a Vicenza - Su di noi | Aster Elettronica";
+$descriptionseo = "scopri Aster Elettronica: assemblaggio componenti
+elettronici a Vicenza, vendita componenti elettronici personalizzati e di
+qualità, ad uso industriale.";
 $image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
@@ -75,39 +77,57 @@ $heightseo = "115";
                 <!-- start: About Section -->
                 <section class="tj-about-section section-gap">
                     <div class="container">
-                        <div class="mb-5">
-                            <h2 class="fw-bold">Testo introduttivo</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus suscipit explicabo, reiciendis commodi quos quidem neque eum sequi reprehenderit dolores quas nesciunt inventore ipsum officiis fuga illum totam a dolorem.</p>
-                        </div>
-                        <div class="row row-gap-4">
-                            <div class="col-lg-4 col-md-6 order-lg-1 order-3">
-                                <div class="countup-item style-2 wow fadeInUp h-100 justify-content-end align-items-start" data-wow-delay=".1s" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-intro-1.webp">
+                        <div>
+                            <h2 class="fw-bold mb-5">Elettronica su misura, dal 1990</h2>
+                            <p>Fondata oltre 35 anni fa, <a href="<?= $pathindex ?>" class="text-link">Aster Elettronica</a> è cresciuta fino a diventare una
+                                realtà consolidata nel settore elettronico vicentino: un punto di riferimento per
+                                chi cerca qualità, precisione e affidabilità nella fornitura di prodotti elettronici.
+                                Da azienda specializzata nell’assemblaggio di schede e apparecchi
+                                elettronici conto terzi, negli anni Aster Elettronica ha ampliato competenze,
+                                strumenti e processi, fino a costituire un team di oltre 50 dipendenti dedicati
+                                all’eccellenza.</p>
+                            <p>Il rapporto con il cliente è al centro del nostro modo di operare: crediamo nel
+                                confronto costante e nella costruzione di un percorso comune. Tale approccio
+                                ci consente di garantire <strong>standard elevati di qualità, precisione e
+                                    innovazione nei nostri prodotti elettronici,</strong> indipendentemente dalla
+                                complessità dei progetti affidati.</p>
+                            <p>Oggi siamo un partner strategico per aziende che necessitano di <a href="<?= $pathindex ?>servizi" class="text-link">soluzioni su
+                                    misura</a> , capaci di rispondere alle esigenze dell’elettronica industriale e
+                                professionale. Le basi del nostro sviluppo sono radicate nella nostra mission:
+                                 innovazione, qualità e supporto costante sono presenti in ogni fase
+                                dell’industrializzazione del prodotto.</p>
+                            <p class="mb-5">
+                                La nostra crescita non si ferma in azienda: sosteniamo attivamente attività
+                                sportive e realtà locali, convinti che il valore di un’impresa derivi anche dal
+                                suo contributo alla comunità.
+                            </p>
+                            <div class="row row-gap-4">
+                                <div class="col-lg-4 col-md-6 order-lg-1 order-3">
+                                    <div class="countup-item style-2 wow fadeInUp h-100 justify-content-end align-items-start" data-wow-delay=".1s" data-bg-image="<?= $pathindex ?>assets/images/su-di-noi/su-di-noi-intro-1.webp">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-8 col-sm-12 order-lg-2 order-1">
-                                <div class="about-content-area-2 wow fadeInUp " data-wow-delay=".3s">
-                                    <div class="about-content mx-auto">
-                                        <div class="sec-heading style-2">
-                                            <span class="sub-title">Servizi</span>
-                                            <h2 class="sec-title title-highlight">Driving into Excellence & Innovation: Your Trusted Partner
-                                                for
-                                                Sustainable Business Success.
-                                            </h2>
+                                <div class="col-lg-8 col-sm-12 order-lg-2 order-1 min-h-lg-260">
+                                    <div class="about-content-area-2 wow fadeInUp " data-wow-delay=".3s">
+                                        <div class="about-content mx-auto">
+                                            <div class="sec-heading style-2">
+                                                <span class="sub-title">Servizi</span>
+                                                <h2 class="sec-title title-highlight">Soluzioni elettroniche complete, per ogni esigenza
+                                                </h2>
+                                            </div>
+                                            <div class="wow fadeInUp" data-wow-delay=".3s">
+                                                <a class="text-btn" href="<?= $pathindex ?>contatti">
+                                                    <span class="btn-text"><span>Contattaci</span></span>
+                                                    <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                                </a>
+                                            </div>
                                         </div>
-                                        <div class="wow fadeInUp" data-wow-delay=".3s">
-                                            <a class="text-btn" href="<?= $pathindex ?>contatti">
-                                                <span class="btn-text"><span>Contattaci</span></span>
-                                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                                            </a>
+                                        <div class="video-img wow fadeInRight" data-wow-delay=".7s">
+                                            <img src="<?= $pathindex ?>assets/images/home/home-intro-1.webp" alt="immagine servizio">
                                         </div>
                                     </div>
-                                    <div class="video-img wow fadeInRight" data-wow-delay=".7s">
-                                        <img src="<?= $pathindex ?>assets/images/home/home-intro-1.webp" alt="immagine servizio">
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </section>
                 <!-- end: About Section -->
 
@@ -148,34 +168,33 @@ $heightseo = "115";
                             <div class="col-xl-6 col-lg-6 order-lg-2 order-1">
                                 <div class="about-content-area">
                                     <div class="sec-heading">
-                                        <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Get to Know
-                                            Us</span>
-                                        <h2 class="sec-title title-anim">Driving Innovation and Excellence for Sustainable Corporate Success
-                                            <span>Worldwide.</span>
+                                        <span class="sub-title wow fadeInUp" data-wow-delay=".3s">QUALITÀ GARANTITA</span>
+                                        <h2 class="sec-title">Montaggio elettronico per produzioni
+                                            <span>su misura</span>
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="about-bottom-area">
                                     <div class="mission-vision-box wow fadeInLeft" data-wow-delay=".5s">
-                                        <span class="title h3">Our Mission</span>
-                                        <p class="desc">our mission is empower businesses through innovate best solution, exceptional
-                                            service.
+                                        <span class="title h3">La nostra Mission</span>
+                                        <p class="desc">Assemblare componenti elettronici con precisione ed affidabilità, per prodotti
+                                            di alta qualità.
                                         </p>
                                         <ul class="list-items">
-                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Innovation & Excellence</li>
-                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Exceptional Customer</li>
-                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Business Growth</li>
+                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Assemblaggi elettronici</li>
+                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Supporto tecnico</li>
+                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Qualità</li>
                                         </ul>
                                     </div>
                                     <div class="mission-vision-box wow fadeInRight" data-wow-delay=".5s">
-                                        <span class="title h3">Our Vision</span>
-                                        <p class="desc">Our vision is to become a global leader in providing transformative business
-                                            solutions.
+                                        <span class="title h3">La nostra Vision</span>
+                                        <p class="desc">Innovare costantemente e personalizzare ogni prodotto elettronico, per offrire
+                                            sempre il meglio.
                                         </p>
                                         <ul class="list-items">
-                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Global Leadership</li>
-                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster"></i>Transformative Impact</li>
-                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Sustainable Success</li>
+                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Innovazione</li>
+                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster"></i>Flessibilità</li>
+                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Competenza e Formazione</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -189,10 +208,10 @@ $heightseo = "115";
                         </div>
                     </div>
                     <div class="bg-shape-1">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="immagine di sfondo">
                     </div>
                     <div class="bg-shape-2">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="">
+                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="immagine di sfondo">
                     </div>
                 </section>
                 <!-- end: About Section -->

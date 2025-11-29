@@ -4,8 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once("../inc/mysqli.php");
 // $database = new DB();
-$titleseo = "aster";
-$descriptionseo = "descrizione";
+$titleseo = "Produzione elettronica - Ricerca e Sviluppo | Aster Elettronica";
+$descriptionseo = "Aster Elettronica realizza prototipazione elettronica
+avanzata, con soluzioni innovative, tecnologie all’avanguardia e processi
+ottimizzati secondo la filosofia Kaizen.";
 $image = $pathindex . "assets/images/Aster_Elettronica-Favicon.png";
 $widthseo = "400";
 $heightseo = "115";
@@ -104,8 +106,30 @@ $heightseo = "115";
 							</div>
 						</div>
 						<div class="mt-5">
-							<h2 class="fw-bold">Testo introduttivo</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus suscipit explicabo, reiciendis commodi quos quidem neque eum sequi reprehenderit dolores quas nesciunt inventore ipsum officiis fuga illum totam a dolorem.</p>
+							<h2 class="fw-bold">La ricerca nella produzione elettronica</h2>
+							<p>In <a href="<?= $pathindex ?>azienda" class="text-link">Aster Elettronica</a> la ricerca e sviluppo è il cuore pulsante di ogni progetto:
+								un’area strategica in cui competenze tecniche, visione innovativa e cultura
+								del miglioramento continuo si incontrano ogni giorno. Dal 1990 lavoriamo al
+								fianco dei nostri clienti per trasformare un’idea in un prodotto elettronico
+								affidabile, sicuro e pronto per il mercato, seguendo ogni fase con precisione e
+								metodo.</p>
+							<p>
+								<strong>Il nostro team, composto da professionisti specializzati, supporta
+									aziende di diversi <a href="<?= $pathindex ?>settori" class="text-link">settori</a> nella prototipazione elettronica,</strong>
+								nell’ottimizzazione delle architetture circuitali e nella definizione dei processi
+								più efficaci per la <a href="" class="text-link">produzione elettronica</a> su piccola o larga scala.
+							</p>
+							<p>
+								Attraverso un costante scambio di informazioni, strumenti tecnologici
+								avanzati e processi certificati, garantiamo qualità, aggiornamento costante e
+								risultati concreti.
+							</p>
+							<p>
+								Ricerca, sviluppo e industrializzazione trovano in Aster Elettronica un partner
+								affidabile, capace di affiancare il cliente dall’idea iniziale alla realizzazione
+								finale, con dispositivi elettronici realizzati per evolvere insieme alle esigenze
+								di mercato.
+							</p>
 						</div>
 					</div>
 				</section>
@@ -148,22 +172,22 @@ $heightseo = "115";
 								<div class="about-content-area">
 									<div class="sec-heading">
 										<span class="sub-title wow fadeInUp" data-wow-delay=".3s">PUNTARE ALLE STELLE</span>
-										<h2 class="sec-title title-anim">Driving Innovation and Excellence for Sustainable Corporate Success
-											<span>Worldwide.</span>
+										<h2 class="sec-title title-anim">Guidati dall’innovazione e dalla qualità, a servizio del tuo
+											<span>business</span>
 										</h2>
 									</div>
 								</div>
 								<div class="about-bottom-area">
 									<div class="mission-vision-box wow fadeInLeft" data-wow-delay=".5s">
 										<span class="title h3">Formazione continua</span>
-										<p class="desc mt-3">our mission is empower businesses through innovate best solution, exceptional
-											service.
+										<p class="desc mt-3">Formiamo costantemente i nostri professionisti per garantire competenze
+											aggiornate, innovative e sempre allineate alle tecnologie più moderne.
 										</p>
 									</div>
 									<div class="mission-vision-box wow fadeInRight" data-wow-delay=".5s">
 										<span class="title h3">Tecnologie avanzate</span>
-										<p class="desc mt-3">Our vision is to become a global leader in providing transformative business
-											solutions.
+										<p class="desc mt-3">Adottiamo strumenti tecnologici d’avanguardia per garantire precisione,
+											efficienza e risultati affidabili in ogni progetto elettronico.
 										</p>
 									</div>
 								</div>
@@ -194,7 +218,13 @@ $heightseo = "115";
 										<img src="<?= $pathindex ?>assets\images\ricerca-sviluppo\ricerca-sviluppo-iso-9001.webp" alt="immagine certificazione ISO 9001">
 										<div class="sec-heading style-2">
 											<h2 class="sec-title title-anim mb-5">Noi siamo certificati ISO 9001:2015</h2>
-											<p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+											<p class="text-white">La qualità non è un obiettivo, ma un impegno quotidiano.
+												Con la certificazione ISO 9001:2015, Aster Elettronica attesta l’efficacia del
+												proprio Sistema di Gestione per la Qualità. Garantiamo processi controllati e
+												costante attenzione alla soddisfazione del cliente, offrendo soluzioni
+												elettroniche affidabili e conformi agli standard internazionali. Scegliere Aster
+												Elettronica significa affidarsi a un partner certificato, che lavora secondo
+												standard riconosciuti a livello globale.</p>
 											<div class="wow fadeInUp mt-5" data-wow-delay=".3s">
 												<a class="text-btn" href="<?= $pathindex ?>about.html">
 													<span class="btn-text"><span>Download pdf</span></span>
@@ -209,10 +239,21 @@ $heightseo = "115";
 								<div class="testimonial-wrapper wow fadeInUp border-radius-12px p-4 bg-white" data-wow-delay=".5s">
 									<h2 class="mb-5">Noi siamo <br> <span class="text-blu-primario">Kaizein People</span>.</h2>
 									<p>
-										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+										La filosofia Kaizen guida ogni aspetto del nostro lavoro, in ottica di lead
+										production: migliorare ogni giorno, in modo costante e misurabile, per offrire
+										ai clienti un valore crescente. In Aster Elettronica questo approccio si traduce
+										in processi ottimizzati, flussi produttivi più efficienti e soluzioni elettroniche
+										progettate e realizzate con la <strong>massima attenzione alla qualità.</strong>
 									</p>
 									<p>
-										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+										Investiamo nella formazione, adottiamo nuove tecnologie e rafforziamo le
+										nostre competenze, per garantire un servizio che evolva con la stessa
+										velocità del settore elettronico.
+									</p>
+									<p>
+										Essere Kaizen People significa non accontentarsi mai dell’esistente, ma
+										immaginare ciò che può essere migliorato, rendendo ogni progetto più solido,
+										affidabile e orientato al futuro.
 									</p>
 								</div>
 							</div>
