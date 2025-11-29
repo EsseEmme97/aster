@@ -50,7 +50,7 @@ $heightseo = "115";
 			<main id="primary" class="site-main">
 				<div class="space-for-header"></div>
 				<!-- start: Breadcrumb Section -->
-				<section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/stock/stock-3.jpg">
+				<section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/ricerca-sviluppo/ricerca-sviluppo-header.webp">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-12">

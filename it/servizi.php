@@ -50,7 +50,7 @@ $heightseo = "115";
             <main id="primary" class="site-main">
                 <div class="space-for-header"></div>
                 <!-- start: Breadcrumb Section -->
-                <section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/stock/stock-1.jpg">
+                <section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/servizi/servizi-header.webp">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -154,7 +154,7 @@ $heightseo = "115";
                                     <div class="cta-content">
                                         <h2 class="title title-anim">Let’s Build Future Together.</h2>
                                         <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-                                            <a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
+                                            <a class="text-btn " href="<?= $pathindex ?>contatti">
                                                 <span class="btn-text"><span>Contattaci</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>

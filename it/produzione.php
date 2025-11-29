@@ -60,7 +60,7 @@ $heightseo = "115";
 										<span>
 											<a href="<?= $pathindex ?>">Home</a>
 										</span>
-										<span><i class="tji-arrow-right"></i></span>
+										<span><i class="tji-arrow-right text-blu-secondario"></i></span>
 										<span>
 											<span>Produzione e Assemblaggio</span>
 										</span>
@@ -232,7 +232,7 @@ $heightseo = "115";
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <div class="cta-area">
+                                <div class="cta-area" data-bg-image="<?= $pathindex ?>assets/images/produzione-assemblaggio/produzione-assemblaggio-cta.webp">
                                     <div class="cta-content">
                                         <h2 class="title title-anim">Let’s Build Future Together.</h2>
                                         <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">

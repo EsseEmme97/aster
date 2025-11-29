@@ -501,13 +501,13 @@ $heightseo = "115";
                                     <div class="about-bottom-area mt-5">
                                         <div class="customers-box style-3 no-border">
                                             <div class="customers">
-                                                <ul class="gap-2">
+                                                <ul class="gap-3">
                                                     <li class="wow fadeInLeft" data-wow-delay=".2s"><img
-                                                            src="<?= $pathindex ?>assets/images/testimonial/client-1.webp" alt=""></li>
+                                                            src="<?= $pathindex ?>assets/images/home/aster-avatar-carriera-1.webp" alt="avatar carriera"></li>
                                                     <li class="wow fadeInLeft" data-wow-delay=".3s"><img
-                                                            src="<?= $pathindex ?>assets/images/testimonial/client-2.webp" alt=""></li>
+                                                            src="<?= $pathindex ?>assets/images/home/aster-avatar-carriera-2.webp" alt="avatar carriera"></li>
                                                     <li class="wow fadeInLeft" data-wow-delay=".4s"><img
-                                                            src="<?= $pathindex ?>assets/images/testimonial/client-3.webp" alt=""></li>
+                                                            src="<?= $pathindex ?>assets/images/home/aster-avatar-carriera-3.webp" alt="avatar carriera"></li>
                                                     <li class="wow fadeInLeft" data-wow-delay=".5s"><span><i class="tji-plus"></i></span></li>
                                                 </ul>
                                             </div>
@@ -515,7 +515,7 @@ $heightseo = "115";
                                             </span>
                                         </div>
                                         <div class="about-btn-area-2 wow fadeInUp" data-wow-delay="1s">
-                                            <a class="text-btn" href="<?= $pathindex ?>produzione-e-assemblaggio">
+                                            <a class="text-btn" href="<?= $pathindex ?>lavora-con-noi">
                                                 <span class="btn-text"><span>Scopri di più</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
@@ -541,7 +541,7 @@ $heightseo = "115";
                             <div class="col-xl-6 col-lg-6 order-lg-1 order-2">
                                 <div class="about-img-area wow fadeInLeft h-100" data-wow-delay=".2s">
                                     <div class="about-img overflow-hidden">
-                                        <img data-speed="0.8" src="<?= $pathindex ?>" alt="immagine stock">
+                                        <img data-speed="0.8" src="<?= $pathindex ?>" alt="immagine da inserire">
                                     </div>
                                     <div class="box-area">
                                         <div class="border-primary-color p-4 rounded bg-white">

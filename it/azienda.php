@@ -162,9 +162,9 @@ $heightseo = "115";
                                             service.
                                         </p>
                                         <ul class="list-items">
-                                            <li><i class="tji-list"></i>Innovation & Excellence</li>
-                                            <li><i class="tji-list"></i>Exceptional Customer</li>
-                                            <li><i class="tji-list"></i>Business Growth</li>
+                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Innovation & Excellence</li>
+                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Exceptional Customer</li>
+                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Business Growth</li>
                                         </ul>
                                     </div>
                                     <div class="mission-vision-box wow fadeInRight" data-wow-delay=".5s">
@@ -173,9 +173,9 @@ $heightseo = "115";
                                             solutions.
                                         </p>
                                         <ul class="list-items">
-                                            <li><i class="tji-list"></i>Global Leadership</li>
-                                            <li><i class="tji-list"></i>Transformative Impact</li>
-                                            <li><i class="tji-list"></i>Sustainable Success</li>
+                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Global Leadership</li>
+                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster"></i>Transformative Impact</li>
+                                            <li><img style="width: 16px;" src="<?= $pathindex ?>assets/images/settori/aster-punto-elenco.svg" alt="icona aster">Sustainable Success</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -352,7 +352,7 @@ $heightseo = "115";
                                     <div class="cta-content">
                                         <h2 class="title title-anim">Let’s Build Future Together.</h2>
                                         <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-                                            <a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
+                                            <a class="text-btn " href="<?= $pathindex ?>contatti">
                                                 <span class="btn-text"><span>Contattaci</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>

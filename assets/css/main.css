@@ -11312,9 +11312,9 @@ START: Services CSS
   transition: none;
 }
 
-.service-item .title a:hover {
+/* .service-item .title a:hover {
   color: var(--tj-color-common-white);
-}
+} */
 
 .service-item .desc {
   margin-bottom: 0;
@@ -11564,7 +11564,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .service-item.style-2 {
-  border: 1px solid var(--tj-color-border-2);
+  border: 1px solid var(--blu-primario);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding: 65px 50px;
@@ -15217,7 +15217,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-form .form-input input[type=file],
 .contact-form .form-input input[type=email] {
   background-color: transparent;
-  color: var(--tj-color-text-body-3);
+  color: var(--grigio-scuro);
   padding: 11px 0;
   border: 0;
   border-bottom: 1px solid var(--grigio-scuro);
@@ -15628,6 +15628,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background-color: var(--tj-color-common-white);
   text-align: center;
   border-radius: 12px;
+  border: 1px solid var(--blu-primario);
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px),
@@ -15637,10 +15638,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   }
 }
 
-.contact-item.style-2 p {
+.contact-item.style-2 p, .contact-item.style-2 a {
   margin-bottom: 0;
   max-width: 224px;
   margin: 0 auto;
+  color:var(--grigio-scuro)
 }
 
 .contact-item.style-2:hover .contact-icon {
@@ -20326,7 +20328,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .customers-box.style-3 {
-  max-width: 195px;
+  /* max-width: 195px; */
   background-color: transparent;
   padding: 0;
   border-radius: 0;

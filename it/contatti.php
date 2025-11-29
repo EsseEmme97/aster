@@ -50,7 +50,7 @@ $heightseo = "115";
             <main id="primary" class="site-main">
                 <div class="space-for-header"></div>
                 <!-- start: Breadcrumb Section -->
-                <section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/stock/stock-3.jpg">
+                <section class="tj-page-header section-gap-x" data-bg-image="<?= $pathindex ?>assets/images/contatti/contatti-header.webp">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -78,7 +78,7 @@ $heightseo = "115";
                         <div class="row">
                             <div class="col-12">
                                 <div class="sec-heading text-center">
-                                    <span class="sub-title wow fadeInUp" data-wow-delay=".1s"><i class="tji-box"></i>Contact info</span>
+                                    <span class="sub-title wow fadeInUp" data-wow-delay=".1s">Contact info</span>
                                     <h2 class="sec-title title-anim"><span>Reach</span> Out to Us</h2>
                                 </div>
                             </div>
@@ -134,12 +134,20 @@ $heightseo = "115";
                 </div>
                 <!-- end: Contact Top Section -->
                 <!-- start: Service Section -->
-                <section class="tj-service-section service-2 section-gap section-gap-x slidebar-stickiy-container bg-carta-da-zucchero">
+                <section class="tj-service-section pt-0 service-2 section-gap section-gap-x slidebar-stickiy-container bg-grigio-chiaro">
                     <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="sec-heading text-center">
+                                    <span class="sub-title wow fadeInUp" data-wow-delay=".1s">Our solutions</span>
+                                    <h2 class="sec-title title-anim">Tailor Business Soluitions for Corporates</h2>
+                                </div>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="service-wrapper-2">
-                                    <? for ($i = 0; $i < 4; $i++): ?>
+                                    <? for ($i = 0; $i < 10; $i++): ?>
                                         <div class="service-item-wrapper tj-fadein-right-on-scroll">
                                             <div class="service-item style-2 ">
                                                 <div class="title-area">
@@ -156,12 +164,6 @@ $heightseo = "115";
                             </div>
                         </div>
                     </div>
-                    <div class="bg-shape-1">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-2.svg" alt="pattern di sfondo">
-                    </div>
-                    <div class="bg-shape-2">
-                        <img src="<?= $pathindex ?>assets/images/shape/pattern-3.svg" alt="pattern di sfondo">
-                    </div>
                 </section>
                 <!-- end: Service Section -->
                 <!-- start: Contact Section -->
@@ -169,26 +171,26 @@ $heightseo = "115";
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="contact-form wow fadeInUp" data-wow-delay=".1s">
+                                <div class="contact-form wow fadeInUp border-primary-color" data-wow-delay=".1s">
                                     <h3 class="title">Feel Free to Get in Touch or Visit our Location.</h3>
                                     <form id="contact-form">
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <div class="form-input">
-                                                    <input type="text" name="cfName">
-                                                    <label class="cf-label">Full Name <span>*</span></label>
+                                                    <input type="text" name="nome">
+                                                    <label class="cf-label">Nome completo <span>*</span></label>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
                                                 <div class="form-input">
-                                                    <input type="email" name="cfEmail">
-                                                    <label class="cf-label">Email Address <span>*</span></label>
+                                                    <input type="email" name="email">
+                                                    <label class="cf-label">Indirizzo email <span>*</span></label>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
                                                 <div class="form-input">
-                                                    <input type="tel" name="cfPhone">
-                                                    <label class="cf-label">Phone number <span>*</span></label>
+                                                    <input type="tel" name="telefono">
+                                                    <label class="cf-label">Telefono <span>*</span></label>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
@@ -210,13 +212,13 @@ $heightseo = "115";
                                             </div>
                                             <div class="col-sm-12">
                                                 <div class="form-input message-input">
-                                                    <textarea name="cfMessage" id="message"></textarea>
-                                                    <label class="cf-label">Type message <span>*</span></label>
+                                                    <textarea name="messaggio" id="message"></textarea>
+                                                    <label class="cf-label">inserisci un messaggio <span>*</span></label>
                                                 </div>
                                             </div>
                                             <div class="submit-btn">
-                                                <button class="tj-primary-btn" type="submit">
-                                                    <span class="btn-text"><span>Submit Now</span></span>
+                                                <button class="text-btn" type="submit">
+                                                    <span class="btn-text"><span>Invia ora</span></span>
                                                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                                 </button>
                                             </div>
@@ -226,8 +228,7 @@ $heightseo = "115";
                             </div>
                             <div class="col-lg-6">
                                 <div class="map-area wow fadeInUp" data-wow-delay=".3s">
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d316440.5712687838!2d-74.01091796224334!3d40.67186885683901!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1745918398047!5m2!1sen!2sbd"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2785.604887216828!2d11.32896187676142!3d45.71896281640386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778b3d446b2f957%3A0x5580fba3053cb2e0!2sAster%20Elettronica%20S.R.L.!5e0!3m2!1sit!2sit!4v1763931699867!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -240,13 +241,14 @@ $heightseo = "115";
                         <div class="row">
                             <div class="col-12">
                                 <div class="h6-project-inner wow fadeInUp" data-wow-delay="0.6s">
-                                    <? for ($i = 0; $i < 8; $i++): ?>
+                                   <? $images= array_slice(scandir($pathindex . "assets/images/contatti"),4,8) ?>
+                                    <? foreach($images as $image): ?>
                                         <div class=" project-item h6-project-item ">
                                             <div class="project-item-inner h6-project-item-inner"
-                                                data-bg-image="<?= $pathindex ?>assets/images/stock/stock-2.jpg">
+                                                data-bg-image="<?= $pathindex . "assets/images/contatti/". $image ?>">
                                             </div>
                                         </div>
-                                    <? endfor; ?>
+                                    <? endforeach; ?>
                                 </div>
                             </div>
                         </div>
@@ -264,18 +266,15 @@ $heightseo = "115";
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <div class="cta-area">
+                                <div class="cta-area" data-bg-image="<?= $pathindex ?>assets/images/contatti/contatti-cta.webp">
                                     <div class="cta-content">
                                         <h2 class="title title-anim">Let’s Build Future Together.</h2>
                                         <div class="cta-btn wow fadeInUp" data-wow-delay=".6s">
-                                            <a class="tj-primary-btn " href="<?= $pathindex ?>contatti">
-                                                <span class="btn-text"><span>Contattaci</span></span>
+                                            <a class="text-btn" href="<?= $pathindex  ?>lavora-con-noi">
+                                                <span class="btn-text"><span>Lavora con noi</span></span>
                                                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                             </a>
                                         </div>
-                                    </div>
-                                    <div class="cta-img">
-                                        <img src="<?= $pathindex ?>assets/images/stock/stock-3.jpg" alt="immagine cta">
                                     </div>
                                 </div>
                             </div>
